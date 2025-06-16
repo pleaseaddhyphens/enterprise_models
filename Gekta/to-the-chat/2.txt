@@ -1,0 +1,64 @@
+### 1st Level of Change
+
+**Component:** Railings
+**Reasoning:** The Railings component is directly affected because it fixes the position of the samples bed. A change in the microplate size from 130x80x60 to 120x95x80 will require adjustments to accommodate the new dimensions.
+
+**Component:** CNC base frame
+**Reasoning:** The CNC base frame moves the pipette from the sample to the reagent. A change in the microplate size will affect the coordinates and movements of the CNC base frame, requiring recalibration or reprogramming.
+
+**Component:** Pump
+**Reasoning:** The Pump is connected to the CNC base frame and moves the pipette. A change in the microplate size will affect the pump's operation as it needs to adjust to the new dimensions and positions of the microplate.
+
+**Component:** Camera for macro imaging
+**Reasoning:** The Camera for macro imaging captures images of the RPR reaction. A change in the microplate size will affect the camera's field of view and focus, requiring adjustments to ensure accurate imaging.
+
+### 2nd Level of Change
+
+**Component:** Juniour lab employee
+**Reasoning:** The Juniour lab employee interacts with the Railings to load batches of samples. A change in the microplate size will affect how the samples are loaded and handled, requiring potential retraining or adjustments in procedures.
+
+**Component:** Screen for interaction with the system
+**Reasoning:** The Screen for interaction with the system is used by the Juniour lab employee to create a pipette route and run the script. A change in the microplate size will affect the routes and scripts, requiring updates to the interface and user interactions.
+
+**Component:** Interfaces and user interaction
+**Reasoning:** The Interfaces and user interaction component is used by the Juniour lab employee to create paths for the analysis. A change in the microplate size will affect the paths and require updates to the user interaction design.
+
+**Component:** G-code generator from path defined
+**Reasoning:** The G-code generator from path defined generates machine commands based on the user's input. A change in the microplate size will affect the G-code generation, requiring updates to the algorithms and paths.
+
+**Component:** CNC and pump control algorithm
+**Reasoning:** The CNC and pump control algorithm controls the CNC unit and pump. A change in the microplate size will affect the control algorithms, requiring recalibration and updates to the control logic.
+
+**Component:** RPR reaction analyzer
+**Reasoning:** The RPR reaction analyzer uses images from the Camera for macro imaging to analyze the reaction. A change in the microplate size will affect the analysis results, requiring adjustments to the computer vision algorithms.
+
+**Component:** Data base interaction module
+**Reasoning:** The Data base interaction module interacts with the RPR reaction analyzer to get analysis results. A change in the microplate size will affect the data interaction, requiring updates to the data handling and storage procedures.
+
+**Component:** Database
+**Reasoning:** The Database gets samples data and provides analysis results. A change in the microplate size will affect the data storage and retrieval, requiring updates to the database schema and queries.
+
+**Component:** Alarm sub-system
+**Reasoning:** The Alarm sub-system provides notifications about the system state. A change in the microplate size will affect the system's overall operation, requiring updates to the alarm triggers and notifications.
+
+**Component:** Senior lab employee
+**Reasoning:** The Senior lab employee handles multiple machines and conducts analyses in case of doubts. A change in the microplate size will affect the analysis procedures, requiring potential retraining or adjustments in procedures.
+
+**Component:** Maintanance personel
+**Reasoning:** The Maintanance personel provides repair in case of failure. A change in the microplate size will affect the maintenance procedures, requiring updates to the maintenance protocols and tools.
+
+### Final Output
+
+&&&
+Component: Railings
+Reasoning: The Railings component is directly affected because it fixes the position of the samples bed. A change in the microplate size from 130x80x60 to 120x95x80 will require adjustments to accommodate the new dimensions.
+
+Component: CNC base frame
+Reasoning: The CNC base frame moves the pipette from the sample to the reagent. A change in the microplate size will affect the coordinates and movements of the CNC base frame, requiring recalibration or reprogramming.
+
+Component: Pump
+Reasoning: The Pump is connected to the CNC base frame and moves the pipette. A change in the microplate size will affect the pump's operation as it needs to adjust to the new dimensions and positions of the microplate.
+
+Component: Camera for macro imaging
+Reasoning: The Camera for macro imaging captures images of the RPR reaction. A change in the microplate size will affect the camera's field of view and focus, requiring adjustments to ensure accurate imaging.
+&&&

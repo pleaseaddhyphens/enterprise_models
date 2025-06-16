@@ -1,0 +1,8 @@
+Which system components might need modification if the number of sensors polled by the interrogator doubles?
+Which components will require changes if the sensor polling frequency increases to 1 kHz?
+Which system components will be affected when expanding the operating temperature range to -70°C / +80°C?
+Which system components will need modification if the measurement accuracy requirements increase from 10 µm to 1 µm?
+Which components will be impacted by placing the interrogator at a distance of over 100 km?
+What changes to the polling algorithms will be necessary when operating under high noise or unstable signal conditions?
+Which system components will need adjustment if the system is repurposed from monitoring support shifts to measuring pipeline temperature?
+Which system elements must be adapted when transitioning from bench testing to real-world operation?

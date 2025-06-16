@@ -1,0 +1,48 @@
+To conduct an impact analysis of the change request, we need to identify the components that will be directly and indirectly affected by the change in processing speed from 1 tray to 3 trays per 30 seconds.
+
+1st Level of Change:
+
+Belt sub-system
+
+Reasoning: The Belt sub-system is responsible for moving trays. An increase in processing speed will directly impact the Belt sub-system as it needs to handle the increased throughput.
+
+Microcomputer
+
+Reasoning: The Microcomputer is connected to multiple components, including the Detection algorithm, which is crucial for processing images. An increase in processing speed will require faster image processing and decision-making, impacting the Microcomputer's performance.
+
+Camera module
+
+Reasoning: The Camera module captures images of the trays. With an increased processing speed, the Camera module needs to capture images at a faster rate to keep up with the new throughput.
+2nd Level of Change:
+
+Detection algorithm
+
+Reasoning: Connected to the Microcomputer, the Detection algorithm will need to process images faster to keep up with the increased speed of the Belt sub-system and the Camera module.
+
+Classification algorithm
+
+Reasoning: Connected to the Detection algorithm, the Classification algorithm will also need to process data faster to maintain the overall system performance.
+
+Power sub-system
+
+Reasoning: With the increased load on the Belt sub-system, Microcomputer, and Camera module, the Power sub-system may need to supply additional power to support the higher operational speed.
+
+Lighting module
+
+Reasoning: Connected to the Microcomputer and Power sub-system, the Lighting module may need adjustments to ensure proper lighting for the faster-moving trays.
+
+Structure
+
+Reasoning: The Structure holds multiple components, including the Belt sub-system and Camera module. Changes in these components may require structural adjustments to accommodate the increased speed and potential vibrations.
+Final Output:
+
+&&&
+Component: Belt sub-system
+Reasoning: The Belt sub-system is responsible for moving trays. An increase in processing speed will directly impact the Belt sub-system as it needs to handle the increased throughput.
+
+Component: Microcomputer
+Reasoning: The Microcomputer is connected to multiple components, including the Detection algorithm, which is crucial for processing images. An increase in processing speed will require faster image processing and decision-making, impacting the Microcomputer's performance.
+
+Component: Camera module
+Reasoning: The Camera module captures images of the trays. With an increased processing speed, the Camera module needs to capture images at a faster rate to keep up with the new throughput.
+&&&

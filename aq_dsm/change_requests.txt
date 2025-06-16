@@ -1,0 +1,8 @@
+Accuracy change from 80% to 90%
+The requred processing speed is changed from 1 tray to 3 trays per 30 seconds
+Instead of tangarines system shall analyze tomatos 
+Power consumption requirement changed from 300 Wt to 150 Wt
+If the minimum required quality of image would increase, e.g. 20 MP sensor instead of 10 MP
+Instead of the belt, roller conveyor will be used to move fruits as they move
+Instead of 1 camera module we would use 3 to capture fruits images with 3 views
+Classification algorithm would change, now it outputs the only the grade of each fruit,e.g. fresh or rotten.

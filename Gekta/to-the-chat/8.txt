@@ -1,0 +1,39 @@
+To conduct an impact analysis of the change request, we need to identify the components that could be influenced by the change in volume of the experiment from 40 microliters to 15 microliters. Let's break down the analysis into two levels:
+
+### 1st Level of Change:
+1. **Component: Pump**
+   - **Reasoning:** The pump is responsible for mixing the components of the PRP reaction with high precision. A change in volume directly affects the pump's operation as it needs to handle smaller volumes accurately.
+
+2. **Component: Reagent volume**
+   - **Reasoning:** The reagent volume component deals with the liquid or solid volume of the reagent used in the PRP reaction. A change in the experiment volume will directly impact the amount of reagent required.
+
+3. **Component: CNC and pump control algorithm**
+   - **Reasoning:** This algorithm controls the CNC and pump, which are directly involved in handling the reagents and samples. Changes in volume will require adjustments in the control algorithm to ensure precision.
+
+### 2nd Level of Change:
+1. **Component: CNC base frame**
+   - **Reasoning:** The CNC base frame moves the pipette, which is controlled by the pump. Any changes in the pump's operation due to volume adjustments may require recalibration or adjustments in the CNC base frame.
+
+2. **Component: RPR reaction analyzer**
+   - **Reasoning:** The analyzer uses images captured by the camera to analyze the reaction. Changes in volume might affect the reaction dynamics, which could impact the analysis process.
+
+3. **Component: Screen for interaction with the system**
+   - **Reasoning:** The user interface might need updates to accommodate new parameters or settings related to the volume change, especially if new user inputs or controls are required.
+
+4. **Component: Interfaces and user interaction**
+   - **Reasoning:** Changes in the volume might require updates in the user interface to ensure that users can input and monitor the new volume settings accurately.
+
+5. **Component: G-code generator from path defined**
+   - **Reasoning:** This component generates machine commands based on user input. Changes in volume might require new paths or commands to be generated to handle the smaller volumes accurately.
+
+### Final Output:
+&&&
+Component: Pump
+Reasoning: The pump is responsible for mixing the components of the PRP reaction with high precision. A change in volume directly affects the pump's operation as it needs to handle smaller volumes accurately.
+
+Component: Reagent volume
+Reasoning: The reagent volume component deals with the liquid or solid volume of the reagent used in the PRP reaction. A change in the experiment volume will directly impact the amount of reagent required.
+
+Component: CNC and pump control algorithm
+Reasoning: This algorithm controls the CNC and pump, which are directly involved in handling the reagents and samples. Changes in volume will require adjustments in the control algorithm to ensure precision.
+&&&

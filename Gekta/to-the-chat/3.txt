@@ -1,0 +1,58 @@
+### 1st Level of Change
+
+**Component: CNC and pump control algorithm**
+**Reasoning:** The CNC and pump control algorithm directly controls the movement and operation of the CNC base frame and pump. Reducing the analysis time from 5 seconds to 3 seconds will require adjustments to the control algorithm to ensure faster and more efficient operation.
+
+**Component: RPR reaction analyzer**
+**Reasoning:** The RPR reaction analyzer uses computer vision to analyze the reaction results. A reduction in analysis time will require updates to the algorithm to process and analyze the images more quickly.
+
+**Component: Camera for macro imaging**
+**Reasoning:** The Camera for macro imaging captures images of the RPR reaction. A reduction in analysis time will require the camera to capture images more quickly and efficiently, potentially needing adjustments in capture speed and resolution.
+
+### 2nd Level of Change
+
+**Component: G-code generator from path defined**
+**Reasoning:** The G-code generator from path defined generates machine commands based on the user's input. A reduction in analysis time will require updates to the G-code generation to ensure faster movement and operation of the CNC base frame and pump.
+
+**Component: Interfaces and user interaction**
+**Reasoning:** The Interfaces and user interaction component is used by the Juniour lab employee to create paths for the analysis. A reduction in analysis time will require updates to the user interface to accommodate faster input and interaction.
+
+**Component: Juniour lab employee**
+**Reasoning:** The Juniour lab employee interacts with the system to load samples and start the machine cycle. A reduction in analysis time will require adjustments in their procedures and potentially retraining to handle the faster operation.
+
+**Component: Screen for interaction with the system**
+**Reasoning:** The Screen for interaction with the system is used by the Juniour lab employee to create a pipette route and run the script. A reduction in analysis time will require updates to the screen interface to ensure faster and more efficient interaction.
+
+**Component: Microcomputer**
+**Reasoning:** The Microcomputer provides computing power for control routing and interfacing. A reduction in analysis time will require the microcomputer to process data more quickly, potentially needing upgrades in processing power or efficiency.
+
+**Component: Laboratory local net**
+**Reasoning:** The Laboratory local net gets batch data and sends analysis results. A reduction in analysis time will require the local net to handle data transfer more quickly and efficiently.
+
+**Component: Database**
+**Reasoning:** The Database gets samples data and provides analysis results. A reduction in analysis time will require updates to the database to handle data storage and retrieval more quickly.
+
+**Component: Data base interaction module**
+**Reasoning:** The Data base interaction module interacts with the database to get patient IDs and assign analysis results. A reduction in analysis time will require updates to the module to handle data interaction more quickly.
+
+**Component: Alarm sub-system**
+**Reasoning:** The Alarm sub-system provides notifications about the system state. A reduction in analysis time will require updates to the alarm triggers and notifications to ensure timely alerts.
+
+**Component: Senior lab employee**
+**Reasoning:** The Senior lab employee handles multiple machines and conducts analyses in case of doubts. A reduction in analysis time will require adjustments in their procedures and potentially retraining to handle the faster operation.
+
+**Component: Maintanance personel**
+**Reasoning:** The Maintenance personnel provide repair in case of failure. A reduction in analysis time will require updates to the maintenance protocols and tools to ensure timely repairs and maintenance.
+
+### Final Output
+
+&&&
+Component: CNC and pump control algorithm
+Reasoning: The CNC and pump control algorithm directly controls the movement and operation of the CNC base frame and pump. Reducing the analysis time from 5 seconds to 3 seconds will require adjustments to the control algorithm to ensure faster and more efficient operation.
+
+Component: RPR reaction analyzer
+Reasoning: The RPR reaction analyzer uses computer vision to analyze the reaction results. A reduction in analysis time will require updates to the algorithm to process and analyze the images more quickly.
+
+Component: Camera for macro imaging
+Reasoning: The Camera for macro imaging captures images of the RPR reaction. A reduction in analysis time will require the camera to capture images more quickly and efficiently, potentially needing adjustments in capture speed and resolution.
+&&&

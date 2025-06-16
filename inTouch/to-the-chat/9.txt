@@ -1,0 +1,36 @@
+To conduct an impact analysis of the change request, we need to identify the components that will be directly and indirectly affected by replacing the wireless charging solution with a wired charging solution.
+
+### 1st Level of Change:
+1. **Component: Wireless charger**
+   - **Reasoning:** This component will be directly replaced by a wired charging solution.
+
+2. **Component: Power management**
+   - **Reasoning:** The power management subsystem will need to accommodate the new wired charging method, potentially requiring changes in how power is managed and distributed.
+
+3. **Component: Structural support**
+   - **Reasoning:** The structural design, particularly the housing and possibly the watch strap, may need modifications to integrate a wired charging port.
+
+### 2nd Level of Change:
+1. **Component: Aluminium housing**
+   - **Reasoning:** Modifications to the housing may be required to include a wired charging port, affecting the overall design and potentially the materials used.
+
+2. **Component: Watch strap**
+   - **Reasoning:** The watch strap design might need adjustments to accommodate the new wired charging mechanism, especially if the charging port is located near the strap.
+
+3. **Component: PCB (Printed Circuit Board)**
+   - **Reasoning:** The PCB may need to be redesigned to integrate the new wired charging solution, affecting the layout and connections of electronic components.
+
+4. **Component: Battery**
+   - **Reasoning:** Changes in charging methods could impact battery management and charging circuits, requiring potential updates to how the battery interfaces with the charging system.
+
+### Final Output:
+&&&
+Component: Wireless charger
+Reasoning: This component will be directly replaced by a wired charging solution.
+
+Component: Power management
+Reasoning: The power management subsystem will need to accommodate the new wired charging method, potentially requiring changes in how power is managed and distributed.
+
+Component: Structural support
+Reasoning: The structural design, particularly the housing and possibly the watch strap, may need modifications to integrate a wired charging port.
+&&&

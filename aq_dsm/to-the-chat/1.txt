@@ -1,0 +1,27 @@
+1st level of change:
+
+Component: Detection algorithm
+Reasoning: The change in accuracy from 80% to 90% directly impacts the Detection algorithm, as it is responsible for identifying objects or features within the images.
+
+Component: Classification algorithm
+Reasoning: The Classification algorithm is directly connected to the Detection algorithm. Changes in detection accuracy can influence the classification process, as it relies on the outputs from detection.
+
+2nd level of change:
+
+Component: Microcomputer
+Reasoning: The Microcomputer is connected to both the Detection algorithm and the Classification algorithm. Changes in these algorithms may require additional processing power or adjustments in the microcomputer's operations.
+
+Component: Storage
+Reasoning: Storage is connected to the Classification algorithm. If the classification process changes, it may require more or different data to be stored, impacting storage needs.
+
+Component: Camera module
+Reasoning: The Camera module is connected to the Microcomputer and may need adjustments to capture images that meet the new accuracy requirements.
+
+Final Output:
+&&&
+Component: Detection algorithm
+Reasoning: The change in accuracy from 80% to 90% directly impacts the Detection algorithm, as it is responsible for identifying objects or features within the images.
+
+Component: Classification algorithm
+Reasoning: The Classification algorithm is directly connected to the Detection algorithm. Changes in detection accuracy can influence the classification process, as it relies on the outputs from detection.
+&&&

@@ -1,0 +1,21 @@
+Component,Reasoning,Change
+Pump, Шаговый мотор тк он давит на поршень который вытягивает реактивб,1
+CNC and pump control algorithm, ,1
+Railings, stavim tuda,2
+CNC base frame, чтобы влезало кратное количеств,2
+G-code generator from path defined, так как поменяются границы области работы,2
+Camera, т.к. возможно понадоюбится камера с большей выдержкой для захвата мелких движений,3
+RPR reaction analyzer, ,3
+Lighting module, ,3
+Pump, самая не надежная часть системы,4
+Camera, может сбиваться фокус,4
+NaN, ничео не мешает поменять объем емкости где проходит реакция,5
+Camera, влияет на точность алгоритма ,6
+Lighting module, влияет на качетсво снимков,6
+RPR reaction analyzer, измениться при изменении камеры и света,6
+Camera, нужно будет подсстраивать конфиг под новые условия, 7
+RPR analyzer algorithm, новые условия у камеры,7
+CNC baseframe, ,7
+Pipette, под меньший объем реакции нужна новая пипетка и новые носики,8
+RPR reaction algorithm, в меньшем объеме реакция выглядит по другому,8
+CNC and pump control algorithm, ,8

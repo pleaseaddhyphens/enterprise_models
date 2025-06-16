@@ -1,0 +1,23 @@
+Based on the change request, the Classification algorithm will now output only the grade of each fruit, e.g., fresh or rotten. This change will primarily affect the components directly connected to the Classification algorithm and those influenced by its outputs.
+
+1st Level of Change:
+
+Detection algorithm
+
+Reasoning: The Detection algorithm is directly connected to the Classification algorithm. Changes in the Classification algorithm's output format or content will likely require adjustments in how the Detection algorithm processes or uses this information.
+
+Storage
+
+Reasoning: Storage is connected to the Classification algorithm. If the format or type of data being output by the Classification algorithm changes, the Storage system may need to be updated to accommodate these changes.
+2nd Level of Change:
+Microcomputer
+Reasoning: The Microcomputer is connected to the Detection algorithm. If the Detection algorithm undergoes changes due to the Classification algorithm's modification, the Microcomputer may also need adjustments to handle new data formats or processing logic.
+Final Output:
+
+&&&
+Component: Detection algorithm
+Reasoning: The Detection algorithm is directly connected to the Classification algorithm. Changes in the Classification algorithm's output format or content will likely require adjustments in how the Detection algorithm processes or uses this information.
+
+Component: Storage
+Reasoning: Storage is connected to the Classification algorithm. If the format or type of data being output by the Classification algorithm changes, the Storage system may need to be updated to accommodate these changes.
+&&&

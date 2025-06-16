@@ -1,0 +1,42 @@
+To conduct an impact analysis of the change request, we need to identify the components that could be influenced by the change in microplate well volume from 400 to 600 microliters. Let's break down the analysis step-by-step:
+
+### 1st Level of Change:
+1. **Component: Pump**
+   - **Reasoning:** The pump is responsible for mixing the components of the PRP reaction with high precision. An increase in the microplate well volume means the pump will need to handle a larger volume of liquid, potentially requiring adjustments in its operational parameters or hardware specifications to maintain precision.
+
+2. **Component: Reagent volume**
+   - **Reasoning:** The reagent volume component directly interacts with the microplate wells. An increase in well volume means that the reagent volume may need to be adjusted to ensure that the correct proportions are maintained for the PRP reaction.
+
+3. **Component: CNC base frame**
+   - **Reasoning:** The CNC base frame moves the pipette from sample to reagent. With an increased well volume, the movement and positioning precision of the CNC base frame might need to be recalibrated to ensure accurate dispensing and mixing of reagents.
+
+### 2nd Level of Change:
+1. **Component: Software**
+   - **Reasoning:** The software controls the CNC unit and analyzes reaction results. Changes in the pump, reagent volume, and CNC base frame may require updates to the software to accommodate new operational parameters, such as adjusted movement paths and reagent volumes.
+
+2. **Component: Camera for macro imaging**
+   - **Reasoning:** The camera captures images of the RPR reaction for analysis. Changes in the well volume might affect the imaging parameters, such as focus and field of view, requiring adjustments to ensure accurate image capture.
+
+3. **Component: Alarm sub-system**
+   - **Reasoning:** The alarm subsystem provides notifications about the system state. Changes in operational parameters due to increased well volume might necessitate updates to the alarm conditions and thresholds.
+
+4. **Component: Interfaces and user interaction**
+   - **Reasoning:** User interfaces may need updates to reflect changes in operational parameters and to provide users with appropriate controls and feedback for the new well volume.
+
+5. **Component: G-code generator from path defined**
+   - **Reasoning:** This component generates machine commands based on user input. Changes in the CNC base frame and pump operations may require updates to the G-code generator to ensure accurate path definitions and machine control.
+
+6. **Component: CNC and pump control algorithm**
+   - **Reasoning:** This algorithm controls the CNC and pump. Adjustments in the operational parameters of the CNC base frame and pump will likely require updates to the control algorithm to maintain precise control over the system.
+
+### Final Output:
+&&&
+Component: Pump
+Reasoning: The pump is responsible for mixing the components of the PRP reaction with high precision. An increase in the microplate well volume means the pump will need to handle a larger volume of liquid, potentially requiring adjustments in its operational parameters or hardware specifications to maintain precision.
+
+Component: Reagent volume
+Reasoning: The reagent volume component directly interacts with the microplate wells. An increase in well volume means that the reagent volume may need to be adjusted to ensure that the correct proportions are maintained for the PRP reaction.
+
+Component: CNC base frame
+Reasoning: The CNC base frame moves the pipette from sample to reagent. With an increased well volume, the movement and positioning precision of the CNC base frame might need to be recalibrated to ensure accurate dispensing and mixing of reagents.
+&&&

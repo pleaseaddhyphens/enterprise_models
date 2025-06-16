@@ -1,0 +1,39 @@
+To analyze the impact of reducing the charging time of the EmotionBand from 3 hours to 1 hour for charging from 0% to 80%, we need to identify the components that could be directly and indirectly affected by this change.
+
+### 1st Level of Change (Directly Affected Components):
+
+1. **Component: Wireless Charger**
+   - **Reasoning:** The wireless charger is directly responsible for charging the device. Changes in charging time will require modifications in the charging technology or power output of the wireless charger.
+
+2. **Component: Battery**
+   - **Reasoning:** The battery's capacity and charging characteristics will need to be reassessed. Faster charging might require a battery that can handle higher charging currents without degrading performance or lifespan.
+
+3. **Component: PMIC (Power Management Integrated Circuit)**
+   - **Reasoning:** The PMIC manages the power flow to and from the battery. It will need adjustments to handle the increased power delivery required for faster charging.
+
+### 2nd Level of Change (Indirectly Affected Components):
+
+1. **Component: Power Management Sub-system**
+   - **Reasoning:** As the parent system of the Wireless Charger, Battery, and PMIC, any changes to these components will necessitate a review of the entire power management system to ensure compatibility and efficiency.
+
+2. **Component: PCB (Printed Circuit Board)**
+   - **Reasoning:** Changes in power management components might require adjustments in the PCB layout to accommodate new power traces or components.
+
+3. **Component: Structural Support**
+   - **Reasoning:** If the battery or wireless charger size changes, the structural support, including the Aluminium housing, might need redesigning to fit the new components.
+
+4. **Component: EmotionBand**
+   - **Reasoning:** As the main system, any changes in its sub-components will require an overall assessment to ensure that the device continues to function as intended.
+
+### Final Output:
+
+&&&
+Component: Wireless Charger
+Reasoning: The wireless charger is directly responsible for charging the device. Changes in charging time will require modifications in the charging technology or power output of the wireless charger.
+
+Component: Battery
+Reasoning: The battery's capacity and charging characteristics will need to be reassessed. Faster charging might require a battery that can handle higher charging currents without degrading performance or lifespan.
+
+Component: PMIC
+Reasoning: The PMIC manages the power flow to and from the battery. It will need adjustments to handle the increased power delivery required for faster charging.
+&&&
