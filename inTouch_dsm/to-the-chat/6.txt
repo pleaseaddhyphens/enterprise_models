@@ -1,0 +1,54 @@
+### Phase 1: Identify Impact
+
+1. **Sensors**
+   - Reasoning: The EDA sensor will be part of the sensor suite, requiring integration.
+
+2. **Computing unit**
+   - Reasoning: The computing unit will need to process additional data from the EDA sensor.
+
+3. **MCU**
+   - Reasoning: The Micro Controller Unit will need to handle data collection from the new EDA sensor.
+
+4. **Software application**
+   - Reasoning: The software will need updates to interpret and utilize data from the EDA sensor.
+
+5. **PCB**
+   - Reasoning: The Printed Circuit Board will need modifications to accommodate the new EDA sensor.
+
+### Phase 2: Self-Evaluation and Verification
+
+1. **Sensors**
+   - Verification: Direct integration of new sensor type.
+
+2. **Computing unit**
+   - Verification: Processes all sensor data, including new EDA sensor.
+
+3. **MCU**
+   - Verification: Manages sensor data collection and preprocessing.
+
+4. **Software application**
+   - Verification: Interprets sensor data for user feedback.
+
+5. **PCB**
+   - Verification: Physical integration of new sensor component.
+
+### Phase 3: Final Output Print
+
+```markdown
+&&&
+Component: Sensors
+Reasoning: The EDA sensor will be part of the sensor suite, requiring integration.
+
+Component: Computing unit
+Reasoning: The computing unit will need to process additional data from the EDA sensor.
+
+Component: MCU
+Reasoning: The Micro Controller Unit will need to handle data collection from the new EDA sensor.
+
+Component: Software application
+Reasoning: The software will need updates to interpret and utilize data from the EDA sensor.
+
+Component: PCB
+Reasoning: The Printed Circuit Board will need modifications to accommodate the new EDA sensor.
+&&&
+```

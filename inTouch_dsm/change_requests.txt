@@ -1,0 +1,9 @@
+Battery life shall be increased from 1 day to 7 days.
+The device shall be water-resistant up to 50 meters.
+Charging time shall be reduced from 3 hours to 1 hour (for charging from 0% to 80%).
+All physiological data processing shall be performed on the owner's smartphone for privacy purposes.
+The total device weight shall be reduced from 60 grams to 36 grams.
+An Electrodermal Activity (EDA) sensor shall be integrated to improve emotion and stress detection.
+An OLED display shall be added to the design.
+Haptic feedback motor shall be added for real-time emotional state alerts or guided breathing
+Wireless charging shall be replaced by a wired charging solution.

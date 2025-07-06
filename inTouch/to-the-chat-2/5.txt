@@ -1,4 +1,7 @@
-[
+
+    You are the system engineer tasked with conducting an impact analysis of an incoming change request. You have been provided with model data as text, which includes elements with attributes and explicit connections to other elements. The model data is as follows:
+
+    ```[
     {
         "Elem. name": "EmotionBand ",
         "description": "Wearable watch-like device that identify human emotions from sensors data.",
@@ -360,4 +363,23 @@
             }
         ]
     }
-]
+]```
+
+    The change request is: ```The total device weight shall be reduced from 60 grams to 36 grams.```.
+
+    Your task is to list the components in the system that could be influenced by this change, along with detailed reasoning. Be specific in your analysis. Focus only on elements with type Components.
+    Ensure that the names of the components are presented exactly as they appear in the model. Structure your analysis to first list components directly affected by the change (1st level of change), followed by components affected by changes in the first set (2nd level of change).
+
+    After detailing the intermediate analysis, provide the final output in the format specified in the Final Output Example, including ONLY the 1st level of changes.
+
+    Final Output Example:
+    &&&
+    Component: <component_name>
+    Reasoning: <reasoning_text>
+
+    Component: <component_name>
+    Reasoning: <reasoning_text>
+    &&&
+
+    Provide no additional text beyond what is required for this task.
+    

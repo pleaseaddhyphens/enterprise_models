@@ -1,0 +1,15 @@
+IMU is connected with MCU, PMIC, PCB;
+PPG sensor is connected with PMIC, PCB, MCU;
+Bluetooth module is connected with MCU, PMIC, PCB;
+GPS module is connected with MCU, PMIC, PCB;
+MCU is connected with IMU, PPG sensor, Bluetooth module, GPS module, Memory, PCB, PMIC, Microphone;
+Memory is connected with MCU, PMIC, PCB;
+Speaker is connected with PCB, PMIC, MCU;
+Microphone is connected with PCB, PMIC, MCU;
+Aluminium housing is connected with PCB, Side buttons, Watch strap, PPG sensor;
+Watch strap is connected with Aluminium housing;
+Side buttons is connected with Aluminium housing, PCB;
+PMIC is connected with IMU, PPG sensor, Bluetooth module, GPS module, MCU, Memory, Speaker, Microphone, Battery, Wireless charger, PCB;
+Battery is connected with PMIC, Aluminium housing;
+Wireless charger is connected with PMIC, PCB, Aluminium housing;
+PCB is connected with IMU, PPG sensor, Bluetooth, GPS module, MCU, Memory, Speaker, Microphone, Aluminium housing, PMIC, Battery, Wireless charger, Side buttons;

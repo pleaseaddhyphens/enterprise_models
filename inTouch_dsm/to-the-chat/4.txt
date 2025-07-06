@@ -1,0 +1,40 @@
+### Phase 1: Identify Impact
+
+Based on the change "All physiological data processing shall be performed on the owner's smartphone for privacy purposes," the components that are directly influenced are:
+
+1. **Software application**
+   - Reasoning: This component is responsible for recognizing the user's physiological and emotional state based on data. If data processing is moved to the owner's smartphone, this component will need to handle the processing tasks.
+
+2. **Computing unit**
+   - Reasoning: The computing unit currently collects sensor data and preprocesses it. If processing is moved to the smartphone, the computing unit's role in preprocessing may need to be adjusted or reduced.
+
+3. **MCU (Micro Controller Unit)**
+   - Reasoning: The MCU collects sensor data and communicates with the smartphone. Its data handling and communication protocols may need to be modified to accommodate the change in processing location.
+
+4. **Data storage and processing server**
+   - Reasoning: This server currently updates and fine-tunes the emotion recognition model based on user insights. If data processing is moved to the smartphone, the server's role and interaction with the software application may change.
+
+### Phase 2: Self-Evaluation and Verification
+
+- **Software application**: Directly impacted as it will handle processing tasks. Logically consistent.
+- **Computing unit**: Directly impacted as preprocessing tasks may change. Logically consistent.
+- **MCU**: Directly impacted as data handling will change. Logically consistent.
+- **Data storage and processing server**: Directly impacted as its interaction with the software application will change. Logically consistent.
+
+### Phase 3: Final Output Print
+
+```
+&&&
+Component: Software application
+Reasoning: Handles processing tasks on the smartphone.
+
+Component: Computing unit
+Reasoning: Adjusts preprocessing tasks due to processing location change.
+
+Component: MCU
+Reasoning: Modifies data handling and communication protocols.
+
+Component: Data storage and processing server
+Reasoning: Changes interaction with the software application.
+&&&
+```

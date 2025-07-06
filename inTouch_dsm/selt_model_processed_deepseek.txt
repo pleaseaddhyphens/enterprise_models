@@ -1,0 +1,80 @@
+### **System Overview**  
+**Description:** A wearable watch-like device that identifies human emotions from sensor data. It collects physiological and motion data, processes it, and provides feedback to the user via notifications. Data is also shared with a server for model improvements.  
+
+---
+
+### **Components of the EmotionBand System**  
+
+#### **1. Sensors (Sub-system)**  
+- **PPG Sensor:** Measures changes in blood volume in tissue using photoplethysmography.  
+- **IMU (Inertial Measurement Unit):** Tracks body motion and orientation.  
+
+#### **2. Computing Unit (Sub-system)**  
+- **MCU (Microcontroller Unit):** Collects and preprocesses sensor data; communicates with the smartphone.  
+- **Memory:** Includes RAM and Flash for data storage and processing.  
+
+#### **3. Communication (Sub-system)**  
+- **Bluetooth:** Enables wireless communication with the smartphone.  
+- **GPS:** Provides location tracking (if applicable).  
+
+#### **4. Power Management (Sub-system)**  
+- **PMIC (Power Management Integrated Circuit):** Manages power distribution.  
+- **Battery:** Supplies power to the device.  
+- **Wireless Charger:** Enables charging without physical connectors.  
+
+#### **5. Structural Support (Sub-system)**  
+- **Aluminium Housing:** Protective casing for internal components.  
+- **Watch Strap:** Secures the device to the user’s wrist.  
+- **Side Buttons:** Physical controls for user input.  
+
+#### **6. Audio Sub-system (Sub-system)**  
+- **Speaker:** Outputs audio feedback (e.g., notifications).  
+- **Microphone:** Captures voice input (if applicable).  
+
+#### **7. PCB (Component)**  
+- **Printed Circuit Board:** Interconnects and supports all electronic components.  
+
+#### **8. Software Application (Component)**  
+- Runs on the **Owner’s Smartphone** (external).  
+- Functions:  
+  - Recognizes emotional states from sensor data.  
+  - Sends anonymized data to the server.  
+  - Receives model/software updates from the server.  
+  - Provides user notifications (e.g., "You seem stressed. Take a break").  
+
+---
+
+### **External Components**  
+1. **Band User**  
+   - The human wearing the EmotionBand.  
+2. **Owner’s Smartphone**  
+   - Acts as a hub for data transfer between the EmotionBand and the server.  
+3. **Data Storage and Processing Server**  
+   - Stores anonymized user data.  
+   - Updates the emotion recognition model based on aggregated insights.  
+
+---
+
+### **Flows (Connections)**  
+
+#### **Internal Flows (within EmotionBand)**  
+1. **Sensors → Computing Unit**  
+   - *Flow:* Measured physical parameters (e.g., heart rate, motion data).  
+2. **Computing Unit → Software Application (on Smartphone)**  
+   - *Flow:* Physical data measured.  
+3. **Software Application → Computing Unit**  
+   - *Flow:* Notifications and feedback (e.g., stress alerts).  
+
+#### **External Flows**  
+1. **EmotionBand → Band User**  
+   - *Flow:* Measures changes in physical parameters (e.g., heart rate).  
+   - *Flow:* Notifications and statistics (via Software Application).  
+2. **Software Application → Data Storage and Processing Server**  
+   - *Flow:* Owner’s anonymized physiological data.  
+3. **Data Storage and Processing Server → Software Application**  
+   - *Flow:* Updates for emotion recognition model and software.  
+
+---
+
+### **Summary**  
+The **EmotionBand** is a hierarchical system with sensor, computing, communication, and power subsystems. It interfaces with a **smartphone app** and a **cloud server** to process emotions, provide feedback, and improve its model. Key interactions include data collection from sensors, user notifications, and server-based model updates.  

@@ -1,0 +1,40 @@
+### Phase 1: Identify Impact
+
+The incoming change is: "Battery life shall be increased from 1 day to 7 days."
+
+Based on this change, the components that are directly influenced are:
+
+1. **Battery**
+   - Reasoning: The battery is the primary component responsible for power storage. Increasing battery life directly affects its specifications and capacity.
+
+2. **PMIC (Power Management Integrated Circuit)**
+   - Reasoning: The PMIC manages power distribution and consumption. Changes in battery life require adjustments in power management strategies.
+
+3. **Wireless Charger**
+   - Reasoning: With increased battery life, the charging mechanism might need adjustments to handle different charging cycles and power requirements.
+
+### Phase 2: Self-Evaluation and Verification
+
+- **Battery**
+  - Verification: Directly impacts battery capacity and specifications. (10 words: "Battery life increase necessitates higher capacity and improved specifications.")
+
+- **PMIC**
+  - Verification: Power management must adapt to new battery specifications. (10 words: "PMIC requires adjustments for efficient power management with new battery.")
+
+- **Wireless Charger**
+  - Verification: Charging mechanism needs to support new battery requirements. (10 words: "Wireless charger must adapt to new battery charging needs.")
+
+### Phase 3: Final Output Print
+
+```
+&&&
+Component: Battery
+Reasoning: Battery life increase necessitates higher capacity and improved specifications.
+
+Component: PMIC
+Reasoning: PMIC requires adjustments for efficient power management with new battery.
+
+Component: Wireless Charger
+Reasoning: Wireless charger must adapt to new battery charging needs.
+&&&
+```

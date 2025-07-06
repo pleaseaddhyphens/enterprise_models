@@ -25,18 +25,27 @@ def extract_suggestions(text):
 def create_prompt(model_data, change_request):
     """Create the prompt for impact analysis."""
     return f"""
-    You are the system engineer. You have to conduct impact analysis of incoming change request. You have model data as a text. In the backtick brackets the elements with attributes and the explicit connections with other elements are provided. Model data:
+    You are the system engineer tasked with conducting an impact analysis of an incoming change request. You have been provided with model data as text, which includes elements with attributes and explicit connections to other elements. The model data is as follows:
+
     ```{model_data}```
-    The change request:`{change_request}`. List the components in the system that could be influenced by that change with the reasoning. Please, be specific! List the components in the system that could be influenced by that change with the reasoning. Please, be specific! Please, provide only the elements with type Components and Sub-system and System types If they have no children. Please, leave the names of the componetns as they presented in the model. Please, provide at first the components that directly affected by that change, and then components affected by the change of the first set. So, in the intermediate answer I expect 1st level of change and then 2nd level of change caused by 1st level changes. After that provide the final output with format provided in Final Output Example with ONLY 1st level of changes
+
+    The change request is: ```{change_request}```.
+
+    Your task is to list the components in the system that could be influenced by this change, along with detailed reasoning. Be specific in your analysis. Focus only on elements with type Components.
+    Ensure that the names of the components are presented exactly as they appear in the model. Structure your analysis to first list components directly affected by the change (1st level of change), followed by components affected by changes in the first set (2nd level of change).
+
+    After detailing the intermediate analysis, provide the final output in the format specified in the Final Output Example, including ONLY the 1st level of changes.
+
     Final Output Example:
     &&&
-    Component: <component_name>  
-    Reasoning: <reasoning_text>  
+    Component: <component_name>
+    Reasoning: <reasoning_text>
 
-    Component: <component_name>  
-    Reasoning: <reasoning_text>  
+    Component: <component_name>
+    Reasoning: <reasoning_text>
     &&&
-    Provide no other text that required by your task.
+
+    Provide no additional text beyond what is required for this task.
     """
 
 def parse_response(response_text, change_request_id, cycle_number):
