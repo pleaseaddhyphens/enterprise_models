@@ -1,0 +1,63 @@
+### Phase 1: Identify Impact
+
+The change "The device shall be water-resistant up to 50 meters" will directly influence the following components:
+
+1. **Aluminium housing**
+   - Reasoning: The housing must be sealed and robust to withstand water pressure.
+
+2. **Watch strap**
+   - Reasoning: The strap must be made of a material that is water-resistant.
+
+3. **Side buttons**
+   - Reasoning: Buttons need to be sealed to prevent water ingress.
+
+4. **PCB (Printed Circuit Board)**
+   - Reasoning: The PCB must be coated or designed to prevent water damage.
+
+5. **Wireless charger**
+   - Reasoning: The charging mechanism must be designed to prevent water ingress.
+
+6. **Speaker**
+   - Reasoning: Speaker design must prevent water from entering and damaging internal components.
+
+7. **Microphone**
+   - Reasoning: Microphone design must prevent water from entering and damaging internal components.
+
+### Phase 2: Self-Evaluation and Verification
+
+- **Aluminium housing**: Must be sealed and robust for water resistance.
+- **Watch strap**: Needs water-resistant material for durability.
+- **Side buttons**: Require sealing to prevent water ingress.
+- **PCB**: Needs waterproof coating or design to avoid damage.
+- **Wireless charger**: Must prevent water ingress during charging.
+- **Speaker**: Design must prevent water entry and damage.
+- **Microphone**: Design must prevent water entry and damage.
+
+Each identified component logically requires modification to ensure water resistance up to 50 meters.
+
+### Phase 3: Final Output Print
+
+```markdown
+&&&
+Component: Aluminium housing
+Reasoning: The housing must be sealed and robust to withstand water pressure.
+
+Component: Watch strap
+Reasoning: The strap must be made of a material that is water-resistant.
+
+Component: Side buttons
+Reasoning: Buttons need to be sealed to prevent water ingress.
+
+Component: PCB
+Reasoning: The PCB must be coated or designed to prevent water damage.
+
+Component: Wireless charger
+Reasoning: The charging mechanism must be designed to prevent water ingress.
+
+Component: Speaker
+Reasoning: Speaker design must prevent water from entering and damaging internal components.
+
+Component: Microphone
+Reasoning: Microphone design must prevent water from entering and damaging internal components.
+&&&
+```

@@ -1,0 +1,25 @@
+Component,Change
+Optial fiber,1
+Arrayed Waveguide Grating (AWG),1
+Photodiods,1
+Signal Processesing Unit,1
+superluminescent diode (SLD),1
+Signal Processing Unit,2
+Microcontroller unit,2
+Optical fiber,3
+Fiber Bragg Grating (FBG) sensors,3
+Arrayed Waveguide Grating (AWG),4
+Photodiods,4
+Photodiods,5
+superluminescent diode (SLD),5
+Stress Analysis Algorithm,6
+Fiber Bragg Grating (FBG) sensors,7
+Optical fiber,8
+Fiber Bragg Grating (FBG) sensors,8
+
+
+
+
+
+
+

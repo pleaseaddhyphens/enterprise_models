@@ -1,0 +1,36 @@
+### Phase 1: Identify Impact
+
+1. **Software Application**
+   - **Reasoning**: It will need to handle the processing of physiological data directly on the smartphone, which was previously handled elsewhere.
+
+2. **Computing Unit**
+   - **Reasoning**: It will need to send raw physiological data to the smartphone for processing instead of processing it locally.
+
+3. **Data Storage and Processing Server**
+   - **Reasoning**: It will no longer receive raw physiological data for processing, only anonymized or processed data.
+
+### Phase 2: Self-Evaluation and Verification
+
+1. **Software Application**
+   - **Consistency Check**: Directly processes data; consistent with architecture.
+
+2. **Computing Unit**
+   - **Consistency Check**: Sends raw data; aligns with new processing location.
+
+3. **Data Storage and Processing Server**
+   - **Consistency Check**: Receives processed data; matches privacy requirements.
+
+### Phase 3: Final Output Print
+
+```markdown
+&&&
+Component: Software Application
+Reasoning: It will need to handle the processing of physiological data directly on the smartphone, which was previously handled elsewhere.
+
+Component: Computing Unit
+Reasoning: It will need to send raw physiological data to the smartphone for processing instead of processing it locally.
+
+Component: Data Storage and Processing Server
+Reasoning: It will no longer receive raw physiological data for processing, only anonymized or processed data.
+&&&
+```

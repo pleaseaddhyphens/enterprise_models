@@ -1,0 +1,43 @@
+Component,Reasoning,Change,Cycle
+Optical Circulator,It directs waves to the AWG and must handle increased sensor signals.,1,1
+Arrayed waveguide grating (AWG),It splits light into channels and must accommodate more signals from additional sensors.,1,1
+Photodiods,They measure the power of signals at input channels and will need to process more data.,1,1
+Signal Processing Unit,It converts power changes into FBG wavelength changes and must handle increased data processing.,1,1
+Microcontroller unit,Provides computational resources and will need more processing power and memory.,1,1
+Fiber Bragg Grating (FBG) sensors,"The sensors will need to handle higher frequency polling, which may require adjustments to their response time and sensitivity.",2,1
+Optical Circulator,The Optical Circulator will need to manage the increased frequency of light signals reflected by the FBG sensors.,2,1
+Arrayed waveguide grating (AWG),The AWG will need to process and split the light signals at a higher rate to accommodate the increased polling frequency.,2,1
+Photodiods,"The Photodiods will need to measure the power of the signal at a higher rate, requiring faster response times.",2,1
+Signal Processing Unit,"The Signal Processing Unit will need to convert changes in power at a higher frequency, requiring more processing power and speed.",2,1
+superluminescent diode (SLD),The SLD will need to provide a stable broadband light source that can support the increased polling frequency.,2,1
+Microcontroller unit,The Microcontroller unit will need to handle the increased data processing and memory requirements due to the higher polling frequency.,2,1
+Optical Circulator,Temperature extremes can affect the optical properties and performance of the circulator.,3,1
+Fiber Bragg Grating (FBG) sensors,Extreme temperatures can alter the sensitivity and accuracy of the FBG sensors.,3,1
+Arrayed waveguide grating (AWG),Temperature changes can affect the spectral selection properties of the AWG.,3,1
+Photodiods,Extreme temperatures can impact the sensitivity and measurement accuracy of the photodiodes.,3,1
+superluminescent diode (SLD),Temperature extremes can affect the light output and stability of the SLD.,3,1
+Optical fiber,Extreme temperatures can affect the light transmission properties of the optical fiber.,3,1
+Fiber Bragg Grating (FBG) sensors,The sensors need to be more precise to detect smaller deformations.,4,1
+Signal Processing Unit,It must process signals with higher precision to detect smaller changes in the power peaks.,4,1
+Photodiods,They need to measure power more accurately to detect smaller changes in the signal.,4,1
+Arrayed waveguide grating (AWG),It needs to split the light into more precise channels to support higher accuracy.,4,1
+Optical Circulator,It must direct waves more precisely to support the higher accuracy requirements.,4,1
+Optical fiber,The optical fiber will need to be extended to cover the distance of over 100 km to connect the interrogator to the FBG sensors.,5,1
+superluminescent diode (SLD),The SLD may need to be adjusted or replaced to ensure sufficient light power over the extended distance.,5,1
+Photodiods,Photodiodes may need to be more sensitive to detect the potentially attenuated light signals coming from the extended optical fiber.,5,1
+Signal Processing Unit,The signal processing unit may need to be recalibrated to handle the potentially weaker or noisier signals due to the extended distance.,5,1
+Fiber Bragg Grating (FBG) sensors,The FBG sensors may need to be adjusted or replaced to ensure they can reflect light effectively over the extended distance.,5,1
+Signal Processing Unit,"The Signal Processing Unit converts changes in power on different channels to changes in FBG wavelength. Under high noise or unstable signal conditions, the polling algorithms will need to be adjusted to filter out noise and stabilize the signal for accurate processing.",6,1
+Photodiods,Photodiods measure the power of the signal at the input channels. Changes to the polling algorithms will be necessary to ensure accurate measurements despite the high noise or unstable signals.,6,1
+Arrayed waveguide grating (AWG),The AWG splits the light into equidistant channels. Adjustments to the polling algorithms will be required to handle the spectral selection more robustly under noisy conditions.,6,1
+Optical Circulator,The Optical Circulator directs waves to the AWG. Modifications to the polling algorithms will ensure that the wave signals are correctly directed and processed even under high noise conditions.,6,1
+Fiber Bragg Grating (FBG) sensors,FBG sensors will need to be adjusted to measure temperature instead of deformation. Temperature changes will affect the wavelength reflected by the FBG sensors differently compared to mechanical stress.,7,1
+Signal Processing Unit,The Signal Processing Unit will need to be recalibrated to interpret the changes in wavelength due to temperature variations instead of mechanical stress.,7,1
+Stress Analysis Algorithm,The algorithm will need to be modified to calculate temperature instead of stress and deformation. The input data interpretation and output calculations will change significantly.,7,1
+Optical Circulator,May need adjustments to handle real-world environmental factors and longer distances.,8,1
+Fiber Bragg Grating (FBG) sensors,Must be adapted to withstand real-world environmental conditions and pipeline movements.,8,1
+Arrayed waveguide grating (AWG),May need calibration to handle varied signal strengths and environmental noise in real-world operations.,8,1
+Photodiods,May require adjustments to handle real-world signal variations and environmental interferences.,8,1
+Signal Processing Unit,Algorithms may need tuning to account for real-world data variability and environmental factors.,8,1
+superluminescent diode (SLD),May need adjustments to ensure consistent light output in varied real-world conditions.,8,1
+Optical fiber,Must be adapted to withstand real-world environmental conditions and pipeline movements.,8,1

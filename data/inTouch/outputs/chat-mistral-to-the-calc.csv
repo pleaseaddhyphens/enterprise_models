@@ -1,0 +1,46 @@
+Component,Reasoning,Change,Cycle
+Battery,The primary component responsible for power storage; increasing battery life directly affects it.,1,1
+PMIC,Manages power distribution and consumption; needs adjustment for extended battery life.,1,1
+Wireless Charger,Charging mechanism may need modification to support new battery specifications.,1,1
+Aluminium housing,The housing must be sealed and robust to withstand water pressure.,2,1
+Watch strap,The strap must be made of a material that is water-resistant.,2,1
+Side buttons,Buttons need to be sealed to prevent water ingress.,2,1
+PCB,The PCB must be coated or designed to prevent water damage.,2,1
+Wireless charger,The charging mechanism must be designed to prevent water ingress.,2,1
+Speaker,Speaker design must prevent water from entering and damaging internal components.,2,1
+Microphone,Microphone design must prevent water from entering and damaging internal components.,2,1
+Wireless charger,The wireless charger is directly responsible for charging the device. Reducing the charging time will require modifications to the wireless charger to support faster charging.,3,1
+Battery,The battery is the component being charged. Changes in charging time may necessitate modifications to the battery technology or capacity to handle faster charging without adverse effects.,3,1
+PMIC,The PMIC manages the power flow to the battery. It will need adjustments to handle the increased power delivery required for faster charging.,3,1
+Software Application,"It will need to handle the processing of physiological data directly on the smartphone, which was previously handled elsewhere.",4,1
+Computing Unit,It will need to send raw physiological data to the smartphone for processing instead of processing it locally.,4,1
+Data Storage and Processing Server,"It will no longer receive raw physiological data for processing, only anonymized or processed data.",4,1
+Aluminium housing,The housing material and design will need to be modified to reduce weight.,5,1
+Battery,The battery is often one of the heaviest components and will need to be lighter.,5,1
+Watch strap,The strap material and design may need to be adjusted for weight reduction.,5,1
+PCB,The PCB design might need optimization to reduce size and weight.,5,1
+Wireless charger,The wireless charging components may need to be made lighter.,5,1
+Speaker,The speaker components may need to be reduced in size or weight.,5,1
+Microphone,The microphone components may need to be reduced in size or weight.,5,1
+Sensors,"The EDA sensor will be part of the sensor suite, requiring integration.",6,1
+Computing unit,The computing unit will need to process additional data from the EDA sensor.,6,1
+MCU,The MCU will need to handle the additional sensor data from the EDA sensor.,6,1
+Memory,Additional data storage may be required for the new sensor data.,6,1
+Software application,The software will need to interpret and utilize data from the EDA sensor.,6,1
+PCB,The PCB will need to accommodate the new EDA sensor.,6,1
+Structural support,Adding an OLED display will require modifications to the housing and possibly the strap to accommodate the new component.,7,1
+Aluminium housing,The housing will need to be redesigned to fit and protect the OLED display.,7,1
+Watch strap,The strap might need adjustments to support the additional weight and size of the OLED display.,7,1
+Power management,"An OLED display will consume additional power, necessitating changes in power management.",7,1
+Battery,The battery might need to be upgraded or modified to handle the increased power consumption.,7,1
+PCB,The PCB will need to be redesigned to integrate the OLED display connections and possibly additional components.,7,1
+Structural support,Adding a haptic feedback motor will require modifications to the physical structure to accommodate the new component.,8,1
+PCB,The PCB will need to be redesigned to integrate the new haptic feedback motor.,8,1
+Power management,Additional power consumption by the haptic motor necessitates adjustments in power management.,8,1
+Computing unit,The computing unit will need to control the haptic feedback motor.,8,1
+Software application,The software will need updates to manage haptic feedback alerts and guided breathing.,8,1
+Wireless charger,"The change explicitly states that wireless charging will be replaced by a wired solution, directly impacting the wireless charger component.",9,1
+Power management,"The power management subsystem will need to accommodate the new wired charging solution, impacting its design or configuration.",9,1
+Battery,The battery may need adjustments to be compatible with the new wired charging method.,9,1
+Aluminium housing,The physical design of the housing may need to be altered to include a port for wired charging.,9,1
+Structural support,The overall structural design might need to be reassessed to integrate the new wired charging port.,9,1

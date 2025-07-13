@@ -1,4 +1,0 @@
-Score,Nastya,Alexey,
-Novelty,0.34,0.06
-Alignment,0.34,0.43
-Relevancy,0.95,0.95

@@ -1,0 +1,313 @@
+
+
+    ## Role
+    You are the system engineer in the start up team.
+    ## Context
+    Permafrost regions contain numerous natural gas deposits. Pipelines transport gas from extraction sites to end users. The pipeline supports (columns/piles) are subject to displacement due to permafrost thawing processes and frost heave which can lead to pipeline deformations and damage.Currently pipeline integrity inspections are primarily conducted manually requiring significant time and labor resources. Moreover this approach does not always ensure timely defect detection. The team developing the technology to monitor pipeline deformations using fiber Bragg grating (FBG) sensors.
+    You have to assess the potential consequences of a change or modification to a system i.e. conduct impact analysis. The team had built the model of the product they are developing. It is presented below:
+    ```
+    [
+    {
+        "Elem. name": "High-precision optical deformation detection system",
+        "description": "",
+        "children": [
+            "Interogator",
+            "Optical fiber line",
+            "Stress Analysis Algorithm"
+        ],
+        "type": "System",
+        "presntation": [
+            "System diagram"
+        ],
+        "connected as target": [],
+        "connected as source": []
+    },
+    {
+        "Elem. name": "Interogator",
+        "description": "The device that reads and process the data from FBG sensors and provide changes in the wavelength configuration of FBG.",
+        "children": [
+            "Optical Circulator",
+            "Signal Processing Unit",
+            "superluminescent diode (SLD) ",
+            "Photodiods",
+            "Arrayed waveguide grating (AWG)",
+            "Microcontroller unit"
+        ],
+        "type": "Sub-system",
+        "presntation": [
+            "System diagram"
+        ],
+        "connected as target": [
+            {
+                "name": "Gas well",
+                "connection": "Provides power and place for the system components"
+            }
+        ],
+        "connected as source": []
+    },
+    {
+        "Elem. name": "Optical Circulator",
+        "description": "Directs wave to AWG",
+        "children": [],
+        "type": "Component",
+        "presntation": [
+            "System diagram"
+        ],
+        "connected as target": [
+            {
+                "name": "Fiber Bragg Grating (FBG) sensors",
+                "connection": "Reflect light of specific wavelength"
+            }
+        ],
+        "connected as source": [
+            {
+                "name": "Arrayed waveguide grating (AWG)",
+                "connection": "wave signal"
+            }
+        ]
+    },
+    {
+        "Elem. name": "Optical fiber line",
+        "description": "Spans along the pipeline",
+        "children": [
+            "Fiber Bragg Grating (FBG) sensors",
+            "Optical fiber"
+        ],
+        "type": "Sub-system",
+        "presntation": [
+            "System diagram"
+        ],
+        "connected as target": [],
+        "connected as source": []
+    },
+    {
+        "Elem. name": "Fiber Bragg Grating (FBG) sensors",
+        "description": "Reflect the wave from interogator",
+        "children": [],
+        "type": "Component",
+        "presntation": [
+            "System diagram"
+        ],
+        "connected as target": [
+            {
+                "name": "Optical fiber",
+                "connection": "light"
+            }
+        ],
+        "connected as source": [
+            {
+                "name": "Optical Circulator",
+                "connection": "Reflect light of specific wavelength"
+            },
+            {
+                "name": "Gas pipeline",
+                "connection": "Placed and fixed at the pipeline support structures"
+            }
+        ]
+    },
+    {
+        "Elem. name": "Arrayed waveguide grating (AWG)",
+        "description": "Spectral selecting device. It splits the ligth onto equidistant channels",
+        "children": [],
+        "type": "Component",
+        "presntation": [
+            "System diagram"
+        ],
+        "connected as target": [
+            {
+                "name": "Optical Circulator",
+                "connection": "wave signal"
+            }
+        ],
+        "connected as source": [
+            {
+                "name": "Photodiods",
+                "connection": "Channeled signal"
+            }
+        ]
+    },
+    {
+        "Elem. name": "Photodiods",
+        "description": "Measures power of the signal at the input channes",
+        "children": [],
+        "type": "Component",
+        "presntation": [
+            "System diagram"
+        ],
+        "connected as target": [
+            {
+                "name": "Signal Processing Unit",
+                "connection": "Measures changes in the power peaks"
+            },
+            {
+                "name": "Arrayed waveguide grating (AWG)",
+                "connection": "Channeled signal"
+            }
+        ],
+        "connected as source": []
+    },
+    {
+        "Elem. name": "Signal Processing Unit",
+        "description": "Convert changes in the power on diffrent channes in the changes of the FBG wavelenth",
+        "children": [],
+        "type": "Component",
+        "presntation": [
+            "System diagram"
+        ],
+        "connected as target": [],
+        "connected as source": [
+            {
+                "name": "Photodiods",
+                "connection": "Measures changes in the power peaks"
+            },
+            {
+                "name": "Stress Analysis Algorithm",
+                "connection": "Wave length for each sensor"
+            }
+        ]
+    },
+    {
+        "Elem. name": "superluminescent diode (SLD) ",
+        "description": "Broadband source of light",
+        "children": [],
+        "type": "Component",
+        "presntation": [
+            "System diagram"
+        ],
+        "connected as target": [],
+        "connected as source": [
+            {
+                "name": "Optical fiber",
+                "connection": "Send broadband light"
+            }
+        ]
+    },
+    {
+        "Elem. name": "Microcontroller unit",
+        "description": "Provide computational resources: processing and memory",
+        "children": [],
+        "type": "Component",
+        "presntation": [
+            "System diagram"
+        ],
+        "connected as target": [],
+        "connected as source": []
+    },
+    {
+        "Elem. name": "Gas pipeline",
+        "description": "Transfers gas from the well to the processing plant",
+        "children": [],
+        "type": "Component",
+        "presntation": [
+            "System diagram"
+        ],
+        "connected as target": [
+            {
+                "name": "Fiber Bragg Grating (FBG) sensors",
+                "connection": "Placed and fixed at the pipeline support structures"
+            },
+            {
+                "name": "Gas well",
+                "connection": "Gas"
+            }
+        ],
+        "connected as source": []
+    },
+    {
+        "Elem. name": "Gas well",
+        "description": "The source of the gas that further is fed to pipeline ",
+        "children": [],
+        "type": "Component",
+        "presntation": [
+            "System diagram"
+        ],
+        "connected as target": [],
+        "connected as source": [
+            {
+                "name": "Interogator",
+                "connection": "Provides power and place for the system components"
+            },
+            {
+                "name": "Gas pipeline",
+                "connection": "Gas"
+            }
+        ]
+    },
+    {
+        "Elem. name": "Stress Analysis Algorithm",
+        "description": "Using the changes in FBG wavelengths from interogator calulates stress and deformation of the pipeline in the sensors spots.  ",
+        "children": [],
+        "type": "Component",
+        "presntation": [
+            "System diagram"
+        ],
+        "connected as target": [
+            {
+                "name": "Signal Processing Unit",
+                "connection": "Wave length for each sensor"
+            }
+        ],
+        "connected as source": [
+            {
+                "name": "Maintanance personell",
+                "connection": "Deformation values at the pipeline support"
+            }
+        ]
+    },
+    {
+        "Elem. name": "Optical fiber",
+        "description": "Serves as waveguide",
+        "children": [],
+        "type": "Component",
+        "presntation": [
+            "System diagram"
+        ],
+        "connected as target": [
+            {
+                "name": "superluminescent diode (SLD) ",
+                "connection": "Send broadband light"
+            }
+        ],
+        "connected as source": [
+            {
+                "name": "Fiber Bragg Grating (FBG) sensors",
+                "connection": "light"
+            }
+        ]
+    }
+]
+    ```
+    The specific incoming change that to be analyzed is: `Which system components will need adjustment if the system is repurposed from monitoring support shifts to measuring pipeline temperature?`.
+    ## Instruction
+    Complete your task in phases. Complete each phase and then proceed to the next:
+    1. Phase 1: Identify impact:
+    List all of the components that is directly influenced by the incoming change along with the reasoning.
+    - A component is said to be **directly influenced (impacted)** by a change if: "It must undergo a modification as a first-order consequence of the proposed change, without requiring propagation through intermediary components, i.e. as secondary or cascading effect."
+    2. Phase 2: Self-evaluation and verification
+    - Cross-check each pair: "Is this impact logically consistent with the model’s architecture? Explain in 10 words."
+    3. Phase 3: Final output print
+    - Using verified pairs create the final output with the specific format described below. Take reasoning field from the first phase:
+    ```
+    &&&
+    Component: <component_name>
+    Reasoning: <reasoning_text>
+    
+    Component: <component_name>
+    Reasoning: <reasoning_text>
+   
+    Component: <component_name>
+    Reasoning: <reasoning_text>
+
+    Component: <component_name>
+    Reasoning: <reasoning_text>
+
+    ...
+    &&&
+    ```
+    ## Constraints
+    - Use **exact component names** from the model.
+    - List only the components type in your analysis. List NO sub-systems or systems type. Definition: Component is the smallest functional or structural unit of a system. It could be internal and external.
+
+
+
+    

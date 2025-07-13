@@ -1,0 +1,36 @@
+### Phase 1: Identify Impact
+
+1. **Component: Battery**
+   - **Reasoning:** The primary component responsible for power storage; increasing battery life directly affects it.
+
+2. **Component: PMIC (Power Management Integrated Circuit)**
+   - **Reasoning:** Manages power distribution and consumption; needs adjustment for extended battery life.
+
+3. **Component: Wireless Charger**
+   - **Reasoning:** Charging mechanism may need modification to support new battery specifications.
+
+### Phase 2: Self-Evaluation and Verification
+
+1. **Component: Battery**
+   - **Verification:** Directly stores power; needs capacity increase for longer life.
+
+2. **Component: PMIC**
+   - **Verification:** Manages power; must optimize for new battery capacity.
+
+3. **Component: Wireless Charger**
+   - **Verification:** Charges battery; must adapt to new battery requirements.
+
+### Phase 3: Final Output Print
+
+```markdown
+&&&
+Component: Battery
+Reasoning: The primary component responsible for power storage; increasing battery life directly affects it.
+
+Component: PMIC
+Reasoning: Manages power distribution and consumption; needs adjustment for extended battery life.
+
+Component: Wireless Charger
+Reasoning: Charging mechanism may need modification to support new battery specifications.
+&&&
+```

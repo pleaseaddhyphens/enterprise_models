@@ -1,0 +1,1355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gaphor xmlns="http://gaphor.sourceforge.net/model" version="3.0" gaphor-version="2.27.0">
+<StyleSheet id="58d6989a-66f8-11ec-b4c8-0456e5e540ed"/>
+<Package id="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed">
+<name>
+<val>New model</val>
+</name>
+<nestedPackage>
+<reflist>
+<ref refid="ce6ffedf-4c2b-11f0-9354-a434d9ff2a48"/>
+<ref refid="dd6d8bb8-4c2b-11f0-9092-a434d9ff2a48"/>
+<ref refid="676ada26-3257-11f0-8562-a434d9ff2a48"/>
+</reflist>
+</nestedPackage>
+<ownedDiagram>
+<reflist>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</reflist>
+</ownedDiagram>
+<ownedType>
+<reflist>
+<ref refid="a64ed16f-3265-11f0-b97f-a434d9ff2a48"/>
+</reflist>
+</ownedType>
+</Package>
+<Diagram id="58d6c536-66f8-11ec-b4c8-0456e5e540ed">
+<element>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</element>
+<name>
+<val>System diagram</val>
+</name>
+<ownedPresentation>
+<reflist>
+<ref refid="676c14ef-3257-11f0-999b-a434d9ff2a48"/>
+<ref refid="69006a4c-3264-11f0-9d63-a434d9ff2a48"/>
+<ref refid="231e9fd7-358e-11f0-bd02-a434d9ff2a48"/>
+<ref refid="98d1dd96-4851-11f0-a409-a434d9ff2a48"/>
+<ref refid="a6c8e242-4851-11f0-9696-a434d9ff2a48"/>
+<ref refid="b21c58d8-4851-11f0-855a-a434d9ff2a48"/>
+<ref refid="cfeb4b10-4851-11f0-a1a4-a434d9ff2a48"/>
+<ref refid="9641bd34-4c2b-11f0-b502-a434d9ff2a48"/>
+<ref refid="7c1afe80-4851-11f0-86f9-a434d9ff2a48"/>
+<ref refid="4ece1b4a-5b0c-11f0-ab58-a434d9ff2a48"/>
+<ref refid="87c45ff0-4851-11f0-800a-a434d9ff2a48"/>
+<ref refid="06878b3b-5b0c-11f0-b279-a434d9ff2a48"/>
+<ref refid="a64f1f89-3265-11f0-9619-a434d9ff2a48"/>
+<ref refid="3d042e02-4852-11f0-a3d0-a434d9ff2a48"/>
+<ref refid="ce7073df-4c2b-11f0-8337-a434d9ff2a48"/>
+<ref refid="dd6dd9db-4c2b-11f0-818e-a434d9ff2a48"/>
+<ref refid="a0bf7a32-3263-11f0-bd35-a434d9ff2a48"/>
+<ref refid="e3103645-3265-11f0-94f0-a434d9ff2a48"/>
+<ref refid="d201079c-358b-11f0-a078-a434d9ff2a48"/>
+<ref refid="ffe3f8b7-358b-11f0-bd85-a434d9ff2a48"/>
+<ref refid="006bbeee-3591-11f0-9e3d-a434d9ff2a48"/>
+<ref refid="6dbb4783-3591-11f0-b903-a434d9ff2a48"/>
+<ref refid="89e6e018-3591-11f0-a90f-a434d9ff2a48"/>
+<ref refid="eb03447c-3591-11f0-9f9a-a434d9ff2a48"/>
+<ref refid="22c35953-5b12-11f0-8031-a434d9ff2a48"/>
+<ref refid="6e01278e-5b15-11f0-b809-a434d9ff2a48"/>
+<ref refid="bad8b350-5b17-11f0-bbc4-a434d9ff2a48"/>
+<ref refid="0415e972-5b18-11f0-9619-a434d9ff2a48"/>
+</reflist>
+</ownedPresentation>
+</Diagram>
+<C4Container id="676ada26-3257-11f0-8562-a434d9ff2a48">
+<name>
+<val>High-precision optical deformation detection system</val>
+</name>
+<nestedPackage>
+<reflist>
+<ref refid="69001c2a-3264-11f0-9cbe-a434d9ff2a48"/>
+<ref refid="7c1a1219-4851-11f0-b18f-a434d9ff2a48"/>
+<ref refid="06873d2b-5b0c-11f0-bf15-a434d9ff2a48"/>
+</reflist>
+</nestedPackage>
+<package>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="676c14ef-3257-11f0-999b-a434d9ff2a48"/>
+</reflist>
+</presentation>
+<type>
+<val>System</val>
+</type>
+</C4Container>
+<C4ContainerItem id="676c14ef-3257-11f0-999b-a434d9ff2a48">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, -93.25053406120259, -35.38413472724109)</val>
+</matrix>
+<top-left>
+<val>(-271.73982563220835, 14.738832692484522)</val>
+</top-left>
+<width>
+<val>1260.2186931265546</val>
+</width>
+<height>
+<val>649.8349017122797</val>
+</height>
+<children>
+<reflist>
+<ref refid="69006a4c-3264-11f0-9d63-a434d9ff2a48"/>
+<ref refid="7c1afe80-4851-11f0-86f9-a434d9ff2a48"/>
+<ref refid="06878b3b-5b0c-11f0-b279-a434d9ff2a48"/>
+</reflist>
+</children>
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<subject>
+<ref refid="676ada26-3257-11f0-8562-a434d9ff2a48"/>
+</subject>
+</C4ContainerItem>
+<C4DependencyItem id="a0bf7a32-3263-11f0-bd35-a434d9ff2a48">
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<horizontal>
+<val>0</val>
+</horizontal>
+<orthogonal>
+<val>0</val>
+</orthogonal>
+<subject>
+<ref refid="1154350e-4c2c-11f0-857f-a434d9ff2a48"/>
+</subject>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, -167.16551185477758, -214.37567214756172)</val>
+</matrix>
+<points>
+<val>[(135.27304923579962, 225.47694780207465), (29.29724205032332, -3.3064650154498736)]</val>
+</points>
+<head-connection>
+<ref refid="69006a4c-3264-11f0-9d63-a434d9ff2a48"/>
+</head-connection>
+<tail-connection>
+<ref refid="dd6dd9db-4c2b-11f0-818e-a434d9ff2a48"/>
+</tail-connection>
+</C4DependencyItem>
+<C4Container id="69001c2a-3264-11f0-9cbe-a434d9ff2a48">
+<description>
+<val>The device that reads and process the data from FBG sensors and provide changes in the wavelength configuration of FBG.</val>
+</description>
+<name>
+<val>Interogator</val>
+</name>
+<nestedPackage>
+<reflist>
+<ref refid="231e2b58-358e-11f0-983d-a434d9ff2a48"/>
+<ref refid="b21be3ca-4851-11f0-82e4-a434d9ff2a48"/>
+<ref refid="cfeafd02-4851-11f0-9c75-a434d9ff2a48"/>
+<ref refid="a6c89409-4851-11f0-84af-a434d9ff2a48"/>
+<ref refid="98d11a84-4851-11f0-80e9-a434d9ff2a48"/>
+<ref refid="96416f0b-4c2b-11f0-8260-a434d9ff2a48"/>
+</reflist>
+</nestedPackage>
+<package>
+<ref refid="676ada26-3257-11f0-8562-a434d9ff2a48"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="69006a4c-3264-11f0-9d63-a434d9ff2a48"/>
+</reflist>
+</presentation>
+<supplierDependency>
+<reflist>
+<ref refid="1154350e-4c2c-11f0-857f-a434d9ff2a48"/>
+</reflist>
+</supplierDependency>
+<type>
+<val>Sub-system</val>
+</type>
+</C4Container>
+<C4ContainerItem id="69006a4c-3264-11f0-9d63-a434d9ff2a48">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 29.499136035684653, 80.87566654918454)</val>
+</matrix>
+<top-left>
+<val>(-278.59252312843796, -34.39025616743052)</val>
+</top-left>
+<width>
+<val>771.6614902220656</val>
+</width>
+<height>
+<val>512.5523264135859</val>
+</height>
+<children>
+<reflist>
+<ref refid="231e9fd7-358e-11f0-bd02-a434d9ff2a48"/>
+<ref refid="b21c58d8-4851-11f0-855a-a434d9ff2a48"/>
+<ref refid="cfeb4b10-4851-11f0-a1a4-a434d9ff2a48"/>
+<ref refid="a6c8e242-4851-11f0-9696-a434d9ff2a48"/>
+<ref refid="98d1dd96-4851-11f0-a409-a434d9ff2a48"/>
+<ref refid="9641bd34-4c2b-11f0-b502-a434d9ff2a48"/>
+</reflist>
+</children>
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<parent>
+<ref refid="676c14ef-3257-11f0-999b-a434d9ff2a48"/>
+</parent>
+<subject>
+<ref refid="69001c2a-3264-11f0-9cbe-a434d9ff2a48"/>
+</subject>
+</C4ContainerItem>
+<C4Person id="a64ed16f-3265-11f0-b97f-a434d9ff2a48">
+<description>
+<val>Maintain pipeline and monitor its condition</val>
+</description>
+<name>
+<val>Maintanance personell</val>
+</name>
+<package>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="a64f1f89-3265-11f0-9619-a434d9ff2a48"/>
+</reflist>
+</presentation>
+<supplierDependency>
+<reflist>
+<ref refid="1628318f-5b0c-11f0-8fd3-a434d9ff2a48"/>
+</reflist>
+</supplierDependency>
+</C4Person>
+<C4PersonItem id="a64f1f89-3265-11f0-9619-a434d9ff2a48">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 1136.5953660462499, 490.96561994631566)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.8385748978848824)</val>
+</top-left>
+<width>
+<val>134.05948077118035</val>
+</width>
+<height>
+<val>116.0</val>
+</height>
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<subject>
+<ref refid="a64ed16f-3265-11f0-b97f-a434d9ff2a48"/>
+</subject>
+</C4PersonItem>
+<C4DependencyItem id="e3103645-3265-11f0-94f0-a434d9ff2a48">
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<horizontal>
+<val>0</val>
+</horizontal>
+<orthogonal>
+<val>0</val>
+</orthogonal>
+<subject>
+<ref refid="1628318f-5b0c-11f0-8fd3-a434d9ff2a48"/>
+</subject>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 383.77819605559483, 405.2478986610865)</val>
+</matrix>
+<points>
+<val>[(752.817169990655, 144.55629618311394), (410.28893384864415, 146.34734095923335)]</val>
+</points>
+<head-connection>
+<ref refid="a64f1f89-3265-11f0-9619-a434d9ff2a48"/>
+</head-connection>
+<tail-connection>
+<ref refid="06878b3b-5b0c-11f0-b279-a434d9ff2a48"/>
+</tail-connection>
+</C4DependencyItem>
+<C4DependencyItem id="d201079c-358b-11f0-a078-a434d9ff2a48">
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<horizontal>
+<val>0</val>
+</horizontal>
+<orthogonal>
+<val>0</val>
+</orthogonal>
+<subject>
+<ref refid="09c5ee2f-4c2c-11f0-9ac3-a434d9ff2a48"/>
+</subject>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 572.1243361382416, 229.170153531633)</val>
+</matrix>
+<points>
+<val>[(116.32685284068293, -436.55282575156764), (237.74843183319956, -186.67821531124503)]</val>
+</points>
+<head-connection>
+<ref refid="ce7073df-4c2b-11f0-8337-a434d9ff2a48"/>
+</head-connection>
+<tail-connection>
+<ref refid="87c45ff0-4851-11f0-800a-a434d9ff2a48"/>
+</tail-connection>
+</C4DependencyItem>
+<C4DependencyItem id="ffe3f8b7-358b-11f0-bd85-a434d9ff2a48">
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<horizontal>
+<val>0</val>
+</horizontal>
+<orthogonal>
+<val>0</val>
+</orthogonal>
+<subject>
+<ref refid="129783a2-5b0c-11f0-b82f-a434d9ff2a48"/>
+</subject>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 65.22176361191089, 157.9658616332651)</val>
+</matrix>
+<points>
+<val>[(442.84536629232815, 393.62937798705474), (-24.517579733778348, 391.8383332109353), (-21.148527753447638, 312.20586136121614)]</val>
+</points>
+<head-connection>
+<ref refid="06878b3b-5b0c-11f0-b279-a434d9ff2a48"/>
+</head-connection>
+<tail-connection>
+<ref refid="b21c58d8-4851-11f0-855a-a434d9ff2a48"/>
+</tail-connection>
+</C4DependencyItem>
+<C4Container id="231e2b58-358e-11f0-983d-a434d9ff2a48">
+<clientDependency>
+<reflist>
+<ref refid="05803ce1-4852-11f0-b7b8-a434d9ff2a48"/>
+<ref refid="6f172be7-5b15-11f0-9423-a434d9ff2a48"/>
+</reflist>
+</clientDependency>
+<description>
+<val>Directs wave to AWG</val>
+</description>
+<name>
+<val>Optical Circulator</val>
+</name>
+<package>
+<ref refid="69001c2a-3264-11f0-9cbe-a434d9ff2a48"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="231e9fd7-358e-11f0-bd02-a434d9ff2a48"/>
+</reflist>
+</presentation>
+<supplierDependency>
+<reflist>
+<ref refid="23a2b0ed-5b12-11f0-a1a1-a434d9ff2a48"/>
+<ref refid="bb96b816-5b17-11f0-b15c-a434d9ff2a48"/>
+</reflist>
+</supplierDependency>
+<type>
+<val>Component</val>
+</type>
+</C4Container>
+<C4ContainerItem id="231e9fd7-358e-11f0-bd02-a434d9ff2a48">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 74.13580558181054, 12.55224847084272)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>175.59019453356748</val>
+</width>
+<height>
+<val>105.78852961275578</val>
+</height>
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<parent>
+<ref refid="69006a4c-3264-11f0-9d63-a434d9ff2a48"/>
+</parent>
+<subject>
+<ref refid="231e2b58-358e-11f0-983d-a434d9ff2a48"/>
+</subject>
+</C4ContainerItem>
+<C4DependencyItem id="006bbeee-3591-11f0-9e3d-a434d9ff2a48">
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<horizontal>
+<val>0</val>
+</horizontal>
+<orthogonal>
+<val>0</val>
+</orthogonal>
+<subject>
+<ref refid="05803ce1-4852-11f0-b7b8-a434d9ff2a48"/>
+</subject>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 24.886943375585627, 113.8998119324341)</val>
+</matrix>
+<points>
+<val>[(-121.58163070641, -9.156529683889161), (-14.502535819293012, -4.040258049700711)]</val>
+</points>
+<head-connection>
+<ref refid="98d1dd96-4851-11f0-a409-a434d9ff2a48"/>
+</head-connection>
+<tail-connection>
+<ref refid="231e9fd7-358e-11f0-bd02-a434d9ff2a48"/>
+</tail-connection>
+</C4DependencyItem>
+<C4DependencyItem id="6dbb4783-3591-11f0-b903-a434d9ff2a48">
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<horizontal>
+<val>0</val>
+</horizontal>
+<orthogonal>
+<val>0</val>
+</orthogonal>
+<subject>
+<ref refid="03faafa1-4852-11f0-9cac-a434d9ff2a48"/>
+</subject>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, -236.5160242449299, 164.43455681608938)</val>
+</matrix>
+<points>
+<val>[(7.64574410983812, 124.220751640396), (6.7502217217783596, 56.2308463524173)]</val>
+</points>
+<head-connection>
+<ref refid="a6c8e242-4851-11f0-9696-a434d9ff2a48"/>
+</head-connection>
+<tail-connection>
+<ref refid="98d1dd96-4851-11f0-a409-a434d9ff2a48"/>
+</tail-connection>
+</C4DependencyItem>
+<C4DependencyItem id="89e6e018-3591-11f0-a90f-a434d9ff2a48">
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<horizontal>
+<val>0</val>
+</horizontal>
+<orthogonal>
+<val>0</val>
+</orthogonal>
+<subject>
+<ref refid="f81fe0c5-4851-11f0-bf2b-a434d9ff2a48"/>
+</subject>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 30.540310609477334, 408.94635257200514)</val>
+</matrix>
+<points>
+<val>[(-259.41059074456905, -24.226518238988206), (-261.1542785719299, 39.02727291784538), (-25.155903053185217, 43.81831769396473)]</val>
+</points>
+<head-connection>
+<ref refid="a6c8e242-4851-11f0-9696-a434d9ff2a48"/>
+</head-connection>
+<tail-connection>
+<ref refid="b21c58d8-4851-11f0-855a-a434d9ff2a48"/>
+</tail-connection>
+</C4DependencyItem>
+<C4DependencyItem id="eb03447c-3591-11f0-9f9a-a434d9ff2a48">
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<horizontal>
+<val>0</val>
+</horizontal>
+<orthogonal>
+<val>0</val>
+</orthogonal>
+<subject>
+<ref refid="124761f5-4c2c-11f0-a2ee-a434d9ff2a48"/>
+</subject>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, -218.81027449843805, -256.8207564639256)</val>
+</matrix>
+<points>
+<val>[(830.6423082010517, -0.8613806990859985), (184.59884463170198, -0.7669695677078607)]</val>
+</points>
+<head-connection>
+<ref refid="ce7073df-4c2b-11f0-8337-a434d9ff2a48"/>
+</head-connection>
+<tail-connection>
+<ref refid="dd6dd9db-4c2b-11f0-818e-a434d9ff2a48"/>
+</tail-connection>
+</C4DependencyItem>
+<C4Container id="7c1a1219-4851-11f0-b18f-a434d9ff2a48">
+<description>
+<val>Spans along the pipeline</val>
+</description>
+<name>
+<val>Optical fiber line</val>
+</name>
+<nestedPackage>
+<reflist>
+<ref refid="4ecd581b-5b0c-11f0-a85c-a434d9ff2a48"/>
+<ref refid="87c3ed35-4851-11f0-8ca8-a434d9ff2a48"/>
+</reflist>
+</nestedPackage>
+<package>
+<ref refid="676ada26-3257-11f0-8562-a434d9ff2a48"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="7c1afe80-4851-11f0-86f9-a434d9ff2a48"/>
+</reflist>
+</presentation>
+<type>
+<val>Sub-system</val>
+</type>
+</C4Container>
+<C4ContainerItem id="7c1afe80-4851-11f0-86f9-a434d9ff2a48">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 563.3314683272146, 47.48838537613673)</val>
+</matrix>
+<top-left>
+<val>(-1.697114595691687, 11.13104433127313)</val>
+</top-left>
+<width>
+<val>398.1877973449129</val>
+</width>
+<height>
+<val>243.4685103610354</val>
+</height>
+<children>
+<reflist>
+<ref refid="4ece1b4a-5b0c-11f0-ab58-a434d9ff2a48"/>
+<ref refid="87c45ff0-4851-11f0-800a-a434d9ff2a48"/>
+</reflist>
+</children>
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<parent>
+<ref refid="676c14ef-3257-11f0-999b-a434d9ff2a48"/>
+</parent>
+<subject>
+<ref refid="7c1a1219-4851-11f0-b18f-a434d9ff2a48"/>
+</subject>
+</C4ContainerItem>
+<C4Container id="87c3ed35-4851-11f0-8ca8-a434d9ff2a48">
+<clientDependency>
+<reflist>
+<ref refid="09c5ee2f-4c2c-11f0-9ac3-a434d9ff2a48"/>
+<ref refid="046d9469-5b18-11f0-99a3-a434d9ff2a48"/>
+</reflist>
+</clientDependency>
+<description>
+<val>Reflect the wave from interogator</val>
+</description>
+<name>
+<val>Fiber Bragg Grating (FBG) sensors</val>
+</name>
+<package>
+<ref refid="7c1a1219-4851-11f0-b18f-a434d9ff2a48"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="87c45ff0-4851-11f0-800a-a434d9ff2a48"/>
+</reflist>
+</presentation>
+<type>
+<val>Component</val>
+</type>
+</C4Container>
+<C4ContainerItem id="87c45ff0-4851-11f0-800a-a434d9ff2a48">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 206.35200795736205, 37.71706323611453)</val>
+</matrix>
+<top-left>
+<val>(51.33270464260556, -7.329375664622205)</val>
+</top-left>
+<width>
+<val>121.66729535739444</val>
+</width>
+<height>
+<val>116.0</val>
+</height>
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<parent>
+<ref refid="7c1afe80-4851-11f0-86f9-a434d9ff2a48"/>
+</parent>
+<subject>
+<ref refid="87c3ed35-4851-11f0-8ca8-a434d9ff2a48"/>
+</subject>
+</C4ContainerItem>
+<C4Container id="98d11a84-4851-11f0-80e9-a434d9ff2a48">
+<clientDependency>
+<reflist>
+<ref refid="03faafa1-4852-11f0-9cac-a434d9ff2a48"/>
+</reflist>
+</clientDependency>
+<description>
+<val>Spectral selecting device. It splits the ligth onto equidistant channels</val>
+</description>
+<name>
+<val>Arrayed waveguide grating (AWG)</val>
+</name>
+<package>
+<ref refid="69001c2a-3264-11f0-9cbe-a434d9ff2a48"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="98d1dd96-4851-11f0-a409-a434d9ff2a48"/>
+</reflist>
+</presentation>
+<supplierDependency>
+<reflist>
+<ref refid="05803ce1-4852-11f0-b7b8-a434d9ff2a48"/>
+</reflist>
+</supplierDependency>
+<type>
+<val>Component</val>
+</type>
+</C4Container>
+<C4ContainerItem id="98d1dd96-4851-11f0-a409-a434d9ff2a48">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, -262.94328930530645, 1.4243364283526365)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>230.0</val>
+</width>
+<height>
+<val>173.7495349182106</val>
+</height>
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<parent>
+<ref refid="69006a4c-3264-11f0-9d63-a434d9ff2a48"/>
+</parent>
+<subject>
+<ref refid="98d11a84-4851-11f0-80e9-a434d9ff2a48"/>
+</subject>
+</C4ContainerItem>
+<C4Container id="a6c89409-4851-11f0-84af-a434d9ff2a48">
+<description>
+<val>Measures power of the signal at the input channes</val>
+</description>
+<name>
+<val>Photodiods</val>
+</name>
+<package>
+<ref refid="69001c2a-3264-11f0-9cbe-a434d9ff2a48"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="a6c8e242-4851-11f0-9696-a434d9ff2a48"/>
+</reflist>
+</presentation>
+<supplierDependency>
+<reflist>
+<ref refid="f81fe0c5-4851-11f0-bf2b-a434d9ff2a48"/>
+<ref refid="03faafa1-4852-11f0-9cac-a434d9ff2a48"/>
+</reflist>
+</supplierDependency>
+<type>
+<val>Component</val>
+</type>
+</C4Container>
+<C4ContainerItem id="a6c8e242-4851-11f0-9696-a434d9ff2a48">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, -270.89553755289603, 243.16377663454193)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>234.0</val>
+</width>
+<height>
+<val>96.06452587653155</val>
+</height>
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<parent>
+<ref refid="69006a4c-3264-11f0-9d63-a434d9ff2a48"/>
+</parent>
+<subject>
+<ref refid="a6c89409-4851-11f0-84af-a434d9ff2a48"/>
+</subject>
+</C4ContainerItem>
+<C4Container id="b21be3ca-4851-11f0-82e4-a434d9ff2a48">
+<clientDependency>
+<reflist>
+<ref refid="f81fe0c5-4851-11f0-bf2b-a434d9ff2a48"/>
+<ref refid="129783a2-5b0c-11f0-b82f-a434d9ff2a48"/>
+</reflist>
+</clientDependency>
+<description>
+<val>Convert changes in the power on diffrent channes in the changes of the FBG wavelenth</val>
+</description>
+<name>
+<val>Signal Processing Unit</val>
+</name>
+<package>
+<ref refid="69001c2a-3264-11f0-9cbe-a434d9ff2a48"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="b21c58d8-4851-11f0-855a-a434d9ff2a48"/>
+</reflist>
+</presentation>
+<type>
+<val>Component</val>
+</type>
+</C4Container>
+<C4ContainerItem id="b21c58d8-4851-11f0-855a-a434d9ff2a48">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 69.13580558181005, 308.6801911725378)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>177.0</val>
+</width>
+<height>
+<val>116.0</val>
+</height>
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<parent>
+<ref refid="69006a4c-3264-11f0-9d63-a434d9ff2a48"/>
+</parent>
+<subject>
+<ref refid="b21be3ca-4851-11f0-82e4-a434d9ff2a48"/>
+</subject>
+</C4ContainerItem>
+<C4Container id="cfeafd02-4851-11f0-9c75-a434d9ff2a48">
+<clientDependency>
+<reflist>
+<ref refid="23a2b0ed-5b12-11f0-a1a1-a434d9ff2a48"/>
+</reflist>
+</clientDependency>
+<description>
+<val>Broadband source of light</val>
+</description>
+<name>
+<val>superluminescent diode (SLD) </val>
+</name>
+<package>
+<ref refid="69001c2a-3264-11f0-9cbe-a434d9ff2a48"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="cfeb4b10-4851-11f0-a1a4-a434d9ff2a48"/>
+</reflist>
+</presentation>
+<type>
+<val>Component</val>
+</type>
+</C4Container>
+<C4ContainerItem id="cfeb4b10-4851-11f0-a1a4-a434d9ff2a48">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 62.36154682239676, 181.84685541168267)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>175.0</val>
+</width>
+<height>
+<val>96.06452587653143</val>
+</height>
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<parent>
+<ref refid="69006a4c-3264-11f0-9d63-a434d9ff2a48"/>
+</parent>
+<subject>
+<ref refid="cfeafd02-4851-11f0-9c75-a434d9ff2a48"/>
+</subject>
+</C4ContainerItem>
+<C4Dependency id="f81fe0c5-4851-11f0-bf2b-a434d9ff2a48">
+<client>
+<ref refid="b21be3ca-4851-11f0-82e4-a434d9ff2a48"/>
+</client>
+<name>
+<val>Measures changes in the power peaks</val>
+</name>
+<presentation>
+<reflist>
+<ref refid="89e6e018-3591-11f0-a90f-a434d9ff2a48"/>
+</reflist>
+</presentation>
+<supplier>
+<ref refid="a6c89409-4851-11f0-84af-a434d9ff2a48"/>
+</supplier>
+</C4Dependency>
+<C4Dependency id="03faafa1-4852-11f0-9cac-a434d9ff2a48">
+<client>
+<ref refid="98d11a84-4851-11f0-80e9-a434d9ff2a48"/>
+</client>
+<name>
+<val>Channeled signal</val>
+</name>
+<presentation>
+<reflist>
+<ref refid="6dbb4783-3591-11f0-b903-a434d9ff2a48"/>
+</reflist>
+</presentation>
+<supplier>
+<ref refid="a6c89409-4851-11f0-84af-a434d9ff2a48"/>
+</supplier>
+</C4Dependency>
+<C4Dependency id="05803ce1-4852-11f0-b7b8-a434d9ff2a48">
+<client>
+<ref refid="231e2b58-358e-11f0-983d-a434d9ff2a48"/>
+</client>
+<name>
+<val>wave signal</val>
+</name>
+<presentation>
+<reflist>
+<ref refid="006bbeee-3591-11f0-9e3d-a434d9ff2a48"/>
+</reflist>
+</presentation>
+<supplier>
+<ref refid="98d11a84-4851-11f0-80e9-a434d9ff2a48"/>
+</supplier>
+</C4Dependency>
+<Comment id="3d042e01-4852-11f0-9b5f-a434d9ff2a48">
+<body>
+<val>#BACKGROUND:
+Permafrost regions contain numerous natural gas deposits. Pipelines transport gas from extraction sites to end users. The pipeline supports (columns/piles) are subject to displacement due to permafrost thawing, thermokarst processes, and frost heave, which can lead to pipeline deformations and damage.
+
+Currently, pipeline integrity inspections are primarily conducted manually, requiring significant time and labor resources. Moreover, this approach does not always ensure timely defect detection.
+
+SYSTEM PURPOSE:
+Monitoring pipeline deformations using fiber Bragg grating (FBG) sensors.</val>
+</body>
+<presentation>
+<reflist>
+<ref refid="3d042e02-4852-11f0-a3d0-a434d9ff2a48"/>
+</reflist>
+</presentation>
+</Comment>
+<CommentItem id="3d042e02-4852-11f0-a3d0-a434d9ff2a48">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, -705.5708889352244, -33.521378200850926)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>300.9254941872706</val>
+</width>
+<height>
+<val>348.0</val>
+</height>
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<subject>
+<ref refid="3d042e01-4852-11f0-9b5f-a434d9ff2a48"/>
+</subject>
+</CommentItem>
+<C4Container id="96416f0b-4c2b-11f0-8260-a434d9ff2a48">
+<description>
+<val>Provide computational resources: processing and memory</val>
+</description>
+<name>
+<val>Microcontroller unit</val>
+</name>
+<package>
+<ref refid="69001c2a-3264-11f0-9cbe-a434d9ff2a48"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="9641bd34-4c2b-11f0-b502-a434d9ff2a48"/>
+</reflist>
+</presentation>
+<type>
+<val>Component</val>
+</type>
+</C4Container>
+<C4ContainerItem id="9641bd34-4c2b-11f0-b502-a434d9ff2a48">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 271.6667513380155, 313.2283025110735)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>197.45501063376946</val>
+</width>
+<height>
+<val>111.4518886614643</val>
+</height>
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<parent>
+<ref refid="69006a4c-3264-11f0-9d63-a434d9ff2a48"/>
+</parent>
+<subject>
+<ref refid="96416f0b-4c2b-11f0-8260-a434d9ff2a48"/>
+</subject>
+</C4ContainerItem>
+<C4Container id="ce6ffedf-4c2b-11f0-9354-a434d9ff2a48">
+<description>
+<val>Transfers gas from the well to the processing plant</val>
+</description>
+<name>
+<val>Gas pipeline</val>
+</name>
+<package>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="ce7073df-4c2b-11f0-8337-a434d9ff2a48"/>
+</reflist>
+</presentation>
+<supplierDependency>
+<reflist>
+<ref refid="09c5ee2f-4c2c-11f0-9ac3-a434d9ff2a48"/>
+<ref refid="124761f5-4c2c-11f0-a2ee-a434d9ff2a48"/>
+</reflist>
+</supplierDependency>
+<type>
+<val>Component</val>
+</type>
+</C4Container>
+<C4ContainerItem id="ce7073df-4c2b-11f0-8337-a434d9ff2a48">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 611.8320337026137, -305.38267221993465)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>129.0</val>
+</width>
+<height>
+<val>98.0</val>
+</height>
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<subject>
+<ref refid="ce6ffedf-4c2b-11f0-9354-a434d9ff2a48"/>
+</subject>
+</C4ContainerItem>
+<C4Container id="dd6d8bb8-4c2b-11f0-9092-a434d9ff2a48">
+<clientDependency>
+<reflist>
+<ref refid="1154350e-4c2c-11f0-857f-a434d9ff2a48"/>
+<ref refid="124761f5-4c2c-11f0-a2ee-a434d9ff2a48"/>
+</reflist>
+</clientDependency>
+<description>
+<val>The source of the gas that further is fed to pipeline </val>
+</description>
+<name>
+<val>Gas well</val>
+</name>
+<package>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="dd6dd9db-4c2b-11f0-818e-a434d9ff2a48"/>
+</reflist>
+</presentation>
+<type>
+<val>Component</val>
+</type>
+</C4Container>
+<C4ContainerItem id="dd6dd9db-4c2b-11f0-818e-a434d9ff2a48">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, -230.61396796245253, -297.68213716301165)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>196.40253809571647</val>
+</width>
+<height>
+<val>80.0</val>
+</height>
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<subject>
+<ref refid="dd6d8bb8-4c2b-11f0-9092-a434d9ff2a48"/>
+</subject>
+</C4ContainerItem>
+<C4Dependency id="09c5ee2f-4c2c-11f0-9ac3-a434d9ff2a48">
+<client>
+<ref refid="87c3ed35-4851-11f0-8ca8-a434d9ff2a48"/>
+</client>
+<name>
+<val>Placed and fixed at the pipeline support structures</val>
+</name>
+<presentation>
+<reflist>
+<ref refid="d201079c-358b-11f0-a078-a434d9ff2a48"/>
+</reflist>
+</presentation>
+<supplier>
+<ref refid="ce6ffedf-4c2b-11f0-9354-a434d9ff2a48"/>
+</supplier>
+</C4Dependency>
+<C4Dependency id="1154350e-4c2c-11f0-857f-a434d9ff2a48">
+<client>
+<ref refid="dd6d8bb8-4c2b-11f0-9092-a434d9ff2a48"/>
+</client>
+<name>
+<val>Provides power and place for the system components</val>
+</name>
+<presentation>
+<reflist>
+<ref refid="a0bf7a32-3263-11f0-bd35-a434d9ff2a48"/>
+</reflist>
+</presentation>
+<supplier>
+<ref refid="69001c2a-3264-11f0-9cbe-a434d9ff2a48"/>
+</supplier>
+</C4Dependency>
+<C4Dependency id="124761f5-4c2c-11f0-a2ee-a434d9ff2a48">
+<client>
+<ref refid="dd6d8bb8-4c2b-11f0-9092-a434d9ff2a48"/>
+</client>
+<name>
+<val>Gas</val>
+</name>
+<presentation>
+<reflist>
+<ref refid="eb03447c-3591-11f0-9f9a-a434d9ff2a48"/>
+</reflist>
+</presentation>
+<supplier>
+<ref refid="ce6ffedf-4c2b-11f0-9354-a434d9ff2a48"/>
+</supplier>
+<technology>
+<val></val>
+</technology>
+</C4Dependency>
+<C4Container id="06873d2b-5b0c-11f0-bf15-a434d9ff2a48">
+<clientDependency>
+<reflist>
+<ref refid="1628318f-5b0c-11f0-8fd3-a434d9ff2a48"/>
+</reflist>
+</clientDependency>
+<description>
+<val>Using the changes in FBG wavelengths from interogator calulates stress and deformation of the pipeline in the sensors spots.  </val>
+</description>
+<name>
+<val>Stress Analysis Algorithm</val>
+</name>
+<package>
+<ref refid="676ada26-3257-11f0-8562-a434d9ff2a48"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="06878b3b-5b0c-11f0-b279-a434d9ff2a48"/>
+</reflist>
+</presentation>
+<supplierDependency>
+<reflist>
+<ref refid="129783a2-5b0c-11f0-b82f-a434d9ff2a48"/>
+</reflist>
+</supplierDependency>
+<type>
+<val>Component</val>
+</type>
+</C4Container>
+<C4ContainerItem id="06878b3b-5b0c-11f0-b279-a434d9ff2a48">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 601.3176639654416, 357.9793743475609)</val>
+</matrix>
+<top-left>
+<val>(0.0, 180.0)</val>
+</top-left>
+<width>
+<val>286.0</val>
+</width>
+<height>
+<val>98.0</val>
+</height>
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<parent>
+<ref refid="676c14ef-3257-11f0-999b-a434d9ff2a48"/>
+</parent>
+<subject>
+<ref refid="06873d2b-5b0c-11f0-bf15-a434d9ff2a48"/>
+</subject>
+</C4ContainerItem>
+<C4Dependency id="129783a2-5b0c-11f0-b82f-a434d9ff2a48">
+<client>
+<ref refid="b21be3ca-4851-11f0-82e4-a434d9ff2a48"/>
+</client>
+<name>
+<val>Wave length for each sensor</val>
+</name>
+<presentation>
+<reflist>
+<ref refid="ffe3f8b7-358b-11f0-bd85-a434d9ff2a48"/>
+</reflist>
+</presentation>
+<supplier>
+<ref refid="06873d2b-5b0c-11f0-bf15-a434d9ff2a48"/>
+</supplier>
+</C4Dependency>
+<C4Dependency id="1628318f-5b0c-11f0-8fd3-a434d9ff2a48">
+<client>
+<ref refid="06873d2b-5b0c-11f0-bf15-a434d9ff2a48"/>
+</client>
+<name>
+<val>Deformation values at the pipeline support</val>
+</name>
+<presentation>
+<reflist>
+<ref refid="e3103645-3265-11f0-94f0-a434d9ff2a48"/>
+</reflist>
+</presentation>
+<supplier>
+<ref refid="a64ed16f-3265-11f0-b97f-a434d9ff2a48"/>
+</supplier>
+</C4Dependency>
+<C4Container id="4ecd581b-5b0c-11f0-a85c-a434d9ff2a48">
+<clientDependency>
+<reflist>
+<ref refid="bb96b816-5b17-11f0-b15c-a434d9ff2a48"/>
+</reflist>
+</clientDependency>
+<description>
+<val>Serves as waveguide</val>
+</description>
+<name>
+<val>Optical fiber</val>
+</name>
+<package>
+<ref refid="7c1a1219-4851-11f0-b18f-a434d9ff2a48"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="4ece1b4a-5b0c-11f0-ab58-a434d9ff2a48"/>
+</reflist>
+</presentation>
+<supplierDependency>
+<reflist>
+<ref refid="6f172be7-5b15-11f0-9423-a434d9ff2a48"/>
+<ref refid="046d9469-5b18-11f0-99a3-a434d9ff2a48"/>
+</reflist>
+</supplierDependency>
+<type>
+<val>Component</val>
+</type>
+</C4Container>
+<C4ContainerItem id="4ece1b4a-5b0c-11f0-ab58-a434d9ff2a48">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 37.98619563822707, 79.38768757149236)</val>
+</matrix>
+<top-left>
+<val>(0.0, -49.00000000000003)</val>
+</top-left>
+<width>
+<val>125.66866621547172</val>
+</width>
+<height>
+<val>175.07171496873596</val>
+</height>
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<parent>
+<ref refid="7c1afe80-4851-11f0-86f9-a434d9ff2a48"/>
+</parent>
+<subject>
+<ref refid="4ecd581b-5b0c-11f0-a85c-a434d9ff2a48"/>
+</subject>
+</C4ContainerItem>
+<C4DependencyItem id="22c35953-5b12-11f0-8031-a434d9ff2a48">
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<horizontal>
+<val>0</val>
+</horizontal>
+<orthogonal>
+<val>0</val>
+</orthogonal>
+<subject>
+<ref refid="23a2b0ed-5b12-11f0-a1a1-a434d9ff2a48"/>
+</subject>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 84.31333805945303, 254.09930982729801)</val>
+</matrix>
+<points>
+<val>[(1.2518159649664398, -90.26699992175605), (2.405388540757059, -26.760922593671893)]</val>
+</points>
+<head-connection>
+<ref refid="231e9fd7-358e-11f0-bd02-a434d9ff2a48"/>
+</head-connection>
+<tail-connection>
+<ref refid="cfeb4b10-4851-11f0-a1a4-a434d9ff2a48"/>
+</tail-connection>
+</C4DependencyItem>
+<C4Dependency id="23a2b0ed-5b12-11f0-a1a1-a434d9ff2a48">
+<client>
+<ref refid="cfeafd02-4851-11f0-9c75-a434d9ff2a48"/>
+</client>
+<name>
+<val>Send broadband light</val>
+</name>
+<presentation>
+<reflist>
+<ref refid="22c35953-5b12-11f0-8031-a434d9ff2a48"/>
+</reflist>
+</presentation>
+<supplier>
+<ref refid="231e2b58-358e-11f0-983d-a434d9ff2a48"/>
+</supplier>
+</C4Dependency>
+<C4DependencyItem id="6e01278e-5b15-11f0-b809-a434d9ff2a48">
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<horizontal>
+<val>0</val>
+</horizontal>
+<orthogonal>
+<val>0</val>
+</orthogonal>
+<subject>
+<ref refid="6f172be7-5b15-11f0-9423-a434d9ff2a48"/>
+</subject>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 142.107233645404, 103.00750907952657)</val>
+</matrix>
+<points>
+<val>[(365.95989625883504, -26.923187337160854), (43.86736844445605, -25.839268102731907)]</val>
+</points>
+<head-connection>
+<ref refid="4ece1b4a-5b0c-11f0-ab58-a434d9ff2a48"/>
+</head-connection>
+<tail-connection>
+<ref refid="231e9fd7-358e-11f0-bd02-a434d9ff2a48"/>
+</tail-connection>
+</C4DependencyItem>
+<C4Dependency id="6f172be7-5b15-11f0-9423-a434d9ff2a48">
+<client>
+<ref refid="231e2b58-358e-11f0-983d-a434d9ff2a48"/>
+</client>
+<name>
+<val>Send the broadband light</val>
+</name>
+<presentation>
+<reflist>
+<ref refid="6e01278e-5b15-11f0-b809-a434d9ff2a48"/>
+</reflist>
+</presentation>
+<supplier>
+<ref refid="4ecd581b-5b0c-11f0-a85c-a434d9ff2a48"/>
+</supplier>
+</C4Dependency>
+<C4DependencyItem id="bad8b350-5b17-11f0-bbc4-a434d9ff2a48">
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<horizontal>
+<val>0</val>
+</horizontal>
+<orthogonal>
+<val>0</val>
+</orthogonal>
+<subject>
+<ref refid="bb96b816-5b17-11f0-b15c-a434d9ff2a48"/>
+</subject>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 442.09400507493484, 150.64525998272336)</val>
+</matrix>
+<points>
+<val>[(-256.11940298507477, -15.133396161948298), (65.9731248293042, -15.13339616194827)]</val>
+</points>
+<head-connection>
+<ref refid="231e9fd7-358e-11f0-bd02-a434d9ff2a48"/>
+</head-connection>
+<tail-connection>
+<ref refid="4ece1b4a-5b0c-11f0-ab58-a434d9ff2a48"/>
+</tail-connection>
+</C4DependencyItem>
+<C4Dependency id="bb96b816-5b17-11f0-b15c-a434d9ff2a48">
+<client>
+<ref refid="4ecd581b-5b0c-11f0-a85c-a434d9ff2a48"/>
+</client>
+<name>
+<val>Send the sensors signal </val>
+</name>
+<presentation>
+<reflist>
+<ref refid="bad8b350-5b17-11f0-bbc4-a434d9ff2a48"/>
+</reflist>
+</presentation>
+<supplier>
+<ref refid="231e2b58-358e-11f0-983d-a434d9ff2a48"/>
+</supplier>
+</C4Dependency>
+<C4DependencyItem id="0415e972-5b18-11f0-9619-a434d9ff2a48">
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<horizontal>
+<val>0</val>
+</horizontal>
+<orthogonal>
+<val>0</val>
+</orthogonal>
+<subject>
+<ref refid="046d9469-5b18-11f0-99a3-a434d9ff2a48"/>
+</subject>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 704.4820647764271, 118.16066811449721)</val>
+</matrix>
+<points>
+<val>[(-70.74626865671638, 79.70149253731341), (84.11722976824967, 79.70149253731341), (84.11722976824956, 40.33127010589081)]</val>
+</points>
+<head-connection>
+<ref refid="4ece1b4a-5b0c-11f0-ab58-a434d9ff2a48"/>
+</head-connection>
+<tail-connection>
+<ref refid="87c45ff0-4851-11f0-800a-a434d9ff2a48"/>
+</tail-connection>
+</C4DependencyItem>
+<C4Dependency id="046d9469-5b18-11f0-99a3-a434d9ff2a48">
+<client>
+<ref refid="87c3ed35-4851-11f0-8ca8-a434d9ff2a48"/>
+</client>
+<name>
+<val>Reflect light of the specific wavelength</val>
+</name>
+<presentation>
+<reflist>
+<ref refid="0415e972-5b18-11f0-9619-a434d9ff2a48"/>
+</reflist>
+</presentation>
+<supplier>
+<ref refid="4ecd581b-5b0c-11f0-a85c-a434d9ff2a48"/>
+</supplier>
+</C4Dependency>
+</gaphor>

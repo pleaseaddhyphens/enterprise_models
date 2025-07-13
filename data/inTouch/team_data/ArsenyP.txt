@@ -1,0 +1,79 @@
+Component,Change
+PPG sensors,1
+IMU,1
+MCU,1
+Memory,1
+PCB,1
+Bluetooth,1
+GPS,1
+Speaker,1
+Microphone,1
+PMIC,1
+Battery,1
+Software application,1
+PPG,2
+IMU,2
+Speaker,2
+Microphone,2
+Aluminium housing,2
+Watch strap,2 
+Side Buttons,2
+PCB,2
+PCB,3
+PMIC,3
+Battery,3
+Wireless charger,3
+Aluminium housing,3
+Software application,4
+Data storage and processing server,4
+PPG,4 
+IMU,4
+PCB,4
+MCU,4
+Memory,4
+Microphone,4
+Aluminium housing,4
+PMIC,4
+GPS,5
+PCB,5
+Aluminium housing,5
+Watch strap,5
+Battery,5
+Wireless charger,5 
+Software application,6
+Data storage and processing server,6
+MCU,6
+Memory,6
+Bluetooth,6
+PCB,6
+Aluminium housing,6
+Watch strap,6
+PMIC,6
+Battery,6
+PCB,7
+Bluetooth,7
+GPS,7
+MCU,7
+Memory,7
+Aluminium housing,7 
+Buttons,7
+PMIC,7
+Battery,7
+Software application,7
+PCB,8
+MCU,8
+Microphone,8
+Aluminium housing,8
+PMIC,8 
+BAttery,8
+IMU,8
+Software application,8
+PCB,9
+Aluminium housing,9
+Wireless charger,9
+
+
+
+
+
+
