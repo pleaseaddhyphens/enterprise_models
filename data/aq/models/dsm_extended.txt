@@ -1,0 +1,25 @@
+1. Detection algorithm is connected with Classification algorithm and Microcomputer
+2. Classification algorithm is connected with Detection algorithm
+3. Storage is connected with classification algorithm
+4. Conveyor belt is connected with Structure, Power unit
+5. Lighting module is connected with Microcomputer, Power units, Structure
+6. Structure is connected with Camera, Conveyor belt, Lighting module, Microcomputer, Control panel, Power subsystem
+7. Camera module is connected with Structure, Microcomputer
+8. Microcomputer is connected with Camera, Lighting module, Control panel, Power subsystem, Detection algorithm
+9. Control panel is connected with Structure, Microcomputer
+10. Power unit, is connected with Lighting, Conveyor belt, Microcomputer
+11. Structure is connected with Conveyor belt, Lighting module, Camera module, Microcomputer, Control panel,Power subsystem
+
+Control panel: Provide interface to interact with the system  
+Conveyor belt: Move fruits through the machine to collect images  
+Camera module: (No description provided)  
+Microcomputer: Handle video. Send data and receive the analysis from server. Visualize the results. Control hardware sub-systems  
+Detection algorithm: Identify fruits at each frame. Track ids for each unique fruit.  
+Classification algorithm: Assigns probability of class "fresh" for the fruits images given  
+Storage: (No description provided)  
+Structure: (No description provided)  
+Power unit: Distributes power across the system  
+Wifi: (No description provided)  
+Electric grid: (No description provided)  
+Lighting module: Provides ambient light for fruit processing zone. It harmonize quality and content of images captured by the camera module.  
+Image processing server: Cloud that provide computational resources  

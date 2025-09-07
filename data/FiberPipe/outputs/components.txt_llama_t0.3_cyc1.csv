@@ -1,0 +1,46 @@
+Component,Reasoning,Change,Cycle
+Optical fiber,Doubling the number of sensors would require additional optical fibers to connect the new sensors to the system.,1,1
+Fiber Bragg Grating (FBG) sensors,"The number of FBG sensors would increase, which would directly impact the system.",1,1
+Optical Circulator,"With more sensors, the optical circulator might need to be modified to handle the increased number of signals.",1,1
+Superluminescent diode (SLD),The SLD might need to be modified to provide sufficient power for the increased number of sensors.,1,1
+Biased photodiodes,More photodiodes might be needed to detect the signals from the increased number of sensors.,1,1
+Transimpedance amplifiers (TIA),The TIA might need to be modified to handle the increased number of signals from the photodiodes.,1,1
+ADC,The analog-to-digital converter might need to be modified to handle the increased amount of data from the additional sensors.,1,1
+Signal Processing Unit,The signal processing unit would need to be modified to handle the increased amount of data and perform the necessary calculations.,1,1
+Stress Analysis Algorithm,The algorithm would need to be modified to account for the data from the additional sensors.,1,1
+Biased photodiodes,Faster response times required for accurate data capture.,2,1
+Transimpedance amplifiers (TIA),Need to handle higher frequency signals with potential adjustments in gain or bandwidth.,2,1
+ADC,Must operate at a higher sampling rate to accommodate the 1 kHz polling frequency.,2,1
+Signal Processing Unit,"Needs to process data at a higher rate, potentially requiring improvements in processing power or algorithm efficiency.",2,1
+Microcontroller unit,Must handle increased data throughput and potentially faster decision-making based on sensor data.,2,1
+Superluminescent diode (SLD),May need adjustment to ensure stable output at the increased polling frequency.,2,1
+Biased photodiodes,The operating temperature range affects the photodiodes' sensitivity and performance.,3,1
+Transimpedance amplifiers (TIA),The temperature range expansion may require adjustments to the amplifiers' gain and noise tolerance.,3,1
+Superluminescent diode (SLD),The SLD's output power and spectral characteristics may be affected by the wider temperature range.,3,1
+Optical fiber,"The fiber's transmission properties, such as attenuation and dispersion, may vary with temperature.",3,1
+Fiber Bragg Grating (FBG) sensors,The FBG sensors' sensitivity and accuracy may be impacted by the temperature range expansion.,3,1
+Microcontroller unit,The microcontroller's performance and reliability may be affected by the wider temperature range.,3,1
+Optical Circulator,The circulator's isolation and insertion loss may be affected by temperature changes.,3,1
+Fiber Bragg Grating (FBG) sensors,The increased accuracy requirement may demand more precise FBG sensors or a higher density of sensors to achieve the desired resolution.,4,1
+Biased photodiodes,"To achieve higher accuracy, the photodiodes may need to be more sensitive or have a higher signal-to-noise ratio.",4,1
+Transimpedance amplifiers (TIA),The amplifiers may need to be adjusted or replaced to accommodate the increased sensitivity required for higher accuracy measurements.,4,1
+ADC,A higher resolution ADC may be necessary to digitize the signals with sufficient precision to meet the new accuracy requirement.,4,1
+Signal Processing Unit,The algorithms and processing power may need to be enhanced to handle the increased data resolution and to perform more precise calculations.,4,1
+Stress Analysis Algorithm,The algorithm will likely need to be refined or updated to interpret the more precise data from the FBG sensors accurately.,4,1
+Optical fiber,Signal attenuation and strength over long distances require modification.,5,1
+Superluminescent diode (SLD),Power output adjustment needed for signal strength over increased distance.,5,1
+Optical Circulator,"Performance impacted by increased distance, potentially requiring adjustments.",5,1
+Biased photodiodes,Sensitivity adjustment needed to compensate for signal loss.,5,1
+Transimpedance amplifiers (TIA),Adjustment or replacement needed to amplify weaker signal.,5,1
+Fiber Bragg Grating (FBG) sensors,Interrogation system's ability to read sensors accurately over long distances might require calibration adjustments.,5,1
+Signal Processing Unit,Must be modified to handle high noise or unstable signal conditions.,6,1
+Microcontroller unit,May need to be updated to accommodate changes in the polling algorithms.,6,1
+ADC,May require adjustments to its settings or configuration to properly handle high noise or unstable signal conditions.,6,1
+Biased photodiodes,May need to be adjusted or configured differently to optimize their performance under high noise or unstable signal conditions.,6,1
+Transimpedance amplifiers (TIA),May require modifications to their gain settings or configuration to properly handle high noise or unstable signal conditions.,6,1
+Fiber Bragg Grating (FBG) sensors,"The measurement parameter changes from displacement to temperature, requiring recalibration or replacement for accurate temperature measurement.",7,1
+Stress Analysis Algorithm,The algorithm needs to be modified or replaced to interpret temperature data instead of displacement data.,7,1
+Signal Processing Unit,The unit needs to be adjusted to handle the new type of data (temperature) and to work with the modified or new algorithm.,7,1
+Microcontroller unit,"The microcontroller unit may need to be updated to work with the new signal processing unit and algorithm, and to handle the new data type.",7,1
+Optical fiber,The usage or type of optical fiber might need to be reconsidered for optimal temperature measurement.,7,1
+

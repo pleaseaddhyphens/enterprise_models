@@ -1,0 +1,11 @@
+Control panel
+Conveyor belt
+Camera module
+Microcomputer
+Detection algorithm     
+Classification algorithm
+Storage
+Structure
+Power unit
+Lighting module        
+Image processing server

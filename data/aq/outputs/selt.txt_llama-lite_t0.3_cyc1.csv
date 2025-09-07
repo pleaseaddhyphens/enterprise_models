@@ -1,0 +1,41 @@
+Component,Reasoning,Change,Cycle
+Classification algorithm,"The change in accuracy affects the classification algorithm, as it needs to be retrained or updated to achieve the new accuracy level of 90%.",1,1
+Detection algorithm,The detection algorithm may need to be adjusted to work in conjunction with the updated classification algorithm.,1,1
+Microcomputer,The microcomputer may need to be updated to handle the new accuracy level and any changes to the classification or detection algorithms.,1,1
+Storage,The storage component may need to be updated to store the new accuracy level and any changes to the classification or detection algorithms.,1,1
+Image processing server,The image processing server may need to be updated to handle the new accuracy level and any changes to the classification or detection algorithms.,1,1
+Conveyor belt,"Increased processing speed requires the conveyor belt to move fruits at a faster rate, potentially necessitating modifications to its design or operation.",2,1
+Camera module,"With more fruits passing through the system, the camera module may need to capture images at a faster rate, potentially requiring adjustments to its settings or hardware.",2,1
+Microcomputer,"The increased processing speed may require the microcomputer to handle more data and perform calculations at a faster rate, which could necessitate upgrades to its processing power or memory.",2,1
+Detection algorithm,The algorithm may need to be modified to handle the increased volume of data and process it more quickly.,2,1
+Classification algorithm,"Similar to the detection algorithm, the classification algorithm may require modifications to handle the increased volume of data and process it more quickly.",2,1
+Power unit,"The increased processing speed may require more power to operate the system, which could necessitate upgrades to the power unit or its connection to the distribution center.",2,1
+Detection algorithm,The detection algorithm must be modified to identify tomatoes instead of tangerines.,3,1
+Classification algorithm,"The classification algorithm must be updated to assign probabilities of class ""fresh"" for tomato images instead of tangerine images.",3,1
+Camera module,The camera module's lighting settings may need to be adjusted to capture high-quality images of tomatoes.,3,1
+Microcomputer,The microcomputer's software may need to be updated to accommodate the new fruit type (tomatoes) and the updated detection and classification algorithms.,3,1
+Storage,The storage component may need to be updated to store images of tomatoes instead of tangerines.,3,1
+Power unit,"The power consumption requirement has been reduced from 300 W to 150 W, which directly affects the Power unit component as it is responsible for distributing power across the system.",4,1
+Camera module,"The change requires a higher resolution camera (20 MP instead of 10 MP), which will directly impact the camera module's hardware and software components.",5,1
+Lighting module,The change may require adjustments to the lighting module to ensure that the higher resolution images are not over- or under-exposed.,5,1
+Microcomputer,The change may require modifications to the microcomputer's hardware and software to handle the increased data processing requirements of higher resolution images.,5,1
+Detection algorithm,The change may require modifications to the detection algorithm to handle the increased resolution and detail of the images.,5,1
+Classification algorithm,The change may require modifications to the classification algorithm to handle the increased resolution and detail of the images.,5,1
+Storage,The change may require modifications to the storage system to handle the increased storage requirements of higher resolution images.,5,1
+Conveyor belt,"The change requires a modification to the existing conveyor belt component, as it needs to be replaced with a roller conveyor.",6,1
+Camera module,The change may require adjustments to the camera module's position or angle to accommodate the new roller conveyor.,6,1
+Lighting module,The change may require adjustments to the lighting module's position or angle to accommodate the new roller conveyor.,6,1
+Microcomputer,The change may require software updates or adjustments to the microcomputer's control system to accommodate the new roller conveyor.,6,1
+Detection algorithm,The change may affect the detection algorithm's parameters or logic to accommodate the new roller conveyor.,6,1
+Classification algorithm,The change may affect the classification algorithm's parameters or logic to accommodate the new roller conveyor.,6,1
+Camera module,The change requires the use of 3 camera modules instead of 1.,7,1
+Microcomputer,The microcomputer needs to process the increased amount of image data from 3 camera modules.,7,1
+Classification algorithm,The classification algorithm needs to process the increased amount of image data from 3 camera modules.,7,1
+Storage,The storage needs to store the increased amount of image data from 3 camera modules.,7,1
+Lighting module,The lighting module needs to provide sufficient lighting for 3 camera modules.,7,1
+Conveyor belt,The conveyor belt needs to accommodate 3 camera modules.,7,1
+Classification algorithm,"The classification algorithm is being updated, so it is directly impacted by the change.",8,1
+Detection algorithm,"The detection algorithm relies on the classification algorithm, so it will need to be modified to accommodate the change.",8,1
+Storage,"The storage component stores video with bounding boxes, IDs, and fresh probabilities, so it will need to be modified to store only the grade of each fruit.",8,1
+Microcomputer,"The microcomputer receives the image from the camera module and sends it to the classification algorithm, so it will need to be modified to receive and process only the grade of each fruit.",8,1
+Camera module,"The camera module captures images of the fruits, which are then sent to the microcomputer for processing, so it will need to be modified to accommodate the change in the classification algorithm's output.",8,1

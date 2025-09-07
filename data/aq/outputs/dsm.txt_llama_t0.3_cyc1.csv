@@ -1,0 +1,39 @@
+Component,Reasoning,Change,Cycle
+Detection algorithm,The change in accuracy directly affects the detection algorithm as it needs to be modified to achieve the new accuracy level.,1,1
+Classification algorithm,"The classification algorithm is connected with the detection algorithm and storage, so a change in detection accuracy may require adjustments in the classification algorithm to maintain or improve overall system performance.",1,1
+Microcomputer,Changes in the detection algorithm's accuracy may require updates or modifications to the microcomputer's processing or decision-making logic.,1,1
+Camera module,"Improved accuracy might require better image quality or different camera settings, indirectly affecting the camera module.",1,1
+Storage,Changes in how fruits are classified due to increased accuracy might affect how data is stored or what data is stored.,1,1
+Detection algorithm,Needs to process 3 times more data in the same time frame.,2,1
+Classification algorithm,Must classify 3 times more fruit in the same time frame.,2,1
+Microcomputer,Needs to handle increased data processing from Detection algorithm and Classification algorithm.,2,1
+Camera module,May need to capture images of 3 times more fruit in the same time frame.,2,1
+Conveyor belt,Must move 3 times more trays in the same time frame.,2,1
+Power unit,May need to provide more power to handle increased load from Conveyor belt and other components.,2,1
+Lighting module,May need to provide adequate lighting for 3 times more fruit in the same time frame.,2,1
+Detection algorithm,May need adjustment for tomato defect detection.,3,1
+Classification algorithm,Needs modification for tomato quality classification.,3,1
+Camera module,Might require configuration adjustments for tomato image capture.,3,1
+Lighting module,Lighting conditions may need adjustment for optimal tomato inspection.,3,1
+Microcomputer,Requires software updates for new tomato analysis algorithms.,3,1
+Power unit,The reduction in power consumption directly affects the Power unit as it needs to be modified to meet the new power requirement.,4,1
+Microcomputer,"Since the Microcomputer is connected to the Power unit, it may need to be adjusted or modified to operate efficiently with the reduced power consumption.",4,1
+Lighting module,"As the Lighting module is connected to the Power unit, it could be impacted by the change in power consumption, potentially requiring adjustments to its operation or design.",4,1
+Conveyor belt,"The Conveyor belt, being connected to the Power unit, might need modifications to its power usage or operation to comply with the reduced power consumption requirement.",4,1
+Control panel,"As it is connected to the Microcomputer and indirectly to the Power unit through the Structure, it might require updates to reflect or manage the new power consumption settings.",4,1
+Camera module,Needs upgrade for higher image quality.,5,1
+Microcomputer,Must process higher quality images.,5,1
+Storage,Requires more space for larger image files.,5,1
+Detection algorithm,May need adjustment for new image quality.,5,1
+Classification algorithm,Potentially needs modification for optimal performance with higher quality images.,5,1
+Conveyor belt,Replacement with a roller conveyor directly affects it.,6,1
+Structure,Modifications likely needed to accommodate the new roller conveyor.,6,1
+Power unit,Power supply or requirements might change with the new conveyor system.,6,1
+Camera module,The number of camera modules is changing from 1 to 3 to capture images from multiple angles.,7,1
+Structure,The structure needs to accommodate the additional camera modules.,7,1
+Microcomputer,The microcomputer needs to process images from multiple camera modules.,7,1
+Power unit,"Additional camera modules may require more power, affecting the power unit.",7,1
+Classification algorithm,The update changes its output to only grade each fruit.,8,1
+Detection algorithm,"Connected with Classification algorithm, may need adjustment due to changed output.",8,1
+Storage,"Connected with classification algorithm, may need to store different data due to output change.",8,1
+Microcomputer,"Connected with Classification algorithm, may need to process different data due to output change.",8,1

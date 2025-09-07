@@ -1,0 +1,19 @@
+Component,Change
+Classification algorithm,1
+Detection algorithm,1
+Camera module,1
+Camera module,2
+Detection algorithm,2
+Classification algorithm,3
+Detection algorithm,3
+power unit,4
+Camera module,5
+Microcomputer,5
+Conveyor belt,6
+power unit,6
+power unit,6
+Camera module,7
+Microcomputer,7
+Classification algorithm,7
+Detection algorithm,7
+Classification algorithm,8

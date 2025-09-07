@@ -1,0 +1,62 @@
+Component,Reasoning,Change,Cycle
+Battery,"The battery life needs to be increased, which may require a more efficient battery or changes to the battery's chemistry.",1,1
+PMIC,The PMIC may need to be modified to optimize power consumption and support the longer battery life.,1,1
+MCU,The MCU may need to be reconfigured or updated to manage power consumption more efficiently and support the extended battery life.,1,1
+Wireless charger,The wireless charger may need to be modified to support faster or more efficient charging to accommodate the longer battery life.,1,1
+PCB,"The PCB design may need to be revised to accommodate changes to the battery, PMIC, or other components.",1,1
+Aluminium housing,The housing needs to be sealed or designed to prevent water ingress up to 50 meters.,2,1
+Watch strap,The strap may need to be made of water-resistant materials or designed to prevent water from entering the device.,2,1
+Side buttons,The buttons need to be sealed or designed to prevent water ingress.,2,1
+Speaker,The speaker needs to be sealed or designed to prevent water ingress.,2,1
+Microphone,The microphone needs to be sealed or designed to prevent water ingress.,2,1
+PCB,The PCB needs to be coated or sealed to prevent water damage.,2,1
+PMIC,The PMIC needs to be sealed or designed to prevent water ingress.,2,1
+Battery,The battery compartment needs to be sealed to prevent water ingress.,2,1
+Wireless charger,The wireless charger needs to be designed to work with a water-resistant device.,2,1
+Battery,The battery's capacity or type might need to be adjusted to accommodate the faster charging requirement.,3,1
+Wireless charger,The wireless charger's power output or charging protocol might need to be modified to achieve the faster charging time.,3,1
+PMIC,The PMIC might need to be updated to manage the increased power flow during faster charging.,3,1
+MCU,The MCU might need to be reprogrammed to adjust the charging algorithm for the faster charging time.,3,1
+PPG sensor,Because it collects physiological data that now needs to be processed on the smartphone.,4,1
+IMU,"As it also collects data that may be considered physiological or related to the user's state, its processing might need to be adjusted.",4,1
+MCU,"Since it currently processes data from sensors, it might need modification to send raw data to the smartphone instead.",4,1
+Bluetooth,This component will be directly impacted because it will be responsible for transmitting the raw physiological data from the wearable device to the smartphone for processing.,4,1
+Memory,The amount of memory needed on the device might decrease since processing and storage of processed data will be done on the smartphone.,4,1
+Data storage and processing server,"This component might see a reduction in the type of data it processes or stores, as physiological data processing shifts to the smartphone.",4,1
+Aluminium housing,The weight reduction requirement may necessitate a redesign or material change for the housing to achieve the desired weight.,5,1
+Watch strap,A lighter watch strap might be needed to contribute to the overall weight reduction.,5,1
+Battery,A smaller or lighter battery could be required to reduce the device's weight.,5,1
+PCB,The printed circuit board might need to be redesigned or miniaturized to reduce its weight contribution.,5,1
+PMIC,The power management integrated circuit could potentially be affected if the power requirements or battery size change.,5,1
+Speaker,A lighter speaker or a redesign of the speaker component might be necessary.,5,1
+Microphone,"Similar to the speaker, a lighter microphone could be needed.",5,1
+Wireless charger,"Although less directly related, the wireless charger's design might need adjustment if the device's size or material changes significantly.",5,1
+Side buttons,These could be redesigned or made lighter to contribute to the weight reduction.,5,1
+Memory,"Depending on the design, reducing the device's size or weight might influence the choice of memory components.",5,1
+Bluetooth,"While the Bluetooth component itself might not change, its placement or the antenna design could be affected by changes in the device's size or material.",5,1
+GPS,"Similar to Bluetooth, the GPS component or its antenna might need adjustment due to device size or material changes.",5,1
+IMU,The inertial measurement unit could be affected if the device's size or weight distribution changes significantly.,5,1
+PPG sensor,The photoplethysmography sensor might require adjustment or a different design to fit within the new weight constraint.,5,1
+MCU,"The microcontroller unit could be impacted if the device's overall design, including power consumption or size, changes.",5,1
+PCB,Needs modification for EDA sensor accommodation.,6,1
+MCU,Requires update or reprogramming for EDA sensor data handling.,6,1
+Memory,Might need additional storage for EDA sensor data.,6,1
+PMIC,Could require adjustments for efficient EDA sensor power management.,6,1
+Battery,"Might be impacted, potentially requiring more power or efficiency.",6,1
+Aluminium housing,Physical design might need adjustment for EDA sensor fit.,6,1
+PCB,"The OLED display will need to be connected to the PCB, requiring modifications.",7,1
+MCU,"The microcontroller will need to communicate with the OLED display, requiring software and possibly hardware modifications.",7,1
+Memory,"Additional memory may be required to store display data, fonts, or graphics for the OLED display.",7,1
+PMIC,The power management integrated circuit may need adjustments to handle the OLED display's power requirements.,7,1
+Battery,The battery's capacity might need to be increased to accommodate the additional power consumption of the OLED display.,7,1
+Aluminium housing,"The housing may need modifications to accommodate the OLED display, potentially changing its size or shape.",7,1
+PCB,The Haptic feedback motor needs to be connected to the PCB to function.,8,1
+PMIC,The Power Management Integrated Circuit will need to manage the power supply to the new motor.,8,1
+Battery,"The addition of a motor will increase power consumption, affecting battery life.",8,1
+Aluminium housing,The housing may need to be modified to accommodate the new motor.,8,1
+MCU,The Microcontroller Unit will need to be programmed to control the Haptic feedback motor.,8,1
+Wireless charger,"Depending on the power requirements of the motor, the wireless charger might need to be adjusted to ensure sufficient charging power.",8,1
+Wireless charger,Will be replaced or removed due to the introduction of a wired charging solution.,9,1
+Battery,Might require modification to its charging circuitry to accommodate wired charging.,9,1
+PMIC,May need adjustments to efficiently handle the new wired charging method.,9,1
+PCB,Could require design alterations to accommodate the wired charging connector and associated circuitry changes.,9,1

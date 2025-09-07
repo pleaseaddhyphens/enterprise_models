@@ -1,0 +1,426 @@
+Component,Reasoning,Change,Cycle
+Detection algorithm,"The detection algorithm is directly responsible for evaluating the quality of the fruits, and a change in its accuracy will directly impact its performance.",1,1
+Classification algorithm,The classification algorithm relies on the output of the detection algorithm to classify the fruits as good or bad. A change in accuracy will affect the classification algorithm's performance.,1,1
+Image processing server,The image processing server is responsible for processing the images captured by the camera module and sending them to the detection algorithm. A change in accuracy may require adjustments to the image processing settings or algorithms.,1,1
+Camera module,"The camera module captures images of the fruits, which are then processed by the image processing server and sent to the detection algorithm. A change in accuracy may require adjustments to the camera settings or resolution.",1,1
+Microcomputer,The microcomputer is responsible for executing the detection and classification algorithms. A change in accuracy may require software updates or modifications to the microcomputer's firmware.,1,1
+Conveyor belt,"The increased processing speed requires the conveyor belt to transport fruits at a faster rate, which may necessitate modifications to its design, speed, or capacity.",2,1
+Microcomputer,"The microcomputer will need to process images and data at a faster rate to keep up with the increased processing speed, potentially requiring upgrades to its processing power or memory.",2,1
+Detection algorithm,"The detection algorithm will need to be optimized to process images and detect defects at a faster rate, which may require modifications to its logic or parameters.",2,1
+Classification algorithm,"Similar to the detection algorithm, the classification algorithm will need to be optimized to process images and classify fruits at a faster rate, potentially requiring modifications to its logic or parameters.",2,1
+Image processing server,"The image processing server will need to handle a higher volume of images and data, potentially requiring upgrades to its processing power, memory, or storage capacity.",2,1
+Storage,"The storage component will need to store a larger volume of images and data, potentially requiring upgrades to its capacity or storage medium.",2,1
+Power unit,The power unit may need to provide more power to support the increased processing speed and data processing requirements.,2,1
+Lighting module,The lighting module may need to be adjusted to provide sufficient lighting for the camera module to capture high-quality images at the increased processing speed.,2,1
+Camera module,"The camera module needs to be adjusted to capture images of tomatoes, which may have different shapes, sizes, and colors compared to tangerines.",3,1
+Detection algorithm,"The detection algorithm needs to be updated to recognize and identify tomatoes, which may have different characteristics than tangerines.",3,1
+Classification algorithm,"The classification algorithm needs to be modified to classify tomatoes based on their quality, which may differ from the classification criteria for tangerines.",3,1
+Image processing server,"The image processing server may need to be updated to handle the new image data from tomatoes, which may have different characteristics than tangerines.",3,1
+Power unit,The power unit's design and specifications must be modified to meet the reduced power consumption requirement of 150 W.,4,1
+Lighting module,The lighting module's power consumption and design may need to be adjusted to meet the reduced power requirement.,4,1
+Microcomputer,The microcomputer's power consumption and design may need to be modified to accommodate the reduced power requirement.,4,1
+Image processing server,The image processing server's power consumption and design may need to be modified to accommodate the reduced power requirement.,4,1
+Camera module,"The change requires a higher-resolution sensor, which directly impacts the camera module's hardware.",5,1
+Detection algorithm,The increased image quality may require adjustments to the detection algorithm to accurately process the higher-resolution images.,5,1
+Image processing server,The server may need to be upgraded to handle the increased processing requirements of higher-resolution images.,5,1
+Microcomputer,The microcomputer may need to be upgraded to handle the increased processing requirements of higher-resolution images.,5,1
+Conveyor belt,"The change requires a new type of conveyor, which means the existing belt conveyor must be replaced or modified.",6,1
+Control panel,"The control panel may need to be modified to accommodate the new roller conveyor, such as adjusting the speed or direction controls.",6,1
+Microcomputer,The microcomputer may need to be updated with new software or firmware to communicate with the roller conveyor and adjust the detection algorithm accordingly.,6,1
+Detection algorithm,The detection algorithm may need to be modified to account for the different movement and speed of the roller conveyor.,6,1
+Classification algorithm,"Similar to the detection algorithm, the classification algorithm may need to be updated to accommodate the changes in the conveyor system.",6,1
+Image processing server,The image processing server may need to be updated to handle the new conveyor system and adjust the image processing accordingly.,6,1
+Camera module,Direct replacement with three camera modules.,7,1
+Microcomputer,Increased data processing requirements.,7,1
+Detection algorithm,Necessary update for processing multiple images.,7,1
+Classification algorithm,Necessary update for handling increased data.,7,1
+Image processing server,Increased data processing requirements.,7,1
+Conveyor belt,Necessary adjustment for efficient fruit movement.,7,1
+Structure,Necessary modification for accommodating additional camera modules.,7,1
+Classification algorithm,The classification algorithm is being updated.,8,1
+Detection algorithm,The detection algorithm may need to be updated to work with the new classification algorithm.,8,1
+Image processing server,The image processing server may need to be updated to handle the new output format from the classification algorithm.,8,1
+Microcomputer,The microcomputer may need to be updated to handle the new output format from the classification algorithm and to communicate with the updated classification algorithm.,8,1
+Storage,The storage may need to be updated to handle the new output format from the classification algorithm.,8,1
+Detection algorithm,"The detection algorithm is responsible for identifying potential defects or issues with the fruit, and a change in accuracy from 80% to 90% implies that the algorithm must be modified to improve its detection capabilities.",1,2
+Classification algorithm,The classification algorithm is responsible for categorizing the fruit as either good or bad quality based on the detection results. A change in accuracy from 80% to 90% implies that the classification algorithm must be modified to improve its accuracy in categorizing the fruit.,1,2
+Image processing server,The image processing server is responsible for processing the images captured by the camera module and sending them to the detection and classification algorithms. A change in accuracy from 80% to 90% implies that the image processing server must be modified to improve the quality of the images processed.,1,2
+Camera module,"The camera module is responsible for capturing images of the fruit, and a change in accuracy from 80% to 90% implies that the camera module must be modified to improve the quality of the images captured.",1,2
+Microcomputer,"The microcomputer is responsible for executing the detection and classification algorithms, and a change in accuracy from 80% to 90% implies that the microcomputer must be modified to improve its processing capabilities.",1,2
+Conveyor belt,"The conveyor belt must be able to handle the increased volume of fruits, which requires a faster speed to maintain the processing rate.",2,2
+Camera module,The camera module must capture images of the fruits at a faster rate to keep up with the processing speed.,2,2
+Detection algorithm,The detection algorithm must process images at a faster rate to maintain the processing speed.,2,2
+Classification algorithm,The classification algorithm must process results at a faster rate to maintain the processing speed.,2,2
+Image processing server,The image processing server must handle the increased volume of images at a faster rate.,2,2
+Camera module,"The camera module will need to be adjusted to capture images of tomatoes, which may have different shapes, sizes, and colors compared to tangerines.",3,2
+Detection algorithm,"The detection algorithm will need to be updated to recognize and detect defects in tomatoes, which may have different characteristics than tangerines.",3,2
+Classification algorithm,"The classification algorithm will need to be updated to classify tomatoes based on their quality, which may have different criteria than tangerines.",3,2
+Image processing server,"The image processing server may need to be updated to handle the new image data from tomatoes, which may have different characteristics than tangerines.",3,2
+Lighting module,"The lighting module may need to be adjusted to provide optimal lighting for capturing images of tomatoes, which may have different reflectance properties than tangerines.",3,2
+Power unit,"The power unit is directly responsible for providing power to the system, and a reduction in power consumption requirement from 300 W to 150 W implies that the power unit must be modified to meet this new requirement.",4,2
+Lighting module,"The lighting module is likely to be affected by the reduced power consumption requirement, as it may need to be redesigned or modified to operate within the new power constraints.",4,2
+Microcomputer,"The microcomputer may need to be modified to operate within the reduced power consumption requirement, potentially affecting its processing power or efficiency.",4,2
+Image processing server,"The image processing server may need to be modified to operate within the reduced power consumption requirement, potentially affecting its processing power or efficiency.",4,2
+Camera module,The camera module's sensor resolution needs to be increased from 10 MP to 20 MP to meet the new image quality requirements.,5,2
+Detection algorithm,The detection algorithm may need to be modified or re-trained to take advantage of the higher image quality provided by the 20 MP sensor.,5,2
+Classification algorithm,The classification algorithm may also need to be modified or re-trained to handle the increased image quality.,5,2
+Image processing server,The image processing server may require additional processing power or memory to handle the increased image quality and data volume from the 20 MP sensor.,5,2
+Conveyor belt,"Replaced with a roller conveyor, requiring modification to the existing component.",6,2
+Microcomputer,May need to be reprogrammed or modified to accommodate the new conveyor type.,6,2
+Detection algorithm,May need to be updated to account for differences in fruit movement and positioning on the roller conveyor.,6,2
+Classification algorithm,May require modifications to ensure accurate fruit classification on the roller conveyor.,6,2
+Image processing server,May need to be reconfigured or updated to handle the new conveyor type and potential changes in fruit movement and positioning.,6,2
+Lighting module,May need to be adjusted or repositioned to ensure optimal lighting for the camera module on the roller conveyor.,6,2
+Camera module,Requires installation of three camera modules instead of one.,7,2
+Conveyor belt,May need to be modified to accommodate the additional camera modules.,7,2
+Microcomputer,May require additional processing power to handle increased image data.,7,2
+Detection algorithm,May need to be modified to process images from multiple angles.,7,2
+Classification algorithm,May require modifications to handle the increased complexity of images.,7,2
+Image processing server,May need to be upgraded to handle the increased load of image data.,7,2
+Lighting module,May need to be adjusted to ensure consistent lighting for all three camera modules.,7,2
+Structure,May need to be modified to accommodate the additional camera modules.,7,2
+Classification algorithm,"The classification algorithm is being updated, so it is directly impacted by the change.",8,2
+Detection algorithm,The detection algorithm may need to be modified to work with the updated classification algorithm.,8,2
+Image processing server,The image processing server may need to be updated to handle the new output format from the classification algorithm.,8,2
+Microcomputer,The microcomputer may need to be updated to handle the new output format from the classification algorithm and to run the updated classification algorithm.,8,2
+Storage,The storage system may need to be updated to handle the new output format from the classification algorithm.,8,2
+Detection algorithm,"The detection algorithm is responsible for identifying potential defects in the fruit, such as fungus or mechanical damage. An increase in accuracy from 80% to 90% requires modifications to the detection algorithm to improve its sensitivity and specificity.",1,3
+Classification algorithm,The classification algorithm takes the output from the detection algorithm and classifies the fruit as either good or bad. An increase in accuracy from 80% to 90% requires modifications to the classification algorithm to improve its ability to correctly classify fruits with defects.,1,3
+Microcomputer,The microcomputer is responsible for processing the data from the detection and classification algorithms. An increase in accuracy from 80% to 90% may require modifications to the microcomputer's processing power or software to handle the increased complexity of the algorithms.,1,3
+Image processing server,The image processing server is responsible for processing the images captured by the camera module. An increase in accuracy from 80% to 90% may require modifications to the image processing server to improve the quality of the images or to handle the increased complexity of the algorithms.,1,3
+Conveyor belt,The increased processing speed requires a faster conveyor belt to transport the fruits from one tray to another within the 30-second time frame.,2,3
+Microcomputer,The detection and classification algorithms will need to process the images from the camera module at a faster rate to keep up with the increased processing speed.,2,3
+Detection algorithm,"The detection algorithm will need to be optimized to quickly identify potential issues with the fruits, such as fungus or mechanical damage.",2,3
+Classification algorithm,"The classification algorithm will need to be optimized to quickly classify the fruits as either good or bad, based on the detection algorithm's output.",2,3
+Camera module,The camera module will need to capture images at a faster rate to keep up with the increased processing speed.,2,3
+Image processing server,The image processing server will need to process the images from the camera module at a faster rate to keep up with the increased processing speed.,2,3
+Camera module,"The camera module needs to be adjusted to capture images of tomatoes, which may have different shapes, sizes, and colors compared to tangerines.",3,3
+Detection algorithm,"The detection algorithm needs to be updated to recognize and detect defects in tomatoes, which may have different characteristics than tangerines.",3,3
+Classification algorithm,"The classification algorithm needs to be updated to classify tomatoes based on their quality, which may have different criteria than tangerines.",3,3
+Image processing server,"The image processing server needs to be updated to process images of tomatoes, which may require different image processing techniques than tangerines.",3,3
+Power unit,"The power consumption requirement has been reduced from 300 W to 150 W, which directly affects the power unit's design and specifications.",4,3
+Control panel,The reduced power consumption may require modifications to the control panel's design to accommodate the new power requirements.,4,3
+Lighting module,"The reduced power consumption may impact the lighting module's design, as it may need to be adjusted to operate within the new power constraints.",4,3
+Microcomputer,The reduced power consumption may require the microcomputer to be designed or configured to operate within the new power constraints.,4,3
+Camera module,The camera module's sensor resolution needs to be upgraded from 10 MP to 20 MP to meet the increased minimum required image quality.,5,3
+Detection algorithm,The detection algorithm may need to be modified or re-trained to handle the higher resolution images from the 20 MP sensor.,5,3
+Image processing server,The image processing server may require additional processing power or memory to handle the increased data volume and complexity from the higher resolution images.,5,3
+Lighting module,The lighting module may need to be adjusted or upgraded to ensure that the increased image quality is not compromised by inadequate lighting.,5,3
+Microcomputer,The microcomputer may need to be upgraded to handle the increased data processing requirements from the higher resolution images.,5,3
+Conveyor belt,"The conveyor belt will be replaced with a roller conveyor, which requires a different design and installation.",6,3
+Detection algorithm,The detection algorithm may need to be adjusted to account for the different movement and speed of the roller conveyor.,6,3
+Image processing server,The image processing server may need to be reconfigured to handle the different image capture and processing requirements of the roller conveyor.,6,3
+Lighting module,The lighting module may need to be adjusted to ensure proper illumination of the fruits on the roller conveyor.,6,3
+Microcomputer,The microcomputer may need to be reprogrammed to communicate with the roller conveyor and adjust the detection and classification algorithms accordingly.,6,3
+Camera module,Direct replacement with three camera modules.,7,3
+Microcomputer,Upgrade or modification for increased processing power.,7,3
+Detection algorithm,Modification to accommodate additional camera angles and data.,7,3
+Classification algorithm,Modification to handle increased data and angles from three cameras.,7,3
+Image processing server,Upgrade or modification for increased processing power.,7,3
+Storage,Modification to accommodate increased data from three cameras.,7,3
+Classification algorithm,"The change directly affects the classification algorithm, as it is being updated to output only the grade of each fruit.",8,3
+Detection algorithm,The updated classification algorithm may require modifications to the detection algorithm to ensure accurate input data.,8,3
+Microcomputer,The microcomputer will need to be updated to accommodate the new classification algorithm and potentially the detection algorithm.,8,3
+Image processing server,The image processing server may need to be updated to handle the new output format from the classification algorithm.,8,3
+Storage,The storage component may need to be updated to accommodate the new data format output by the classification algorithm.,8,3
+Detection algorithm,The detection algorithm is directly impacted because its accuracy is being changed from 80% to 90%.,1,4
+Classification algorithm,"The classification algorithm relies on the output of the detection algorithm, so a change in accuracy will affect its performance.",1,4
+Image processing server,The image processing server will need to be updated to accommodate the new accuracy level of the detection algorithm.,1,4
+Microcomputer,The microcomputer will need to be reprogrammed to handle the new accuracy level of the detection algorithm.,1,4
+Camera module,The camera module may need to be adjusted to capture images that are more suitable for the new accuracy level of the detection algorithm.,1,4
+Conveyor belt,The increased processing speed requires a faster conveyor belt to transport the fruits at a rate of 3 trays per 30 seconds.,2,4
+Microcomputer,The microcomputer may need to be upgraded to handle the increased processing speed and data throughput.,2,4
+Detection algorithm,The detection algorithm may need to be modified to process the images from the camera module at a faster rate.,2,4
+Classification algorithm,The classification algorithm may need to be optimized for faster processing.,2,4
+Image processing server,The image processing server may need to be upgraded to handle the increased load from the faster conveyor belt and camera module.,2,4
+Power unit,"The power unit may need to be upgraded to provide sufficient power to the system's components, especially the faster conveyor belt and microcomputer.",2,4
+Lighting module,The lighting module may need to be adjusted to provide sufficient lighting for the camera module to capture high-quality images at the increased processing speed.,2,4
+Camera module,"The camera module will need to be adjusted to capture images of tomatoes, which may have different sizes, shapes, and colors compared to tangerines.",3,4
+Detection algorithm,"The detection algorithm will need to be updated to recognize and detect defects in tomatoes, which may have different types of defects compared to tangerines.",3,4
+Classification algorithm,"The classification algorithm will need to be updated to classify tomatoes based on their quality, which may have different criteria compared to tangerines.",3,4
+Image processing server,"The image processing server will need to be updated to handle the new image data from tomatoes, which may have different processing requirements compared to tangerines.",3,4
+Conveyor belt,"The conveyor belt may need to be adjusted to accommodate the size and shape of tomatoes, which may be different from tangerines.",3,4
+Power unit,"The power unit may need to be adjusted to accommodate the increased processing power required to analyze tomatoes, which may have more complex images compared to tangerines.",3,4
+Lighting module,"The lighting module may need to be adjusted to provide optimal lighting for capturing images of tomatoes, which may have different reflectance properties compared to tangerines.",3,4
+Power unit,"The power consumption requirement has been reduced from 300 W to 150 W, which directly affects the power unit's design and specifications.",4,4
+Control panel,"The reduced power consumption requirement may impact the control panel's design, as it may need to be modified to accommodate the lower power input.",4,4
+Microcomputer,"The reduced power consumption requirement may affect the microcomputer's power supply and cooling system, as it may need to be optimized for the lower power input.",4,4
+Lighting module,"The reduced power consumption requirement may impact the lighting module's design, as it may need to be modified to accommodate the lower power input.",4,4
+Image processing server,"The reduced power consumption requirement may affect the image processing server's power supply and cooling system, as it may need to be optimized for the lower power input.",4,4
+Camera module,"The camera module must be modified to accommodate the higher resolution sensor, requiring a more powerful image processing unit and potentially a larger storage capacity.",5,4
+Microcomputer,The microcomputer must be upgraded to handle the increased data processing requirements of the higher resolution images.,5,4
+Detection algorithm,"The detection algorithm must be modified to take advantage of the higher resolution images, potentially requiring more complex calculations and data processing.",5,4
+Classification algorithm,"The classification algorithm must be updated to handle the increased data from the higher resolution images, potentially requiring more complex machine learning models.",5,4
+Image processing server,The image processing server must be upgraded to handle the increased data processing requirements of the higher resolution images.,5,4
+Storage,The storage capacity must be increased to accommodate the larger images generated by the higher resolution sensor.,5,4
+Conveyor belt,"The change requires a new type of conveyor, which will necessitate a different design and installation.",6,4
+Detection algorithm,The algorithm may need to be adjusted to account for the differences in fruit movement and speed between a belt and roller conveyor.,6,4
+Microcomputer,The microcomputer may require software updates or modifications to accommodate the new conveyor type and detection algorithm.,6,4
+Image processing server,"The server may need to be reconfigured to handle the changes in fruit movement and speed, potentially affecting image processing and analysis.",6,4
+Lighting module,The lighting module may need to be adjusted or repositioned to ensure optimal illumination of the fruits on the roller conveyor.,6,4
+Structure,"The structure of the system may need to be modified to accommodate the roller conveyor, potentially affecting the overall design and layout.",6,4
+Camera module,"New module replaces old one, consistent with architecture.",7,4
+Conveyor belt,Modification aligns with accommodating additional modules.,7,4
+Microcomputer,Upgrade aligns with processing additional image data.,7,4
+Detection algorithm,Modification aligns with new image data requirements.,7,4
+Classification algorithm,Modification aligns with new image data requirements.,7,4
+Image processing server,Upgrade aligns with processing additional image data.,7,4
+Classification algorithm,"The change directly affects the classification algorithm, as it is being updated to only output the grade of each fruit.",8,4
+Detection algorithm,The updated classification algorithm may require modifications to the detection algorithm to ensure accurate data is being passed to the classification algorithm.,8,4
+Microcomputer,The microcomputer may need to be updated to accommodate the new classification algorithm and detection algorithm changes.,8,4
+Image processing server,The image processing server may need to be updated to handle the new classification algorithm and detection algorithm changes.,8,4
+Storage,The storage component may need to be updated to accommodate the new classification algorithm and detection algorithm changes.,8,4
+Detection algorithm,"The detection algorithm is responsible for identifying defects, and an increase in accuracy implies that it needs to be modified.",1,5
+Classification algorithm,"The classification algorithm is responsible for categorizing the fruit, and an increase in accuracy implies that it needs to be modified.",1,5
+Image processing server,"The image processing server is responsible for processing images, and an increase in accuracy implies that it needs to be modified.",1,5
+Camera module,"The camera module is responsible for capturing images, and an increase in accuracy implies that it needs to be modified.",1,5
+Microcomputer,"The microcomputer is responsible for executing algorithms, and an increase in accuracy implies that it needs to be modified.",1,5
+Conveyor belt,The increased processing speed requires a faster conveyor belt to transport the fruits at a higher rate.,2,5
+Camera module,The faster processing speed may require the camera module to capture images at a higher rate.,2,5
+Microcomputer,The increased processing speed may require a more powerful microcomputer to handle the additional data processing.,2,5
+Detection algorithm,The faster processing speed may require the detection algorithm to be optimized for speed.,2,5
+Classification algorithm,The classification algorithm may need to be optimized for speed to handle the increased processing load.,2,5
+Image processing server,The increased processing speed may require the image processing server to handle a higher volume of data.,2,5
+Power unit,The increased processing speed may require a more powerful power unit to supply the necessary energy.,2,5
+Camera module,"The camera module will need to be modified to capture images of tomatoes, which may have different characteristics compared to tangerines.",3,5
+Detection algorithm,"The detection algorithm will need to be updated to recognize and detect defects in tomatoes, which may have different types of defects compared to tangerines.",3,5
+Classification algorithm,"The classification algorithm will need to be updated to classify tomatoes based on their quality, which may have different criteria compared to tangerines.",3,5
+Image processing server,The image processing server may need to be modified to handle the different image characteristics of tomatoes compared to tangerines.,3,5
+Power unit,The power unit must be modified to meet the reduced power consumption requirement of 150 W.,4,5
+Lighting module,The lighting module may need to be adjusted or replaced to operate within the reduced power consumption limit.,4,5
+Microcomputer,The microcomputer may require a power-efficient design or configuration to operate within the reduced power consumption limit.,4,5
+Camera module,The camera module may require a power-efficient design or configuration to operate within the reduced power consumption limit.,4,5
+Image processing server,The image processing server may require a power-efficient design or configuration to operate within the reduced power consumption limit.,4,5
+Camera module,"The change requires a higher-resolution sensor, which must be installed in the camera module.",5,5
+Microcomputer,"The increased image quality may require more processing power, which could necessitate an upgrade to the microcomputer's processing capabilities.",5,5
+Detection algorithm,"The algorithm may need to be modified to take advantage of the higher-resolution images, potentially requiring changes to its parameters or architecture.",5,5
+Classification algorithm,"Similar to the detection algorithm, the classification algorithm may need to be updated to handle the increased image quality.",5,5
+Image processing server,The server may require additional processing power or memory to handle the increased image quality and processing demands.,5,5
+Lighting module,The lighting module may need to be adjusted to ensure that the increased image quality is not compromised by inadequate lighting.,5,5
+Conveyor belt,"The conveyor belt is a critical component that will be replaced by a roller conveyor, which will have different specifications and requirements.",6,5
+Microcomputer,"The microcomputer controls the system's operations, including the conveyor, and may need to be updated to work with the new roller conveyor.",6,5
+Detection algorithm,"The detection algorithm relies on the conveyor's movement and positioning to evaluate fruit quality, and changes to the conveyor may affect the algorithm's accuracy.",6,5
+Image processing server,"The image processing server analyzes images of the fruits, and changes to the conveyor may affect the quality and format of the images, requiring updates to the server's software or hardware.",6,5
+Camera module,Direct replacement with three camera modules.,7,5
+Conveyor belt,Necessary modification to accommodate additional camera modules.,7,5
+Microcomputer,Necessary upgrade to handle increased image data.,7,5
+Detection algorithm,Necessary modification to account for additional camera angles.,7,5
+Classification algorithm,Necessary modification to account for additional camera angles.,7,5
+Image processing server,Necessary upgrade to handle increased image data.,7,5
+Classification algorithm,The classification algorithm is being updated to only output the grade of each fruit.,8,5
+Detection algorithm,The detection algorithm is likely to be affected by the updated classification algorithm.,8,5
+Image processing server,The image processing server may need to be updated to accommodate the new output format of the classification algorithm.,8,5
+Microcomputer,The microcomputer may need to be updated to handle the new output format of the classification algorithm.,8,5
+Storage,The storage component may need to be updated to accommodate the new output format of the classification algorithm.,8,5
+Detection algorithm,"The detection algorithm is responsible for identifying defects in the fruits, and a change in accuracy requires modifications to its parameters or logic to achieve the new accuracy level.",1,6
+Classification algorithm,"The classification algorithm is responsible for categorizing the fruits based on their quality, and a change in accuracy requires modifications to its parameters or logic to achieve the new accuracy level.",1,6
+Image processing server,"The image processing server is responsible for processing the images captured by the camera module, and a change in accuracy requires modifications to its processing algorithms or parameters to achieve the new accuracy level.",1,6
+Microcomputer,"The microcomputer is responsible for executing the detection and classification algorithms, and a change in accuracy requires modifications to its software or firmware to achieve the new accuracy level.",1,6
+Camera module,"The camera module is responsible for capturing images of the fruits, and a change in accuracy may require modifications to its settings or parameters to achieve the new accuracy level.",1,6
+Conveyor belt,The increased processing speed requires a faster conveyor belt to transport the fruits at a higher rate.,2,6
+Detection algorithm,The detection algorithm may need to be modified to process the images from the camera module at a faster rate.,2,6
+Classification algorithm,The classification algorithm may require modifications to process the images at a faster rate.,2,6
+Microcomputer,The microcomputer may need to be upgraded or modified to handle the increased processing speed and data throughput.,2,6
+Image processing server,The image processing server may require additional processing power or modifications to handle the increased load.,2,6
+Power unit,The power unit may need to be upgraded or modified to provide sufficient power to support the increased processing speed and data throughput.,2,6
+Lighting module,The lighting module may need to be adjusted or modified to provide sufficient lighting for the camera module to capture high-quality images at the increased processing speed.,2,6
+Camera module,"The camera module needs to be adjusted to capture images of tomatoes, which may have different shapes, sizes, and colors compared to tangerines.",3,6
+Detection algorithm,"The detection algorithm needs to be updated to recognize and detect tomatoes, which may have different characteristics than tangerines.",3,6
+Classification algorithm,"The classification algorithm needs to be updated to classify tomatoes based on their quality, which may be different from the classification criteria for tangerines.",3,6
+Image processing server,"The image processing server may need to be updated to handle the new image data from tomatoes, which may have different formats or resolutions than tangerines.",3,6
+Power unit,The power unit's design and specifications must be modified to meet the reduced power consumption requirement of 150 W.,4,6
+Lighting module,The lighting module's power consumption must be reduced to comply with the new power consumption requirement.,4,6
+Microcomputer,The microcomputer's power consumption may need to be optimized to ensure it operates within the reduced power budget.,4,6
+Image processing server,The image processing server's power consumption may need to be adjusted to meet the new power consumption requirement.,4,6
+Camera module,"The change requires a higher megapixel sensor, which is a direct modification to the camera module.",5,6
+Detection algorithm,The increased image quality may require adjustments to the detection algorithm to accurately process the higher-resolution images.,5,6
+Classification algorithm,"Similar to the detection algorithm, the classification algorithm may need to be modified to handle the increased image quality.",5,6
+Image processing server,The server may need to be upgraded to handle the increased processing requirements of higher-quality images.,5,6
+Power unit,The power unit may need to be modified to supply the increased power required by the higher-megapixel sensor.,5,6
+Conveyor belt,"Replaced with a roller conveyor, requiring different design and installation.",6,6
+Control panel,"Modified to accommodate the new roller conveyor system, including changes to the user interface and control algorithms.",6,6
+Detection algorithm,Updated to account for the different movement and orientation of the fruits on the roller conveyor.,6,6
+Classification algorithm,Updated to account for the changes in fruit movement and orientation.,6,6
+Image processing server,"Modified to handle the new image data from the camera module, which may be affected by the changes in fruit movement and orientation.",6,6
+Camera module,"Adjusted or replaced to capture images of the fruits on the roller conveyor, which may have a different movement and orientation than on a belt conveyor.",6,6
+Camera module,"The change directly affects the number of camera modules, requiring an increase from 1 to 3.",7,6
+Microcomputer,The microcomputer will need to process and handle the increased amount of image data from the 3 camera modules.,7,6
+Detection algorithm,The detection algorithm may need to be modified to accommodate the additional camera angles and images.,7,6
+Classification algorithm,The classification algorithm may need to be modified to handle the increased amount of data and multiple camera angles.,7,6
+Image processing server,The image processing server may need to be upgraded or modified to handle the increased load of image processing from the 3 camera modules.,7,6
+Conveyor belt,The conveyor belt may need to be modified to accommodate the additional camera modules.,7,6
+Structure,The structure of the system may need to be modified to accommodate the additional camera modules.,7,6
+Detection algorithm,"The detection algorithm is responsible for identifying the quality of the fruits, and a change in accuracy requires modifications to the algorithm to achieve the new accuracy level.",1,7
+Classification algorithm,"Similar to the detection algorithm, the classification algorithm is also affected by the change in accuracy, as it needs to be updated to correctly classify the fruits based on the new accuracy level.",1,7
+Image processing server,"The image processing server is responsible for processing the images captured by the camera module, and a change in accuracy requires modifications to the image processing algorithms to achieve the new accuracy level.",1,7
+Microcomputer,"The microcomputer is responsible for executing the detection and classification algorithms, and a change in accuracy requires modifications to the software running on the microcomputer to achieve the new accuracy level.",1,7
+Conveyor belt,The increased processing speed requires a faster conveyor belt to transport fruits at a rate of 3 trays per 30 seconds.,2,7
+Microcomputer,The microcomputer needs to process images and data at a faster rate to accommodate the increased processing speed.,2,7
+Detection algorithm,The detection algorithm must be able to analyze images and detect defects at a faster rate to keep up with the increased processing speed.,2,7
+Classification algorithm,The classification algorithm must be able to classify fruits at a faster rate to accommodate the increased processing speed.,2,7
+Image processing server,The image processing server needs to process images at a faster rate to accommodate the increased processing speed.,2,7
+Power unit,The power unit may need to be upgraded to provide sufficient power to support the increased processing speed.,2,7
+Lighting module,The lighting module may need to be adjusted to provide sufficient lighting for the camera module to capture high-quality images at the increased processing speed.,2,7
+Camera module,"The camera module will need to be modified to capture images of tomatoes, which may have different shapes, sizes, and colors compared to tangerines.",3,7
+Detection algorithm,"The detection algorithm will need to be updated to recognize and detect tomatoes, which may have different characteristics than tangerines.",3,7
+Classification algorithm,"The classification algorithm will need to be modified to classify tomatoes based on their quality, which may have different criteria than tangerines.",3,7
+Image processing server,"The image processing server may need to be updated to handle the new image data from tomatoes, which may have different formats or resolutions than tangerines.",3,7
+Lighting module,"The lighting module may need to be adjusted to ensure that the images of tomatoes are properly illuminated, which may require different lighting settings than for tangerines.",3,7
+Power unit,"The power unit is directly responsible for providing power to the system, and a reduction in power consumption requirement will likely impact its design or selection.",4,7
+Microcomputer,"The microcomputer may require less power to operate, and a reduction in power consumption requirement may influence its selection or configuration.",4,7
+Camera module,"The camera module may require less power to operate, and a reduction in power consumption requirement may influence its selection or configuration.",4,7
+Lighting module,"The lighting module may require less power to operate, and a reduction in power consumption requirement may influence its selection or configuration.",4,7
+Image processing server,"The image processing server may require less power to operate, and a reduction in power consumption requirement may influence its selection or configuration.",4,7
+Camera module,"The change requires a higher megapixel sensor, which directly impacts the camera module's hardware.",5,7
+Detection algorithm,The increased image quality may require adjustments to the detection algorithm to accurately process the higher-resolution images.,5,7
+Image processing server,The server may need to be upgraded to handle the increased processing requirements of higher-resolution images.,5,7
+Lighting module,The change may require adjustments to the lighting module to ensure that the increased image quality is not compromised by inadequate lighting.,5,7
+Conveyor belt,"The conveyor belt will be replaced with a roller conveyor, so it must be modified or removed.",6,7
+Microcomputer,The microcomputer may need to be reprogrammed to accommodate the changes in the conveyor system.,6,7
+Detection algorithm,The detection algorithm may need to be updated to account for the differences in fruit movement and positioning on the roller conveyor.,6,7
+Classification algorithm,"Similar to the detection algorithm, the classification algorithm may need to be updated to accommodate the changes in fruit movement and positioning.",6,7
+Image processing server,The image processing server may need to be reconfigured to handle the changes in image capture and processing due to the roller conveyor.,6,7
+Camera module,"The change requires the addition of two more camera modules, which means the existing camera module will be replaced or modified to accommodate the new setup.",7,7
+Microcomputer,"The microcomputer will need to be modified to process the images from three camera modules, which may require additional processing power or software updates.",7,7
+Detection algorithm,"The detection algorithm will need to be updated to account for the images from three camera angles, which may require changes to the algorithm's parameters or logic.",7,7
+Classification algorithm,"Similar to the detection algorithm, the classification algorithm will need to be updated to account for the images from three camera angles.",7,7
+Image processing server,"The image processing server may need to be modified to handle the increased data from three camera modules, which may require additional processing power or storage.",7,7
+Conveyor belt,"The conveyor belt may need to be modified to accommodate the additional camera modules, which may require changes to the belt's design or speed.",7,7
+Structure,"The structure of the system may need to be modified to accommodate the additional camera modules, which may require changes to the system's design or layout.",7,7
+Classification algorithm,"The classification algorithm is the component being updated, so it is directly impacted.",8,7
+Detection algorithm,"The detection algorithm is likely to be affected by the change in the classification algorithm, as it may need to adjust its output to match the new classification criteria.",8,7
+Image processing server,The image processing server may need to be updated to accommodate the new output format of the classification algorithm.,8,7
+Storage,The storage component may need to be updated to store the new output format of the classification algorithm.,8,7
+Microcomputer,The microcomputer may need to be updated to process the new output format of the classification algorithm.,8,7
+Detection algorithm,"The detection algorithm is responsible for identifying defects in the fruits, and a change in accuracy requires modifications to its parameters or logic to achieve the new accuracy level.",1,8
+Classification algorithm,"The classification algorithm is responsible for categorizing the fruits based on their quality, and a change in accuracy requires modifications to its parameters or logic to achieve the new accuracy level.",1,8
+Image processing server,"The image processing server is responsible for processing the images captured by the camera module, and a change in accuracy requires modifications to its processing algorithms or parameters to achieve the new accuracy level.",1,8
+Camera module,"The camera module is responsible for capturing images of the fruits, and a change in accuracy requires modifications to its settings or configuration to achieve the new accuracy level.",1,8
+Microcomputer,"The microcomputer is responsible for executing the detection and classification algorithms, and a change in accuracy requires modifications to its software or firmware to achieve the new accuracy level.",1,8
+Conveyor belt,"The conveyor belt must be modified to handle the increased processing speed, allowing it to transport 3 trays per 30 seconds.",2,8
+Camera module,The camera module must be able to capture images of the fruits at a faster rate to keep up with the increased processing speed.,2,8
+Microcomputer,The microcomputer must be able to process the images from the camera module at a faster rate to maintain the required processing speed.,2,8
+Detection algorithm,"The detection algorithm must be optimized to work with the increased processing speed, allowing it to accurately identify defects in the fruits.",2,8
+Classification algorithm,"The classification algorithm must also be optimized to work with the increased processing speed, enabling it to accurately classify the fruits.",2,8
+Image processing server,"The image processing server must be able to handle the increased volume of images from the camera module, ensuring that the processing speed is maintained.",2,8
+Camera module,"The camera module will need to be adjusted to capture images of tomatoes, which may have different shapes, sizes, and lighting requirements compared to tangerines.",3,8
+Detection algorithm,"The detection algorithm will need to be updated to recognize and classify tomatoes, which may have different features and patterns compared to tangerines.",3,8
+Classification algorithm,"The classification algorithm will need to be updated to accurately classify tomatoes based on their quality, which may be different from tangerines.",3,8
+Image processing server,"The image processing server may need to be updated to handle the new image data from tomatoes, which may have different characteristics compared to tangerines.",3,8
+Lighting module,"The lighting module may need to be adjusted to provide optimal lighting for capturing images of tomatoes, which may have different lighting requirements compared to tangerines.",3,8
+Conveyor belt,"The conveyor belt may need to be adjusted to accommodate the size and shape of tomatoes, which may be different from tangerines.",3,8
+Structure,The structure of the system may need to be updated to accommodate the new components and algorithms required for analyzing tomatoes.,3,8
+Power unit,"The power unit is directly responsible for providing power to the system, and a reduction in power consumption requirement necessitates a modification to the power unit to accommodate the new power rating.",4,8
+Lighting module,"The lighting module is likely to be affected by the reduced power consumption requirement, as it may need to be redesigned or reconfigured to operate within the new power constraints.",4,8
+Microcomputer,"The microcomputer may need to be modified to accommodate the reduced power consumption requirement, potentially affecting its performance or functionality.",4,8
+Camera module,"The camera module may require adjustments to its power consumption to meet the new requirement, which could impact its performance or functionality.",4,8
+Conveyor belt,"The conveyor belt may need to be redesigned or reconfigured to accommodate the reduced power consumption requirement, potentially affecting its speed or functionality.",4,8
+Camera module,"The change requires a higher resolution sensor, which directly impacts the camera module's hardware.",5,8
+Detection algorithm,The increased image quality may require adjustments to the detection algorithm to accurately process the higher-resolution images.,5,8
+Image processing server,The increased image quality may require more processing power and memory to handle the larger image files.,5,8
+Microcomputer,"The increased image quality may require more processing power and memory to handle the larger image files, which may impact the microcomputer's performance.",5,8
+Conveyor belt,"The conveyor belt is being replaced with a roller conveyor, so it must be modified or removed.",6,8
+Microcomputer,"The microcomputer may need to be reprogrammed to accommodate the change in conveyor type, or its sensors may need to be adjusted.",6,8
+Detection algorithm,The detection algorithm may need to be updated to account for the different movement and speed characteristics of the roller conveyor.,6,8
+Image processing server,"The image processing server may need to be reconfigured to handle the changed conveyor type, which could affect image capture and processing.",6,8
+Lighting module,The lighting module may need to be adjusted to ensure proper illumination of the fruits on the roller conveyor.,6,8
+Camera module,"The change requires the installation of three camera modules instead of one, directly impacting the camera module component.",7,8
+Conveyor belt,"The conveyor belt may need to be modified to accommodate the additional camera modules, potentially changing its design or speed.",7,8
+Microcomputer,"The microcomputer may require additional processing power to handle the increased data from three camera modules, potentially leading to hardware or software upgrades.",7,8
+Detection algorithm,"The detection algorithm may need to be modified to process images from multiple angles, potentially changing its logic or parameters.",7,8
+Classification algorithm,"Similar to the detection algorithm, the classification algorithm may require modifications to handle the increased data and multiple angles.",7,8
+Image processing server,"The image processing server may need to be upgraded to handle the increased data from three camera modules, potentially changing its hardware or software configuration.",7,8
+Lighting module,The lighting module may need to be adjusted or modified to ensure consistent lighting for the additional camera modules.,7,8
+Classification algorithm,"The classification algorithm is being updated, so it is directly impacted by the change.",8,8
+Detection algorithm,The updated classification algorithm may require changes to the detection algorithm to ensure accurate input data.,8,8
+Image processing server,The updated classification algorithm may require modifications to the image processing server to handle new data formats or processing requirements.,8,8
+Microcomputer,The microcomputer may need to be updated to run the new classification algorithm or to accommodate changes in data processing requirements.,8,8
+Storage,The storage system may need to be modified to accommodate new data formats or storage requirements resulting from the updated classification algorithm.,8,8
+Detection algorithm,"The detection algorithm is responsible for identifying defects or issues with the fruit, and a change in accuracy requires modifications to the algorithm to improve its performance.",1,9
+Classification algorithm,The classification algorithm is used to categorize the fruit as good or bad based on the detection algorithm's output. An improvement in accuracy requires updates to the classification algorithm to ensure accurate categorization.,1,9
+Image processing server,The image processing server is responsible for processing the images captured by the camera module and sending them to the detection and classification algorithms. An improvement in accuracy requires modifications to the image processing server to handle the increased complexity of the algorithms.,1,9
+Camera module,"The camera module captures images of the fruit, and an improvement in accuracy requires adjustments to the camera settings or hardware to capture higher-quality images.",1,9
+Microcomputer,The microcomputer is responsible for executing the detection and classification algorithms. An improvement in accuracy requires updates to the microcomputer's software or hardware to handle the increased computational requirements.,1,9
+Conveyor belt,The increased processing speed requires a faster conveyor belt to transport fruits at a rate of 3 trays per 30 seconds.,2,9
+Microcomputer,The detection and classification algorithms may need to be optimized to process the increased volume of data from the camera module.,2,9
+Camera module,The camera module may need to capture images at a faster rate to keep up with the increased processing speed.,2,9
+Detection algorithm,The detection algorithm may need to be modified to process the increased volume of data from the camera module.,2,9
+Classification algorithm,The classification algorithm may need to be optimized to process the increased volume of data from the detection algorithm.,2,9
+Image processing server,The image processing server may need to be upgraded to handle the increased volume of data from the camera module.,2,9
+Power unit,The power unit may need to be upgraded to provide sufficient power to support the increased processing speed.,2,9
+Lighting module,The lighting module may need to be adjusted to provide sufficient lighting for the camera module to capture clear images at the increased speed.,2,9
+Camera module,"The camera module must be modified to capture images of tomatoes, which may have different shapes, sizes, and lighting conditions compared to tangerines.",3,9
+Detection algorithm,"The detection algorithm must be updated to recognize and detect defects in tomatoes, which may have different characteristics than tangerines.",3,9
+Classification algorithm,"The classification algorithm must be modified to classify tomatoes based on their quality, which may require different criteria than those used for tangerines.",3,9
+Image processing server,"The image processing server may need to be updated to handle the new image data from tomatoes, which may have different formats or resolutions than those from tangerines.",3,9
+Power unit,"The power unit is directly responsible for providing power to the system, and a reduction in power consumption requirement from 300 W to 150 W implies that the power unit must be modified to meet this new requirement.",4,9
+Microcomputer,"The microcomputer is a component that requires power to operate, and a reduction in power consumption requirement may impact its design or configuration to optimize power usage.",4,9
+Camera module,"The camera module may require adjustments to its power consumption to meet the new requirement, as it is a component that requires power to operate.",4,9
+Lighting module,"The lighting module may need to be modified to reduce its power consumption, as it is a component that requires power to operate.",4,9
+Image processing server,"The image processing server may require adjustments to its power consumption to meet the new requirement, as it is a component that requires power to operate.",4,9
+Camera module,"The change requires a higher-resolution sensor, which will directly impact the camera module's design and selection of the new sensor.",5,9
+Detection algorithm,The increased image quality will require adjustments to the detection algorithm to ensure it can accurately process the higher-resolution images.,5,9
+Image processing server,The server will need to be upgraded to handle the increased data processing requirements of the higher-resolution images.,5,9
+Microcomputer,The microcomputer may need to be upgraded to handle the increased processing requirements of the higher-resolution images and the updated detection algorithm.,5,9
+Lighting module,The lighting module may need to be adjusted to ensure that the higher-resolution images are not over- or under-exposed.,5,9
+Conveyor belt,"The belt conveyor will be replaced with a roller conveyor, so the existing conveyor belt component will need to be modified or replaced.",6,9
+Detection algorithm,The detection algorithm may need to be adjusted to account for the different movement and alignment of fruits on a roller conveyor compared to a belt conveyor.,6,9
+Classification algorithm,"Similar to the detection algorithm, the classification algorithm may need to be updated to accommodate the changes in fruit movement and alignment.",6,9
+Image processing server,The image processing server may need to be reconfigured or updated to handle the changes in image capture and processing due to the roller conveyor.,6,9
+Lighting module,The lighting module may need to be adjusted to ensure proper illumination of the fruits on the roller conveyor.,6,9
+Camera module,Replacement of a single camera with three to capture multiple angles.,7,9
+Microcomputer,Increased data from three cameras requires more processing power.,7,9
+Detection algorithm,Algorithm needs to be modified to process and analyze images from multiple angles.,7,9
+Classification algorithm,Algorithm needs to be modified to handle the increased data and multiple angles.,7,9
+Image processing server,Server needs to be upgraded or modified to handle the increased data and processing requirements.,7,9
+Storage,Storage capacity needs to be increased to accommodate the larger amount of data generated by the three cameras.,7,9
+Classification algorithm,"The classification algorithm is being updated, so it is directly impacted by the change.",8,9
+Detection algorithm,The detection algorithm may need to be modified to accommodate the updated classification algorithm.,8,9
+Image processing server,The image processing server may need to be updated to handle the new output format from the classification algorithm.,8,9
+Microcomputer,The microcomputer may need to be updated to run the new classification algorithm and handle the updated output.,8,9
+Storage,The storage system may need to be updated to accommodate the new output format from the classification algorithm.,8,9
+Detection algorithm,Accuracy improvement requires algorithm updates.,1,10
+Classification algorithm,Accuracy improvement requires algorithm updates.,1,10
+Image processing server,Accuracy improvement requires server upgrades.,1,10
+Microcomputer,Accuracy improvement requires computational upgrades.,1,10
+Conveyor belt,The increased processing speed requires a faster conveyor belt to transport fruits at a rate of 3 trays per 30 seconds.,2,10
+Camera module,The faster processing speed may require a higher-resolution camera or multiple cameras to capture images of fruits at a faster rate.,2,10
+Microcomputer,The increased processing speed may require a more powerful microcomputer to handle the additional data processing requirements.,2,10
+Detection algorithm,The faster processing speed may require modifications to the detection algorithm to accurately identify fruits at a faster rate.,2,10
+Classification algorithm,"Similar to the detection algorithm, the classification algorithm may require modifications to accurately classify fruits at a faster rate.",2,10
+Image processing server,The increased processing speed may require a more powerful image processing server to handle the additional image processing requirements.,2,10
+Power unit,The increased processing speed may require a more powerful power unit to supply the necessary power to the system's components.,2,10
+Camera module,"The camera module will need to be adjusted to capture images of tomatoes, which may have different shapes, sizes, and lighting conditions compared to tangerines.",3,10
+Detection algorithm,"The detection algorithm will need to be updated to recognize and detect tomatoes, which may have different characteristics than tangerines.",3,10
+Classification algorithm,"The classification algorithm will need to be updated to classify tomatoes based on their quality, which may have different criteria than tangerines.",3,10
+Image processing server,"The image processing server will need to be updated to handle the new image data from tomatoes, which may have different formats and sizes than tangerines.",3,10
+Lighting module,"The lighting module may need to be adjusted to provide optimal lighting for capturing images of tomatoes, which may have different lighting requirements than tangerines.",3,10
+Power unit,Needs to be modified to meet reduced power consumption requirement of 150 W.,4,10
+Microcomputer,"Requires power from power unit, may affect performance or require design modification.",4,10
+Camera module,"Requires power from power unit, may affect performance or require design modification.",4,10
+Lighting module,"Requires power from power unit, may affect performance or require design modification.",4,10
+Image processing server,"Requires power from power unit, may affect performance or require design modification.",4,10
+Camera module,The camera module must be modified to accommodate the higher resolution sensor (20 MP instead of 10 MP).,5,10
+Detection algorithm,The detection algorithm may need to be updated or retrained to handle the higher resolution images produced by the new camera module.,5,10
+Image processing server,The image processing server may require additional processing power or memory to handle the increased data volume and complexity of the higher resolution images.,5,10
+Lighting module,The lighting module may need to be adjusted to ensure that the higher resolution images are not over- or under-exposed.,5,10
+Power unit,The power unit may need to be upgraded to provide sufficient power to the higher resolution camera module.,5,10
+Conveyor belt,"The conveyor belt will be replaced with a roller conveyor, requiring a different design and installation.",6,10
+Control panel,"The control panel may need to be modified to accommodate the new roller conveyor system, including changes to the user interface and control algorithms.",6,10
+Detection algorithm,The detection algorithm may need to be adjusted to account for the different movement and orientation of fruits on the roller conveyor.,6,10
+Classification algorithm,The classification algorithm may need to be modified to accommodate the changes in fruit movement and orientation.,6,10
+Image processing server,"The image processing server may need to be updated to handle the new image data from the camera module, which may be affected by the changes in fruit movement and orientation.",6,10
+Camera module,The camera module's position and angle may need to be adjusted to capture images of fruits moving on the roller conveyor.,6,10
+Structure,"The structure of the system may need to be modified to accommodate the new roller conveyor system, including changes to the frame and support systems.",6,10
+Camera module,"Replacement of a single camera module with three, impacting design and functionality.",7,10
+Conveyor belt,Potential modification to accommodate additional camera modules.,7,10
+Microcomputer,Potential upgrade to handle increased data from three camera modules.,7,10
+Detection algorithm,Potential update to accommodate additional camera angles and data.,7,10
+Classification algorithm,Potential update to accommodate additional camera angles and data.,7,10
+Image processing server,Potential upgrade to handle increased data from three camera modules.,7,10
+Lighting module,Potential modification to ensure consistent lighting for additional camera angles.,7,10
+Classification algorithm,"The classification algorithm is being updated, so it is directly impacted by the change.",8,10
+Detection algorithm,The detection algorithm may need to be modified to provide the correct input to the updated classification algorithm.,8,10
+Image processing server,The image processing server may need to be modified to handle the updated output from the classification algorithm.,8,10
+Microcomputer,The microcomputer may need to be modified to handle the updated output from the classification algorithm.,8,10
+Storage,The storage may need to be modified to store the updated output from the classification algorithm.,8,10

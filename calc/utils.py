@@ -46,7 +46,7 @@ def create_prompt(model_data, change_request, proj_description):
     3. Phase 3: Self-evaluation and verification
     - Cross-check each pair: "Is this impact logically consistent with the model’s architecture? Explain in 10 words."
     4. Phase 4: Final output print
-    - Using verified pairs create the final output with the specific format described below. Take reasoning field from the first phase. Use only abbreviation in component name if possible:
+    - Using verified pairs create the final output with the specific format described below. Take reasoning field from the first phase:
     
     ```
     &&&
@@ -218,7 +218,7 @@ def run_full_analysis(model_path, change_requests_path, project_description,num_
     
     return all_runs_df
 
-def to_the_forms(df, change_requests_path, change_column="Change"):
+def to_the_forms(df, change_requests_path, outputs, change_column="Change"):
     """
     Maps change IDs in a DataFrame column to their corresponding text descriptions
     using a mapping file.
@@ -245,7 +245,7 @@ def to_the_forms(df, change_requests_path, change_column="Change"):
     # Map IDs to text in the DataFrame column
     df_copy[change_column] = df_copy[change_column].map(change_map)
     
-    return df_copy.to_csv(os.path.join("outputs", "to-the-form.csv"), index = False)
+    return df_copy.to_csv(os.path.join(outputs, "to-the-form.csv"), index = False)
 
 
 def add_change_id_column(df, change_column_name, file_path='./change_requests.txt'):
@@ -373,8 +373,8 @@ def calculate_alignment_scores(change_requests_path, df1, df2):
     
     for idx,change_val in enumerate(change_requests):
         # Get components for this change value in both DataFrames
-        comp1 = df1[df1['Change'] == idx+1]['Component']
-        comp2 = df2[df2['Change'] == idx+1]['Component']
+        comp1 = df1[df1['Change'] == idx+1]['Component'].str.lower()
+        comp2 = df2[df2['Change'] == idx+1]['Component'].str.lower()
         
         # Calculate alignment score
         common_components = set(comp1) & set(comp2)
@@ -388,6 +388,51 @@ def calculate_alignment_scores(change_requests_path, df1, df2):
     average_score = sum(alignment_scores)/len(alignment_scores) if alignment_scores else 0
     
     return alignment_scores, average_score
+
+def calculate_f_scores(change_requests_path, df1, df2, beta = 1):
+    """
+    Calculate F1 scores for all change requests and return scores with average.
+    
+    Args:
+        change_requests_path: Path to load change requests from
+        df1: LLM dataframe (retrieved elements, containing 'Change' and 'Component' columns)
+        df2: Engineer dataframe (relevant elements, containing 'Change' and 'Component' columns)
+        
+    Returns:
+        tuple: (list_of_f_scores, average_f_score)
+    """
+    f_scores = []
+    recall_scores = []
+    change_requests = load_change_requests(change_requests_path)
+    
+    for idx, change_val in enumerate(change_requests):
+        # Get components for this change value in both DataFrames
+        retrieved = set(df1[df1['Change'] == idx+1]['Component'].str.lower())  # LLM's retrieved components
+        relevant = set(df2[df2['Change'] == idx+1]['Component'].str.lower())   # Engineer's relevant components
+        # Calculate true positives, false positives, and false negatives
+        true_positives = len(retrieved & relevant)
+        false_positives = len(retrieved - relevant)
+        false_negatives = len(relevant - retrieved)
+        
+        # Calculate precision and recall
+        precision = true_positives / (true_positives + false_positives) if (true_positives + false_positives) > 0 else 0
+        recall = true_positives / (true_positives + false_negatives) if (true_positives + false_negatives) > 0 else 0
+        
+        recall_scores.append(recall)
+
+        # Calculate F score
+         # Calculate F-beta score
+        if (beta**2 * precision + recall) > 0:
+            f = (1 + beta**2) * (precision * recall) / (beta**2 * precision + recall)
+        else:
+            f = 0
+        f_scores.append(f)
+    
+    # Calculate average, handling empty list case
+    average_f = sum(f_scores)/len(f_scores) if f_scores else 0
+    average_recall = sum(recall_scores)/len(recall_scores) if recall_scores else 0 
+    
+    return f_scores, average_f, average_recall
 
 def calculate_novelty_scores(df1, df2):
     """

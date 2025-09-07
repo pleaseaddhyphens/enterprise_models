@@ -1,0 +1,11 @@
+1. Detection algorithm is connected with Classification algorithm and Microcomputer
+2. Classification algorithm is connected with Detection algorithm
+3. Storage is connected with classification algorithm
+4. Conveyor belt is connected with Structure, Power unit
+5. Lighting module is connected with Microcomputer, Power units, Structure
+6. Structure is connected with Camera, Conveyor belt, Lighting module, Microcomputer, Control panel, Power subsystem
+7. Camera module is connected with Structure, Microcomputer
+8. Microcomputer is connected with Camera, Lighting module, Control panel, Power subsystem, Detection algorithm
+9. Control panel is connected with Structure, Microcomputer
+10. Power unit, is connected with Lighting, Conveyor belt, Microcomputer
+11. Structure is connected with Conveyor belt, Lighting module, Camera module, Microcomputer, Control panel,Power subsystem

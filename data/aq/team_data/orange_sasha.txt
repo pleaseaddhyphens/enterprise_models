@@ -1,0 +1,20 @@
+Component,Change
+Detection algorithm,1
+Classification algorithm,1
+Image processing server,1
+Conveyor belt,2
+Structure,2
+Camera module,2
+Microcomputer,2
+Detection algorithm,2
+Detection algorithm,3
+Classification algorithm,3
+Camera module,4
+Microcomputer,5
+lighting module,5
+Camera module,6
+Microcomputer,7
+Detection algorithm,7
+lighting module,7
+control panel,8
+Classification algorithm,8

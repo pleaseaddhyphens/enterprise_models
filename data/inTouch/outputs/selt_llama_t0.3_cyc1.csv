@@ -1,0 +1,46 @@
+Component,Reasoning,Change,Cycle
+Battery,"The battery life needs to be increased, which may require a modification to the battery itself.",1,1
+PMIC,The Power Management Integrated Circuit may need to be adjusted or modified to optimize power consumption and achieve the longer battery life.,1,1
+MCU,The Micro Controller Unit may need to be reprogrammed or modified to optimize power consumption and achieve the longer battery life.,1,1
+PCB,The Printed Circuit Board may need to be redesigned to accommodate a larger battery or to optimize power consumption.,1,1
+Aluminium housing,The housing needs to be designed to withstand water pressure up to 50 meters.,2,1
+Watch strap,The strap may need to be made of water-resistant material or designed to prevent water entry.,2,1
+Side buttons,The buttons may need to be sealed or designed to prevent water entry.,2,1
+Speaker,The speaker may need to be designed to withstand water exposure.,2,1
+Microphone,The microphone may need to be designed to withstand water exposure.,2,1
+PCB,The PCB may need to be coated or sealed to prevent water damage.,2,1
+Wireless charger,The wireless charger may need to be designed to be water-resistant.,2,1
+Battery,The charging time reduction requires a modification to the battery's capacity or charging efficiency.,3,1
+Wireless charger,The wireless charger needs to be modified to support faster charging.,3,1
+PMIC,The Power Management Integrated Circuit (PMIC) must be adjusted to handle the increased power flow during faster charging.,3,1
+PCB,"The Printed Circuit Board (PCB) may need to be redesigned to accommodate the changes to the battery, wireless charger, and PMIC.",3,1
+MCU,The MCU's role in collecting and preprocessing sensor data may change with physiological data processing moving to the smartphone.,4,1
+Memory,The amount and type of data stored on the device could change with the shift in data processing.,4,1
+Software application,"It will now handle physiological data processing, which was previously done elsewhere.",4,1
+Data storage and processing server,Its role in processing physiological data will be reduced or altered since the processing is now on the smartphone.,4,1
+Bluetooth,Its usage might increase or change with more data being processed on the smartphone.,4,1
+Battery,Reducing the weight may require a smaller or lighter battery.,5,1
+PCB,The Printed Circuit Board may need to be redesigned to be smaller or more compact to reduce weight.,5,1
+Aluminium housing,The housing may need to be made thinner or from a lighter material to reduce weight.,5,1
+Watch strap,The strap may need to be made from a lighter material to contribute to the overall weight reduction.,5,1
+PMIC,The Power Management Integrated Circuit may need to be selected or designed to be smaller and lighter.,5,1
+Wireless charger,The wireless charger component may need to be optimized or selected to be lighter.,5,1
+Speaker,The speaker component may need to be selected or designed to be smaller and lighter.,5,1
+Microphone,The microphone component may need to be selected or designed to be smaller and lighter.,5,1
+MCU,Needs to handle new EDA sensor data.,6,1
+Memory,May need update to store additional EDA sensor data.,6,1
+Software application,Must interpret and provide feedback based on EDA sensor data.,6,1
+PCB,The Printed Circuit Board will need to be modified to accommodate the OLED display.,7,1
+MCU,The Micro Controller Unit will need to be programmed to control and communicate with the OLED display.,7,1
+PMIC,The Power management integrated circuit will need to be adjusted to account for the additional power consumption of the OLED display.,7,1
+Battery,The Battery will need to be adjusted to account for the additional power consumption of the OLED display.,7,1
+Aluminium housing,The Aluminium housing may need to be modified to accommodate the OLED display.,7,1
+Watch strap,The Watch strap may need to be modified to accommodate the OLED display.,7,1
+MCU,Needs modification to control Haptic feedback motor.,8,1
+PCB,Needs update to accommodate Haptic feedback motor.,8,1
+PMIC,Needs evaluation to support additional power requirements.,8,1
+Battery,Needs evaluation to support additional power requirements.,8,1
+Wireless charger,Replaced by wired charging solution.,9,1
+PMIC,Adjusts power management for wired charging.,9,1
+PCB,Redesigned to support wired charging.,9,1
+Battery,May require adjustment for wired charging compatibility.,9,1

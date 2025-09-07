@@ -1,0 +1,52 @@
+Component,Reasoning,Change,Cycle
+Battery,"The battery life is being increased from 1 day to 7 days, so the battery component must be modified to accommodate this change.",1,1
+PMIC,"The PMIC is responsible for managing the power consumption of the device, so it must be modified to optimize the battery life for 7 days.",1,1
+MCU,"The MCU is connected to the battery and PMIC, so it must be modified to work with the new battery life and power management settings.",1,1
+Memory,"The memory component may need to be modified to accommodate the increased battery life, as it may require more power to store data for a longer period.",1,1
+PCB,The PCB may need to be modified to accommodate the new battery and power management components.,1,1
+Aluminium housing,The device's water-resistance requirement necessitates a modification to the Aluminium housing to ensure it can withstand water pressure up to 50 meters.,2,1
+PCB,The PCB must be designed to withstand water exposure and ensure reliable operation in a water-resistant environment.,2,1
+PMIC,"The PMIC must be selected or designed to operate reliably in a water-resistant environment, ensuring proper power management and protection.",2,1
+Battery,"The battery must be designed or selected to be water-resistant, ensuring reliable operation and preventing damage from water exposure.",2,1
+Wireless charger,"The wireless charger must be designed or selected to be water-resistant, ensuring reliable operation and preventing damage from water exposure.",2,1
+Side buttons,"The side buttons must be designed or selected to be water-resistant, ensuring reliable operation and preventing damage from water exposure.",2,1
+Watch strap,"The watch strap must be designed or selected to be water-resistant, ensuring reliable operation and preventing damage from water exposure.",2,1
+Battery,Faster charging requires more efficient battery chemistry.,3,1
+PMIC,Updated charging algorithm is required for faster charging.,3,1
+Wireless charger,Increased power output is required for faster charging.,3,1
+PCB,Updated layout is required to accommodate new charging circuitry.,3,1
+Aluminium housing,Design modifications are required to accommodate new wireless charger and charging circuitry.,3,1
+PPG sensor,The PPG sensor must transmit data to the smartphone for processing.,4,1
+IMU,The IMU must transmit motion data to the smartphone for processing.,4,1
+MCU,The MCU must transmit data to the smartphone for processing.,4,1
+Memory,The Memory component must store data temporarily for smartphone processing.,4,1
+PMIC,The PMIC may be involved in data transmission to the smartphone.,4,1
+Bluetooth module,The Bluetooth module must transmit data to the smartphone for processing.,4,1
+GPS module,The GPS module is not directly related to physiological data processing.,4,1
+Aluminium housing,"The weight reduction target directly affects the Aluminium housing, as it is a primary contributor to the device's weight.",5,1
+Battery,"The reduced weight target implies a need to minimize the battery's weight, potentially through the use of a lighter battery or a more efficient power management system.",5,1
+Wireless charger,"The wireless charger's weight may also need to be reduced to meet the new weight target, possibly by using a lighter coil or optimizing the charger's design.",5,1
+PCB,"The PCB's weight may need to be minimized to meet the weight reduction target, potentially through the use of lighter materials or optimizing the PCB's design.",5,1
+PMIC,"The PMIC's weight may also need to be reduced to meet the new weight target, possibly by using a lighter PMIC or optimizing its design.",5,1
+Side buttons,"The weight of the side buttons may need to be minimized to meet the weight reduction target, possibly by using lighter materials or optimizing their design.",5,1
+Watch strap,"The weight of the watch strap may need to be reduced to meet the new weight target, potentially by using a lighter material or optimizing the strap's design.",5,1
+MCU,Needs to communicate with the EDA sensor and process its data.,6,1
+PMIC,Needs to power the EDA sensor.,6,1
+PCB,Needs to accommodate the EDA sensor and its connections.,6,1
+Memory,Needs to store the data from the EDA sensor.,6,1
+Aluminium housing,May need to be modified to accommodate the EDA sensor.,6,1
+PCB,"The OLED display will need to be connected to the PCB, which will require modifications to the PCB's design and layout.",7,1
+PMIC,"The OLED display will require power, which will be managed by the PMIC, so the PMIC will need to be modified to accommodate the OLED display's power requirements.",7,1
+MCU,The MCU will need to be modified to communicate with the OLED display and control its operation.,7,1
+Memory,"The OLED display may require additional memory to store data or display information, so the Memory component may need to be modified or expanded.",7,1
+Aluminium housing,"The OLED display will need to be integrated into the Aluminium housing, which may require modifications to the housing's design and layout.",7,1
+MCU,Modified to control the haptic feedback motor.,8,1
+PMIC,Modified to power the haptic feedback motor.,8,1
+PCB,Modified to accommodate the haptic feedback motor.,8,1
+Battery,Modified to provide power to the haptic feedback motor.,8,1
+Wireless charger,Modified to charge the battery that powers the haptic feedback motor.,8,1
+Wireless charger,"It will be replaced by a wired charging solution, making it obsolete.",9,1
+PCB,"The PCB will need to be modified to accommodate the wired charging solution, potentially requiring changes to the circuit design.",9,1
+PMIC,"The PMIC will need to be updated to manage the wired charging solution, which may involve changes to its firmware or hardware.",9,1
+Battery,"The battery will still be used, but the charging mechanism will change, potentially affecting its lifespan or performance.",9,1
+Aluminium housing,"The housing may need to be modified to accommodate the wired charging port, which could affect its design or manufacturing process.",9,1

@@ -1,49 +1,48 @@
 Component,Change
 Battery,1
-PMIC,1
+PCB,1
+Aluminium housing,1
+PPG sensors,1
 MCU,1
 Software application,1
-GPS,1
-Bluetooth,1
 Aluminium housing,2
-Watch strap,2
 Side buttons,2
-Battery,2
-PCB,2
-Battery,3
+PPG sensors,2
+Wireless charger,2
 PMIC,3
 Wireless charger,3
-Software application,4
 Data storage and processing server,4
+Software application,4
 Battery,5
 Aluminium housing,5
-PCB,5
 Watch strap,5
-GPS,5
+PCB,5
+Speaker,5
+Microphone,5
+Side buttons,5
+MCU,5
 MCU,6
-Bluetooth,6
 PCB,6
-Battery,6
 Aluminium housing,6
-PMIC,7
+Wireless charger,6
 Battery,7
 MCU,7
-Speaker,7
-Microphone,7
 Aluminium housing,7
 PCB,7
 Memory,7
 Software application,7
-Bluetooth,7
-Battery,8 
-PMIC,8
-Wireless charger,8
-MCU,8
-IMU,8
+Data storage and processing server,7
 Aluminium housing,8
 PCB,8
-Software application,8
+PCB,9
 Wireless charger,9
 PMIC,9
-PCB,9
+Battery,9
+MCU,9
 Aluminium housing,9
+
+
+ 
+
+
+

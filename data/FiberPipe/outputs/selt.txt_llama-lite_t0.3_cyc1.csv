@@ -1,0 +1,59 @@
+Component,Reasoning,Change,Cycle
+Interogator sub-system,Needs to be modified to handle the increased number of sensors.,1,1
+Signal Processing Unit,Needs to be modified to handle the increased amount of data from the doubled number of sensors.,1,1
+Microcontroller unit,Needs to be modified to handle the increased number of sensors.,1,1
+transimpedance amplifiers (TIA),,1,1
+Biased photodiodes,,1,1
+ADC,Needs to be modified to handle the increased number of sensors.,1,1
+Stress Analysis Algorithm,Needs to be modified to handle the increased amount of data from the doubled number of sensors.,1,1
+Fiber Bragg Grating (FBG) sensors,The increased polling frequency will require the FBG sensors to process and transmit data at a faster rate.,2,1
+Optical Circulator,The increased data transmission rate may require the Optical Circulator to handle higher bandwidth signals.,2,1
+Arrayed waveguide grating (AWG),The AWG may need to be modified to handle the increased data transmission rate and channel density.,2,1
+Signal Processing Unit,The Signal Processing Unit may need to be modified to handle the increased data transmission rate and process the data more quickly.,2,1
+Microcontroller unit,The Microcontroller unit may need to be modified to handle the increased data transmission rate and control the system more quickly.,2,1
+transimpedance amplifiers (TIA),,2,1
+Biased photodiodes,,2,1
+ADC,,2,1
+ADC,The ADC may need to be modified to handle the increased data transmission rate and digitize the signals more quickly.,2,1
+Optical Circulator,"The Optical Circulator's design must be modified to handle the new temperature range, as it is responsible for directing light to the FBG sensors.",3,1
+Arrayed Waveguide Grating (AWG),"The AWG's spectral selecting capabilities may be affected by the temperature range expansion, requiring modifications to its design.",3,1
+Signal Processing Unit,The Signal Processing Unit's algorithms or hardware may need to be modified to handle the new temperature range.,3,1
+Microcontroller Unit,The Microcontroller Unit's software or hardware may need to be modified to handle the new temperature range.,3,1
+transimpedance amplifiers (TIA),,3,1
+Biased photodiodes,,3,1
+ADC,,3,1
+Biased Photodiodes,The Biased Photodiodes' design or calibration may need to be modified to handle the new temperature range.,3,1
+transimpedance amplifiers (TIA),The TIA's design or calibration may need to be modified to handle the new temperature range.,3,1
+ADC,The ADC's design or calibration may need to be modified to handle the new temperature range.,3,1
+Arrayed waveguide grating (AWG),Needs to be modified to achieve higher resolution and accuracy to meet the new measurement accuracy requirements.,4,1
+Signal Processing Unit,Needs to be modified to accurately convert changes in power on different channels into changes in FBG wavelength.,4,1
+Stress Analysis Algorithm,Needs to be modified to accurately calculate stress and deformation of the pipeline in the sensors' spots.,4,1
+Fiber Bragg Grating (FBG) sensors,Needs to be modified to achieve higher accuracy in reflecting light of specific wavelengths.,4,1
+Optical Circulator,Needs to be modified to direct light from the SLD to the FBG sensors and reflected light from the FBG sensors to the AWG with higher accuracy.,4,1
+transimpedance amplifiers (TIA),,4,1
+Biased photodiodes,,4,1
+ADC,,4,1
+Optical Circulator,"The interrogator's increased distance will affect the light transmission and reception, requiring adjustments to the Optical Circulator's configuration.",5,1
+Arrayed Waveguide Grating (AWG),"The AWG's spectral selecting capabilities will be impacted by the increased distance, potentially affecting the light signal's quality and accuracy.",5,1
+Signal Processing Unit,The Signal Processing Unit will need to adjust its algorithms and parameters to accommodate the increased distance and potential signal degradation.,5,1
+Microcontroller Unit,The Microcontroller Unit will require modifications to its control parameters and settings to ensure proper functioning of the interrogator at the increased distance.,5,1
+transimpedance amplifiers (TIA),,5,1
+Biased photodiodes,,5,1
+ADC,,5,1
+Optical fiber,"The Optical fiber's transmission characteristics will be affected by the increased distance, potentially impacting the signal's quality and accuracy.",5,1
+Arrayed waveguide grating (AWG),"The AWG's performance may be affected by high noise or unstable signal conditions, requiring modifications to its polling algorithms.",6,1
+transimpedance amplifiers (TIA),,6,1
+Biased photodiodes,,6,1
+ADC,,6,1
+Signal Processing Unit,"High noise or unstable signal conditions may affect the signal processing unit's ability to accurately convert signals, requiring modifications to its polling algorithms.",6,1
+Microcontroller unit,"High noise or unstable signal conditions may impact the microcontroller unit's ability to accurately control the system, necessitating changes to its polling algorithms.",6,1
+Stress Analysis Algorithm,"High noise or unstable signal conditions may impact the accuracy of the stress analysis algorithm, requiring modifications to its polling algorithms.",6,1
+Fiber Bragg Grating (FBG) sensors,"FBG sensors are currently used to measure deformation, but for measuring pipeline temperature, they would need to be adjusted to measure temperature changes instead.",7,1
+Stress Analysis Algorithm,"The algorithm is currently used to analyze deformation data, but for measuring pipeline temperature, it would need to be adjusted to analyze temperature data instead.",7,1
+Signal Processing Unit,"The unit is currently used to process deformation data, but for measuring pipeline temperature, it would need to be adjusted to process temperature data instead.",7,1
+Arrayed waveguide grating (AWG),"The AWG is currently used to split light onto equidistant channels for deformation measurement, but for measuring pipeline temperature, it would need to be adjusted to split light for temperature measurement instead.",7,1
+transimpedance amplifiers (TIA),,7,1
+Biased photodiodes,,7,1
+ADC,,7,1
+Optical Circulator,"The Optical Circulator is currently used to direct light from SLD to FBG sensors and reflected light from FBG sensors to AWG for deformation measurement, but for measuring pipeline temperature, it would need to be adjusted to direct light for temperature measurement instead.",7,1
+

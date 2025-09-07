@@ -11,7 +11,7 @@ Microphone,1
 PMIC,1
 Battery,1
 Software application,1
-PPG,2
+PPG sensors,2
 IMU,2
 Speaker,2
 Microphone,2
@@ -26,7 +26,7 @@ Wireless charger,3
 Aluminium housing,3
 Software application,4
 Data storage and processing server,4
-PPG,4 
+PPG sensors,4 
 IMU,4
 PCB,4
 MCU,4
@@ -56,7 +56,7 @@ GPS,7
 MCU,7
 Memory,7
 Aluminium housing,7 
-Buttons,7
+Side Buttons,7
 PMIC,7
 Battery,7
 Software application,7
@@ -65,7 +65,7 @@ MCU,8
 Microphone,8
 Aluminium housing,8
 PMIC,8 
-BAttery,8
+Battery,8
 IMU,8
 Software application,8
 PCB,9

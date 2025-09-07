@@ -1,0 +1,11 @@
+Arrayed waveguide grating (AWG)
+transimpedance amplifiers (TIA)
+Biased photodiodes
+ADC
+Signal Processing Unit
+Microcontroller unit
+superluminescent diode (SLD)
+Optical Circulator
+Optical fiber
+Fiber Bragg Grating (FBG) sensors
+Stress Analysis Algorithm

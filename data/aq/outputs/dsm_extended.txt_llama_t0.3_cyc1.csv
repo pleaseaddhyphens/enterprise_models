@@ -1,0 +1,40 @@
+Component,Reasoning,Change,Cycle
+Detection algorithm,The change in accuracy directly affects the detection algorithm's performance.,1,1
+Classification algorithm,The classification algorithm's output will be impacted by the increased accuracy requirement.,1,1
+Microcomputer,The microcomputer will need to process and potentially adjust its handling of data to accommodate the increased accuracy.,1,1
+Camera module,The camera module's images will need to be of sufficient quality to support the increased accuracy.,1,1
+Lighting module,The lighting module may need adjustment to support the increased accuracy by providing appropriate ambient light.,1,1
+Conveyor belt,The increased processing speed requires the conveyor belt to move faster to handle 3 trays in the same time it previously handled 1.,2,1
+Camera module,"To maintain image quality, the camera module may need to capture images at a faster rate or with a faster shutter speed to accommodate the increased speed of the conveyor belt.",2,1
+Microcomputer,"The microcomputer will need to process images faster to keep up with the increased throughput, which may require upgrades to its processing power or memory.",2,1
+Lighting module,The lighting module may need to be adjusted to provide adequate illumination for the faster-moving fruits to ensure high-quality images.,2,1
+Detection algorithm,The detection algorithm will need to be optimized to handle the increased frame rate or faster movement of fruits to accurately identify and track each fruit.,2,1
+Classification algorithm,The classification algorithm may need to be adjusted to handle the increased volume of images being processed in the same amount of time.,2,1
+Power unit,"The power unit may need to be upgraded to provide more power to the components that require increased performance, such as the conveyor belt, camera module, and microcomputer.",2,1
+Detection algorithm,The algorithm may need to be modified to recognize and track tomatoes instead of tangerines.,3,1
+Classification algorithm,"The algorithm may need to be updated to assign probabilities of class ""fresh"" for tomato images.",3,1
+Camera module,The camera settings or lighting may need to be adjusted to capture high-quality images of tomatoes.,3,1
+Lighting module,The lighting may need to be adjusted to harmonize the quality and content of images captured by the camera module for tomatoes.,3,1
+Microcomputer,The microcomputer may need to be updated to handle the new image data and send it to the server for analysis.,3,1
+Power unit,Needs to distribute less power across the system.,4,1
+Lighting module,Requires adjustments to operate within new power constraints.,4,1
+Microcomputer,Might need modifications to handle reduced power consumption.,4,1
+Conveyor belt,Could be impacted if reduced power affects its motor or operation.,4,1
+Camera module,The increase in minimum required image quality may require a higher resolution camera sensor.,5,1
+Microcomputer,The increased image quality may require more processing power or memory to handle the larger image files.,5,1
+Lighting module,The increased image quality may require adjustments to the lighting to ensure that the images are well-lit and of high quality.,5,1
+Storage,The increased image quality may require more storage space to store the larger image files.,5,1
+Image processing server,The increased image quality may require more computational resources to process the larger image files.,5,1
+Conveyor belt,Replacement of belt conveyor with roller conveyor directly affects it.,6,1
+Structure,Accommodation of roller conveyor may require modification.,6,1
+Power unit,Adjustment for appropriate power to roller conveyor may be needed.,6,1
+Microcomputer,Control of roller conveyor requires modification to microcomputer.,6,1
+Camera module,"The number of camera modules is changing from 1 to 3, directly affecting its functionality.",7,1
+Microcomputer,"Handles video and sends data for analysis, potentially requiring adjustments for multiple camera feeds.",7,1
+Structure,"Needs to accommodate the additional camera modules, possibly requiring spatial adjustments.",7,1
+Power unit,Increased power consumption due to additional camera modules.,7,1
+Lighting module,Lighting conditions may need adjustment for optimal image quality from multiple angles.,7,1
+Classification algorithm,The update is directly applied to this component.,8,1
+Detection algorithm,It may need to be modified to accommodate the changed output from the classification algorithm.,8,1
+Microcomputer,It may need to be updated to handle the new output format from the classification algorithm.,8,1
+Storage,It may need to be modified to accommodate the new format of the output from the classification algorithm.,8,1

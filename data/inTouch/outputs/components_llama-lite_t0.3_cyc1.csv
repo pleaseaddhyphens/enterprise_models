@@ -1,0 +1,65 @@
+Component,Reasoning,Change,Cycle
+Battery,"The battery life is being increased from 1 day to 7 days, so the battery component must be modified to accommodate this change.",1,1
+PMIC,"The PMIC is responsible for managing power consumption, and the battery life increase may require modifications to optimize power consumption.",1,1
+MCU,The MCU may need to be modified to reduce power consumption or optimize its operation to accommodate the increased battery life.,1,1
+Memory,"The memory component may need to be modified to accommodate the increased battery life, potentially by reducing power consumption or optimizing memory usage.",1,1
+Wireless charger,"The wireless charger may need to be modified to accommodate the increased battery life, potentially by optimizing charging efficiency or reducing power consumption.",1,1
+Aluminium housing,The housing must be modified to ensure water resistance up to 50 meters.,2,1
+Watch strap,The strap must be designed to be water-resistant.,2,1
+Side buttons,The buttons must be designed to be water-resistant.,2,1
+Speaker,The speaker must be designed to be water-resistant.,2,1
+Microphone,The microphone must be designed to be water-resistant.,2,1
+Battery,The battery must be designed to be water-resistant.,2,1
+Wireless charger,The charger must be designed to be water-resistant.,2,1
+Memory,The memory must be designed to be water-resistant.,2,1
+MCU,The MCU must be designed to be water-resistant.,2,1
+PMIC,The PMIC must be designed to be water-resistant.,2,1
+Battery,The battery's capacity and charging time are directly related to the change.,3,1
+Wireless charger,The wireless charger's design and power output may need to be modified to accommodate the reduced charging time.,3,1
+PMIC,The PMIC is responsible for managing the power flow in the device.,3,1
+MCU,The MCU may need to be updated to handle the faster charging rate.,3,1
+Memory,The memory may need to be updated to handle the faster charging rate.,3,1
+Aluminium housing,The aluminium housing may need to be redesigned to accommodate the wireless charger.,3,1
+PPG sensor,"The PPG sensor collects physiological data, which will now be processed on the smartphone, not on the band.",4,1
+IMU,"The IMU collects motion data, which will also be processed on the smartphone.",4,1
+MCU,"The MCU will no longer be responsible for processing physiological data, as it will be done on the smartphone.",4,1
+Memory,"The memory on the band will no longer store processed physiological data, as it will be stored on the smartphone.",4,1
+Bluetooth,The Bluetooth module will be used to transmit physiological data from the band to the smartphone.,4,1
+PMIC,"The PMIC will still be responsible for managing power on the band, but its role in processing physiological data will be reduced.",4,1
+Battery,Smaller battery capacity required to achieve target weight reduction.,5,1
+Aluminium housing,Lighter material or design change required to reduce weight.,5,1
+Watch strap,Lighter material or design change required to reduce weight.,5,1
+PCB,Smaller PCB size or lighter material required to reduce weight.,5,1
+Memory,Smaller memory capacity or type change required to achieve target weight reduction.,5,1
+MCU,Smaller MCU size or power optimization required to reduce overall weight.,5,1
+PMIC,Smaller PMIC size or power optimization required to reduce overall weight.,5,1
+Wireless charger,Lighter design or size reduction required to achieve target weight reduction.,5,1
+MCU,The MCU will need to be modified to interface with the new EDA sensor and process the data it collects.,6,1
+Memory,The system's memory will need to be expanded to store the additional data collected by the EDA sensor.,6,1
+PMIC,The PMIC will need to be modified to power the new EDA sensor.,6,1
+Battery,"The battery will need to be designed to power the additional components, including the EDA sensor.",6,1
+Wireless charger,The wireless charger will need to be modified to charge the battery with the increased power requirements.,6,1
+Software application,The software application will need to be modified to process the data collected by the EDA sensor and provide the user with relevant feedback.,6,1
+MCU,The MCU will need to be modified to communicate with the OLED display and handle its functionality.,7,1
+Memory,The MCU will store data for the OLED display in the Memory.,7,1
+PMIC,"The PMIC will provide power to the MCU, which will use the Memory and power the OLED display.",7,1
+Battery,"The Battery will provide power to the PMIC, which will power the MCU and the OLED display.",7,1
+Wireless charger,"The Wireless charger will charge the Battery, which will provide power to the OLED display.",7,1
+PCB,The PCB will connect the Wireless charger to the Battery and the OLED display.,7,1
+Aluminium housing,The Aluminium housing will enclose the PCB and the OLED display.,7,1
+Watch strap,The Watch strap will connect the Aluminium housing to the user's wrist.,7,1
+MCU,Needs to control the new haptic feedback motor.,8,1
+Memory,MCU needs additional memory for control algorithms and data.,8,1
+PMIC,Needs to provide power to the new haptic feedback motor.,8,1
+Battery,Needs to provide power to the new haptic feedback motor.,8,1
+PCB,Needs to accommodate the new haptic feedback motor and its associated components.,8,1
+Aluminium housing,May need to be modified to accommodate the new haptic feedback motor and its associated components.,8,1
+Wireless charger,May need to be modified to accommodate the new haptic feedback motor and its associated components.,8,1
+Wireless charger,Being replaced by a wired charging solution.,9,1
+Battery,"No longer wirelessly charged, but rather through a wired connection.",9,1
+PCB,Needs to be modified to accommodate the wired charging solution.,9,1
+MCU,Needs to be reprogrammed to work with the wired charging solution.,9,1
+PMIC,Needs to be reconfigured to manage the wired charging solution.,9,1
+Memory,May need to be modified to accommodate the changes in the MCU and PMIC.,9,1
+Bluetooth,May no longer be necessary if the device is no longer wirelessly charging.,9,1
+Aluminium housing,May need to be modified to accommodate the wired charging port.,9,1

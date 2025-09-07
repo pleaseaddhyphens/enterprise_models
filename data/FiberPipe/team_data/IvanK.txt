@@ -1,0 +1,25 @@
+Component,Change
+Arrayed Waveguide Grating (AWG),1
+Superluminescent diode (SLD),1
+transimpedance amplifiers (TIA),1
+Biased photodiodes,1
+ADC,1
+Transimpedance amplifiers (TIA),2
+ADC,2
+Signal processing unit,2
+Fiber Bragg Grating (FBG) sensors,3
+Optical fiber,3
+transimpedance amplifiers (TIA),4
+Biased photodiodes,4
+ADC,4
+Superluminescent diode (SLD),4
+Signal processing unit,4
+Superluminescent diode (SLD),5
+Transimpedance amplifiers (TIA),5
+Biased photodiodes,5
+Signal processing unit,6
+Stress analysis algorithm,6
+Fiber Bragg Grating (FBG) sensors,7
+Stress analysis algorithm,7
+Optical fiber,8
+Fiber Bragg Grating (FBG) sensors,8

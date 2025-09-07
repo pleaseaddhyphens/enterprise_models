@@ -1,0 +1,53 @@
+Component,Reasoning,Change,Cycle
+Battery,"The battery life needs to be increased, which may require a more efficient battery or changes to the battery's chemistry.",1,1
+PMIC,The Power Management Integrated Circuit may need to be adjusted to optimize power consumption and ensure the battery life is extended.,1,1
+MCU,The Micro Controller Unit may need to be reconfigured to reduce power consumption or optimize its operation to achieve the longer battery life.,1,1
+Wireless charger,The wireless charger may need to be modified to charge the battery more efficiently or to accommodate any changes to the battery.,1,1
+Aluminium housing,The housing needs to be sealed to prevent water entry.,2,1
+Watch strap,The strap may need to be made of water-resistant material or designed to prevent water entry.,2,1
+Side buttons,The buttons need to be sealed or designed to prevent water entry.,2,1
+Speaker,The speaker needs to be sealed or designed to prevent water entry.,2,1
+Microphone,The microphone needs to be sealed or designed to prevent water entry.,2,1
+Wireless charger,The charger needs to be designed to work with a water-resistant device.,2,1
+PCB,The board needs to be coated or sealed to prevent water damage.,2,1
+PMIC,The power management may need to be adjusted to account for water-resistant design.,2,1
+Battery,The battery compartment needs to be sealed to prevent water entry.,2,1
+PMIC,"The PMIC manages power for all components, so a change in charging time would require modifications to its power management algorithms or settings to achieve the faster charging rate.",3,1
+Battery,"The battery's charging characteristics, such as its capacity to handle faster charging, would be directly impacted by the need to reduce charging time.",3,1
+Wireless charger,"The wireless charger's design and capabilities might need to be adjusted to support faster charging, ensuring it can deliver the required power to charge the battery from 0% to 80% in 1 hour.",3,1
+PCB,"The PCB, which interconnects and supports all electronic components, might require design adjustments to accommodate any changes in the PMIC, battery, or wireless charger necessary for faster charging.",3,1
+MCU,"Collects and preprocesses sensor data, role might change to only collect and transmit.",4,1
+PPG sensor,"Source of physiological data, output directly affected by processing location.",4,1
+IMU,"Provides data for processing, similar to PPG sensor.",4,1
+Bluetooth module,Responsible for transmitting data to the smartphone for processing.,4,1
+Memory,Storage needs might change based on how much data is stored before transmission.,4,1
+Microphone,"If voice data is part of physiological data, its output could be affected by the change.",4,1
+PMIC,"Manages power for all components, changes in usage patterns could affect power consumption.",4,1
+PCB,"Connects all components, changes in component functionality could impact PCB design.",4,1
+Aluminium housing,The weight reduction may require a redesign or material change for the housing to achieve the desired weight.,5,1
+Battery,A lighter battery or a reduction in battery size could contribute to the overall weight reduction.,5,1
+Watch strap,The strap's material or design might need to be altered to be lighter.,5,1
+PCB,The Printed Circuit Board might need to be redesigned or made smaller to reduce weight.,5,1
+PMIC,"Although the Power Management Integrated Circuit itself is small, its packaging or the components associated with it might be optimized for weight reduction.",5,1
+Speaker,The speaker's design or material could be modified to make it lighter.,5,1
+Microphone,"Similar to the speaker, the microphone could be redesigned for weight reduction.",5,1
+MCU,The Micro Controller Unit will need to be modified to collect and preprocess data from the EDA sensor.,6,1
+PCB,The Printed Circuit Board will need to be updated to accommodate the new EDA sensor component.,6,1
+PMIC,The Power Management Integrated Circuit may need to be adjusted to manage power for the additional EDA sensor.,6,1
+Memory,The RAM and Flash memory may need to be expanded to store and process the additional data from the EDA sensor.,6,1
+PPG sensor,The photoplethysmography sensor may need to be calibrated or adjusted to work in conjunction with the EDA sensor for improved emotion and stress detection.,6,1
+Aluminium housing,The housing may need to be modified to accommodate the new EDA sensor.,6,1
+MCU,The Micro Controller Unit will need to be modified to communicate with the OLED display and control its output.,7,1
+PCB,The Printed Circuit Board will need to be modified to accommodate the OLED display and connect it to the MCU.,7,1
+PMIC,The Power Management Integrated Circuit may need to be modified to manage power for the OLED display.,7,1
+Memory,The Memory (RAM and Flash) may need to be modified to store data for the OLED display.,7,1
+Aluminium housing,The Aluminium housing may need to be modified to accommodate the OLED display.,7,1
+MCU,Needs modification to control the Haptic feedback motor.,8,1
+PMIC,Must adjust power management for the Haptic feedback motor.,8,1
+PCB,Requires update to accommodate and connect the Haptic feedback motor.,8,1
+Aluminium housing,May need modification to securely fit the Haptic feedback motor.,8,1
+Wireless charger,Will be removed or replaced due to the change in charging method.,9,1
+PMIC,Needs modification to manage power for wired charging.,9,1
+PCB,May need redesign to accommodate wired charging components.,9,1
+Battery,Charging method change could imply management or connection changes.,9,1
+Aluminium housing,Might need modification to accommodate a wired charging port.,9,1

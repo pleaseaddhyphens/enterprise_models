@@ -1,0 +1,132 @@
+Component,Change
+Arrayed Waveguide Grating (AWG),1
+transimpedance amplifiers (TIA),1
+Biased photodiodes,1
+ADC,1
+Signal processing unit,2
+Stress analysis algorithm,2
+Fiber Bragg Grating (FBG) sensors,3
+Optical fiber,3
+Fiber Bragg Grating (FBG) sensors,4
+Signal processing unit,4
+Stress analysis algorithm,4
+Superluminescent diode (SLD),5
+Transimpedance amplifiers (TIA),5
+Signal processing unit,5
+Microcontroller unit,6
+Superluminescent diode (SLD),6
+ADC,6
+Stress analysis algorithm,7
+Fiber Bragg Grating (FBG) sensors,7
+Fiber Bragg Grating (FBG) sensors,8
+Optical fiber,8
+Battery,1
+PMIC,1
+MCU,1
+Software application,1
+GPS,1
+Bluetooth,1
+Aluminium housing,2
+Watch strap,2
+Side buttons,2
+Battery,2
+PCB,2
+Battery,3
+PMIC,3
+Wireless charger,3
+Software application,4
+Data storage and processing server,4
+Battery,5
+Aluminium housing,5
+PCB,5
+Watch strap,5
+GPS,5
+MCU,6
+Bluetooth,6
+PCB,6
+Battery,6
+Aluminium housing,6
+PMIC,7
+Battery,7
+MCU,7
+Speaker,7
+Microphone,7
+Aluminium housing,7
+PCB,7
+Memory,7
+Software application,7
+Bluetooth,7
+Battery,8
+PMIC,8
+Wireless charger,8
+MCU,8
+IMU,8
+Aluminium housing,8
+PCB,8
+Software application,8
+Wireless charger,9
+PMIC,9
+PCB,9
+Aluminium housing,9
+PCB,1
+Aluminium housing,1
+PPG sensors,1
+PPG sensors,2
+Wireless charger,2
+Speaker,5
+Microphone,5
+Side buttons,5
+MCU,5
+Wireless charger,6
+Data storage and processing server,7
+Battery,9
+MCU,9
+IMU,1
+Memory,1
+Speaker,1
+Microphone,1
+IMU,2
+Speaker,2
+Microphone,2
+PCB,3
+Aluminium housing,3
+PPG sensors,4
+IMU,4
+PCB,4
+MCU,4
+Memory,4
+Microphone,4
+Aluminium housing,4
+PMIC,4
+Wireless charger,5
+Software application,6
+Data storage and processing server,6
+Memory,6
+Watch strap,6
+PMIC,6
+GPS,7
+Side Buttons,7
+Microphone,8
+Signal processing unit,1
+Transimpedance amplifiers (TIA),2
+ADC,2
+Microcontroller unit,2
+Arrayed Waveguide Grating (AWG),3
+Signal processing unit,3
+Arrayed Waveguide Grating (AWG),4
+Biased photodiodes,5
+ADC,5
+Microcontroller unit,5
+transimpedance amplifiers (TIA),6
+Biased photodiodes,6
+Signal processing unit,6
+Microcontroller unit,1
+Biased photodiodes,2
+Stress analysis algorithm,3
+Stress analysis algorithm,6
+Signal processing unit,7
+Superluminescent diode (SLD),1
+transimpedance amplifiers (TIA),4
+Biased photodiodes,4
+ADC,4
+Superluminescent diode (SLD),4

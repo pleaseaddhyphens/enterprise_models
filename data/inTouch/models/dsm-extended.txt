@@ -1,0 +1,33 @@
+IMU is connected with MCU, PMIC, PCB;
+PPG sensor is connected with PMIC, PCB, MCU;
+Bluetooth module is connected with MCU, PMIC, PCB;
+GPS module is connected with MCU, PMIC, PCB;
+MCU is connected with IMU, PPG sensor, Bluetooth module, GPS module, Memory, PCB, PMIC, Microphone;
+Memory is connected with MCU, PMIC, PCB;
+Speaker is connected with PCB, PMIC, MCU;
+Microphone is connected with PCB, PMIC, MCU;
+Aluminium housing is connected with PCB, Side buttons, Watch strap, PPG sensor;
+Watch strap is connected with Aluminium housing;
+Side buttons is connected with Aluminium housing, PCB;
+PMIC is connected with IMU, PPG sensor, Bluetooth module, GPS module, MCU, Memory, Speaker, Microphone, Battery, Wireless charger, PCB;
+Battery is connected with PMIC, Aluminium housing;
+Wireless charger is connected with PMIC, PCB, Aluminium housing;
+PCB is connected with IMU, PPG sensor, Bluetooth, GPS module, MCU, Memory, Speaker, Microphone, Aluminium housing, PMIC, Battery, Wireless charger, Side buttons;
+
+Software application: Recognizes user physiological and emotional state based on data; Provides user with notificatations and recomendations (e.g. "You seem stressed. Take a break"); Exchanges data with server
+Data storage and processing server: Updates and fine-tunes emotion recognition model based on other users insights 
+PPG sensor: photoplethysmography sesors optically measures changes in blood volume in tissue
+IMU: Inertial mesurement unit device that tracks body motion and orientation 
+MCU: Micro Controller Unit collects sensor data, preprocesses it, and communicates with the smartphone
+Memory: RAM and Flash
+Bluetooth: 
+GPS:
+PCB: Printed Circuit Board interconnect and supports all electonic components
+Speaker,
+Microphone,
+Aluminium housing,
+Watch strap,
+Side buttons,
+PMIC: Power management integrated circuit manages power for all of the components
+Battery,
+Wireless charger

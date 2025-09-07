@@ -1,0 +1,313 @@
+[
+    {
+        "Elem. name": "Control panel",
+        "description": "Provide interface to interact with the system",
+        "children": [],
+        "type": "Component",
+        "presntation": [
+            "System model"
+        ],
+        "connected as target": [
+            {
+                "name": "Microcomputer",
+                "connection": "Visualize analysis result and recieve control for subsystems"
+            }
+        ],
+        "connected as source": [
+            {
+                "name": "Head of quality control",
+                "connection": "Provide quality grade for the batch"
+            }
+        ]
+    },
+    {
+        "Elem. name": "Conveyor belt ",
+        "description": "Move fruits through the machine to collect images",
+        "children": [],
+        "type": "Component",
+        "presntation": [
+            "System model"
+        ],
+        "connected as target": [
+            {
+                "name": "Quality control personel",
+                "connection": "loads proudcts"
+            }
+        ],
+        "connected as source": [
+            {
+                "name": "Camera module",
+                "connection": "move fruits to the camera zone"
+            }
+        ]
+    },
+    {
+        "Elem. name": "Camera module",
+        "description": "",
+        "children": [],
+        "type": "Component",
+        "presntation": [
+            "System model"
+        ],
+        "connected as target": [
+            {
+                "name": "Conveyor belt ",
+                "connection": "move fruits to the camera zone"
+            },
+            {
+                "name": "Lighting module",
+                "connection": "Light"
+            }
+        ],
+        "connected as source": [
+            {
+                "name": "Microcomputer",
+                "connection": "image"
+            }
+        ]
+    },
+    {
+        "Elem. name": "Microcomputer",
+        "description": "Handle video. Send data and recieve the analysis from server. Visualize the results. Control hardware sub-systems",
+        "children": [],
+        "type": "Component",
+        "presntation": [
+            "System model"
+        ],
+        "connected as target": [
+            {
+                "name": "Camera module",
+                "connection": "image"
+            },
+            {
+                "name": "Classification algorithm",
+                "connection": "Provide batch analytics"
+            },
+            {
+                "name": "Wifi",
+                "connection": "Provide internet acess"
+            }
+        ],
+        "connected as source": [
+            {
+                "name": "Control panel",
+                "connection": "Visualize analysis result and recieve control for subsystems"
+            },
+            {
+                "name": "Detection algorithm",
+                "connection": "sends video taken"
+            }
+        ]
+    },
+    {
+        "Elem. name": "Detection algorithm",
+        "description": "Identify fruits at each frame. Track ids for each unique fruit. ",
+        "children": [],
+        "type": "Component",
+        "presntation": [
+            "System model"
+        ],
+        "connected as target": [
+            {
+                "name": "Microcomputer",
+                "connection": "sends video taken"
+            }
+        ],
+        "connected as source": [
+            {
+                "name": "Classification algorithm",
+                "connection": "Fruit ids and bounding boxes at each frame"
+            }
+        ]
+    },
+    {
+        "Elem. name": "Classification algorithm",
+        "description": "Assigns probability of class \"fresh\" for the fruits images given",
+        "children": [],
+        "type": "Component",
+        "presntation": [
+            "System model"
+        ],
+        "connected as target": [
+            {
+                "name": "Detection algorithm",
+                "connection": "Fruit ids and bounding boxes at each frame"
+            }
+        ],
+        "connected as source": [
+            {
+                "name": "Microcomputer",
+                "connection": "Provide batch analytics"
+            },
+            {
+                "name": "Storage",
+                "connection": "Video with bboxes, ids and fresh probs"
+            }
+        ]
+    },
+    {
+        "Elem. name": "Storage",
+        "description": "",
+        "children": [],
+        "type": "Component",
+        "presntation": [
+            "System model"
+        ],
+        "connected as target": [
+            {
+                "name": "Classification algorithm",
+                "connection": "Video with bboxes, ids and fresh probs"
+            }
+        ],
+        "connected as source": []
+    },
+    {
+        "Elem. name": "Software sub-system",
+        "description": "",
+        "children": [
+            "Detection algorithm",
+            "Classification algorithm",
+            "Storage",
+            "Image processing server"
+        ],
+        "type": "Sub-system",
+        "presntation": [
+            "System model"
+        ],
+        "connected as target": [],
+        "connected as source": []
+    },
+    {
+        "Elem. name": "Fruit desease detection system",
+        "description": "",
+        "children": [
+            "Software sub-system",
+            "Hardware sub-system"
+        ],
+        "type": "System",
+        "presntation": [
+            "System model"
+        ],
+        "connected as target": [],
+        "connected as source": []
+    },
+    {
+        "Elem. name": "Hardware sub-system",
+        "description": "",
+        "children": [
+            "Control panel",
+            "Conveyor belt ",
+            "Camera module",
+            "Microcomputer",
+            "Structure",
+            "Power unit",
+            "Lighting module"
+        ],
+        "type": "Sub-system",
+        "presntation": [
+            "System model"
+        ],
+        "connected as target": [],
+        "connected as source": []
+    },
+    {
+        "Elem. name": "Structure",
+        "description": "",
+        "children": [],
+        "type": "Component",
+        "presntation": [
+            "System model"
+        ],
+        "connected as target": [],
+        "connected as source": []
+    },
+    {
+        "Elem. name": "Power unit",
+        "description": "Destributes power across the system",
+        "children": [],
+        "type": "Component",
+        "presntation": [
+            "System model"
+        ],
+        "connected as target": [
+            {
+                "name": "Distribution center",
+                "connection": "Electric power"
+            }
+        ],
+        "connected as source": []
+    },
+    {
+        "Elem. name": "Distribution center",
+        "description": "Physical enviroment that the system is placed in",
+        "children": [
+            "Wifi",
+            "Electric grid"
+        ],
+        "type": "System",
+        "presntation": [
+            "System model"
+        ],
+        "connected as target": [],
+        "connected as source": [
+            {
+                "name": "Power unit",
+                "connection": "Electric power"
+            }
+        ]
+    },
+    {
+        "Elem. name": "Wifi",
+        "description": "",
+        "children": [],
+        "type": "Component",
+        "presntation": [
+            "System model"
+        ],
+        "connected as target": [],
+        "connected as source": [
+            {
+                "name": "Microcomputer",
+                "connection": "Provide internet acess"
+            }
+        ]
+    },
+    {
+        "Elem. name": "Electric grid",
+        "description": "",
+        "children": [],
+        "type": "Component",
+        "presntation": [
+            "System model"
+        ],
+        "connected as target": [],
+        "connected as source": []
+    },
+    {
+        "Elem. name": "Lighting module",
+        "description": "Provides ambient light for fruit processing zone. It harmonize quality and content of images captured by the camera module.",
+        "children": [],
+        "type": "Component",
+        "presntation": [
+            "System model"
+        ],
+        "connected as target": [],
+        "connected as source": [
+            {
+                "name": "Camera module",
+                "connection": "Light"
+            }
+        ]
+    },
+    {
+        "Elem. name": "Image processing server",
+        "description": "Cloud that provide computational resourses ",
+        "children": [],
+        "type": "Component",
+        "presntation": [
+            "System model"
+        ],
+        "connected as target": [],
+        "connected as source": []
+    }
+]

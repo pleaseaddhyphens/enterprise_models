@@ -1,0 +1,4 @@
+BACKGROUND 
+It is essential to grade fruit quality before placing it at the shelf in the store. For that task people with special training at distribution centers check the sample from each batch for the fungus or mechanical damage. 
+OBJECTIVE:
+System objective is to provide automated machine capable evaluating quality of the fruits same as a human. 

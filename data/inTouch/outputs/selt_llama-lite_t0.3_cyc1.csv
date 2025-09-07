@@ -1,0 +1,41 @@
+Component,Reasoning,Change,Cycle
+Battery,"The battery life needs to be increased from 1 day to 7 days, which directly affects the battery component.",1,1
+PMIC,The PMIC needs to be modified to manage the increased battery life.,1,1
+Wireless charger,The wireless charger needs to be modified to charge the battery to its increased capacity.,1,1
+PCB,"The PCB must be designed to withstand water exposure up to 50 meters, which may require changes to its materials, coatings, or sealing.",2,1
+MCU,"The MCU must be protected from water exposure to prevent damage to its electronic components, which may require changes to its casing or sealing.",2,1
+Memory,"The memory components must be protected from water exposure to prevent damage to their electronic components, which may require changes to their casing or sealing.",2,1
+PMIC,"The PMIC must be protected from water exposure to prevent damage to its electronic components, which may require changes to its casing or sealing.",2,1
+Battery,"The battery must be designed to withstand water exposure up to 50 meters, which may require changes to its materials, coatings, or sealing.",2,1
+Wireless charger,"The wireless charger must be designed to withstand water exposure up to 50 meters, which may require changes to its materials, coatings, or sealing.",2,1
+Speaker,"The speaker must be designed to withstand water exposure up to 50 meters, which may require changes to its materials, coatings, or sealing.",2,1
+Microphone,"The microphone must be designed to withstand water exposure up to 50 meters, which may require changes to its materials, coatings, or sealing.",2,1
+Battery,The battery's capacity and charging time are directly related to the charging time of the EmotionBand.,3,1
+PMIC,The PMIC is a component of the power management sub-system and is responsible for managing the power flow to the various components of the EmotionBand.,3,1
+Wireless charger,The wireless charger is a component that charges the EmotionBand wirelessly.,3,1
+MCU,The MCU will need to be modified to send physiological data to the owner's smartphone for processing instead of processing it on the EmotionBand.,4,1
+Memory,The Memory component will need to be modified to store physiological data temporarily on the owner's smartphone until it is processed.,4,1
+Software application,The Software application will need to be modified to receive and process physiological data from the owner's smartphone instead of receiving it from the EmotionBand.,4,1
+Data storage and processing server,The Data storage and processing server will need to be modified to receive and process anonymized physiological data from the owner's smartphone instead of receiving it from the EmotionBand.,4,1
+Battery,Battery weight is a major contributor to the total device weight.,5,1
+PMIC,A lighter PMIC design may be necessary to reduce the overall device weight.,5,1
+Aluminium housing,A lighter housing material or design may be necessary to reduce the overall device weight.,5,1
+Watch strap,A lighter watch strap material or design may be necessary to reduce the overall device weight.,5,1
+PCB,A lighter PCB design or material may be necessary to reduce the overall device weight.,5,1
+MCU,It needs to collect and preprocess the new sensor data.,6,1
+Memory,It needs to store the new sensor data.,6,1
+Software application,It needs to recognize and process the new sensor data.,6,1
+Data storage and processing server,It needs to store and process the new sensor data.,6,1
+PCB,"The OLED display will require additional circuitry and connections, which will need to be integrated into the PCB.",7,1
+Speaker,"The OLED display may require a new audio output or a different audio configuration, which could impact the Speaker component.",7,1
+Microphone,"The OLED display may require a new audio input or a different audio configuration, which could impact the Microphone component.",7,1
+MCU,"The OLED display will require additional processing power and memory to function, which may impact the MCU.",7,1
+Memory,"The OLED display will require additional memory to store the display data, which may impact the Memory component.",7,1
+MCU,Controls the new haptic feedback motor component.,8,1
+Memory,Stores data for the new haptic feedback motor.,8,1
+PCB,Accommodates the new haptic feedback motor component.,8,1
+Software application,Integrates with the new haptic feedback motor.,8,1
+Wireless charger,The wireless charger is directly impacted because it will be replaced by a wired charging solution.,9,1
+Battery,The battery is directly impacted because it will need to be modified to work with the wired charging solution.,9,1
+PCB,The PCB is directly impacted because it will need to be modified to accommodate the wired charging solution.,9,1
+PMIC,The PMIC is directly impacted because it will need to be modified to accommodate the wired charging solution.,9,1
